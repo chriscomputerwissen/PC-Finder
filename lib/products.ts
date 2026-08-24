@@ -1,0 +1,207 @@
+// Datenmodell für ein Produkt im PC-Finder.
+//
+// WICHTIG für später: Ein Affiliate-Feed (z.B. von Awin/notebooksbilliger.de)
+// liefert nur Rohdaten wie Titel, Preis, Bild-URL und Produkt-URL.
+// Die Felder useCase / cpuClass / hasGPU / ramGB / mobility / lifespanYears
+// müssen aus dem Feed abgeleitet werden (z.B. per Titel-Parsing/Regeln oder
+// einer kleinen Mapping-Tabelle pro Prozessor-Generation). Das ist der Schritt,
+// den wir umsetzen, sobald der echte Feed vorliegt (siehe README).
+
+export type UseCase = "office" | "gaming" | "creative" | "coding" | "school";
+export type CpuClass = "einsteiger" | "mittel" | "leistung" | "premium";
+export type DeviceType = "laptop" | "desktop";
+
+export interface Product {
+  id: string;
+  name: string;
+  brand: string;
+  deviceType: DeviceType;
+  price: number;
+  cpuClass: CpuClass;
+  hasGPU: boolean;
+  ramGB: number;
+  storageGB: number;
+  mobility: 1 | 2 | 3 | 4 | 5; // 5 = sehr mobil / lange Akkulaufzeit
+  lifespanYears: 2 | 3 | 4 | 5; // grobe Einschätzung, wie "zukunftssicher"
+  useCases: UseCase[];
+  imageUrl: string;
+  // Sobald der Awin-Feed eingebunden ist, ersetzt affiliateUrl den Platzhalter
+  // durch den echten Tracking-Link (Deeplink mit Publisher-ID).
+  affiliateUrl: string;
+  shortPitch: string; // ein Satz, der das Gerät auf den Punkt bringt
+}
+
+// Platzhalter-Katalog. Wird ersetzt/ergänzt, sobald der echte NBB-Produktfeed
+// via Awin eingebunden ist.
+export const products: Product[] = [
+  {
+    id: "office-einsteiger-1",
+    name: "Lenovo IdeaPad Slim 3",
+    brand: "Lenovo",
+    deviceType: "laptop",
+    price: 549,
+    cpuClass: "einsteiger",
+    hasGPU: false,
+    ramGB: 8,
+    storageGB: 512,
+    mobility: 4,
+    lifespanYears: 3,
+    useCases: ["office", "school"],
+    imageUrl: "https://placehold.co/400x300?text=IdeaPad+Slim+3",
+    affiliateUrl: "https://www.notebooksbilliger.de/platzhalter-1",
+    shortPitch: "Zuverlässiger Allrounder für Uni, Büro und den Alltag."
+  },
+  {
+    id: "office-mittel-1",
+    name: "ASUS Vivobook 15",
+    brand: "ASUS",
+    deviceType: "laptop",
+    price: 699,
+    cpuClass: "mittel",
+    hasGPU: false,
+    ramGB: 16,
+    storageGB: 512,
+    mobility: 4,
+    lifespanYears: 4,
+    useCases: ["office", "school", "coding"],
+    imageUrl: "https://placehold.co/400x300?text=Vivobook+15",
+    affiliateUrl: "https://www.notebooksbilliger.de/platzhalter-2",
+    shortPitch: "Mehr Reserven für mehrere offene Programme gleichzeitig."
+  },
+  {
+    id: "creative-1",
+    name: "Apple MacBook Air 13\" (M3)",
+    brand: "Apple",
+    deviceType: "laptop",
+    price: 1199,
+    cpuClass: "leistung",
+    hasGPU: false,
+    ramGB: 16,
+    storageGB: 512,
+    mobility: 5,
+    lifespanYears: 5,
+    useCases: ["creative", "coding", "office"],
+    imageUrl: "https://placehold.co/400x300?text=MacBook+Air+M3",
+    affiliateUrl: "https://www.notebooksbilliger.de/platzhalter-3",
+    shortPitch: "Extrem leise, sehr lange Akkulaufzeit, ideal für unterwegs."
+  },
+  {
+    id: "coding-1",
+    name: "Lenovo ThinkPad E14",
+    brand: "Lenovo",
+    deviceType: "laptop",
+    price: 899,
+    cpuClass: "mittel",
+    hasGPU: false,
+    ramGB: 16,
+    storageGB: 1000,
+    mobility: 4,
+    lifespanYears: 5,
+    useCases: ["coding", "office"],
+    imageUrl: "https://placehold.co/400x300?text=ThinkPad+E14",
+    affiliateUrl: "https://www.notebooksbilliger.de/platzhalter-4",
+    shortPitch: "Robust und langlebig, beliebt für Entwickler-Workflows."
+  },
+  {
+    id: "gaming-einsteiger-1",
+    name: "ASUS TUF Gaming A15",
+    brand: "ASUS",
+    deviceType: "laptop",
+    price: 999,
+    cpuClass: "mittel",
+    hasGPU: true,
+    ramGB: 16,
+    storageGB: 512,
+    mobility: 2,
+    lifespanYears: 3,
+    useCases: ["gaming", "school"],
+    imageUrl: "https://placehold.co/400x300?text=TUF+Gaming+A15",
+    affiliateUrl: "https://www.notebooksbilliger.de/platzhalter-5",
+    shortPitch: "Solide Einstiegsleistung für aktuelle Spiele in mittleren Details."
+  },
+  {
+    id: "gaming-leistung-1",
+    name: "MSI Katana 15",
+    brand: "MSI",
+    deviceType: "laptop",
+    price: 1399,
+    cpuClass: "leistung",
+    hasGPU: true,
+    ramGB: 16,
+    storageGB: 1000,
+    mobility: 2,
+    lifespanYears: 4,
+    useCases: ["gaming", "creative"],
+    imageUrl: "https://placehold.co/400x300?text=MSI+Katana+15",
+    affiliateUrl: "https://www.notebooksbilliger.de/platzhalter-6",
+    shortPitch: "Spielt aktuelle Titel flüssig in hohen Details."
+  },
+  {
+    id: "gaming-desktop-1",
+    name: "Gaming-PC Ryzen 5 / RTX 4060",
+    brand: "NBB-Systeme",
+    deviceType: "desktop",
+    price: 1099,
+    cpuClass: "leistung",
+    hasGPU: true,
+    ramGB: 16,
+    storageGB: 1000,
+    mobility: 1,
+    lifespanYears: 4,
+    useCases: ["gaming", "creative"],
+    imageUrl: "https://placehold.co/400x300?text=Gaming+PC+RTX+4060",
+    affiliateUrl: "https://www.notebooksbilliger.de/platzhalter-7",
+    shortPitch: "Bestes Preis-Leistungs-Verhältnis, wenn Mobilität keine Rolle spielt."
+  },
+  {
+    id: "premium-creative-1",
+    name: "ASUS ProArt Studiobook",
+    brand: "ASUS",
+    deviceType: "laptop",
+    price: 1899,
+    cpuClass: "premium",
+    hasGPU: true,
+    ramGB: 32,
+    storageGB: 1000,
+    mobility: 3,
+    lifespanYears: 5,
+    useCases: ["creative", "coding"],
+    imageUrl: "https://placehold.co/400x300?text=ProArt+Studiobook",
+    affiliateUrl: "https://www.notebooksbilliger.de/platzhalter-8",
+    shortPitch: "Für anspruchsvolle Video-/3D-Bearbeitung mit Farbgenauigkeit."
+  },
+  {
+    id: "budget-desktop-1",
+    name: "Büro-Desktop-PC Einsteiger",
+    brand: "NBB-Systeme",
+    deviceType: "desktop",
+    price: 449,
+    cpuClass: "einsteiger",
+    hasGPU: false,
+    ramGB: 8,
+    storageGB: 512,
+    mobility: 1,
+    lifespanYears: 3,
+    useCases: ["office"],
+    imageUrl: "https://placehold.co/400x300?text=Buero+Desktop",
+    affiliateUrl: "https://www.notebooksbilliger.de/platzhalter-9",
+    shortPitch: "Günstiger Einstieg für Surfen, Mails und Office-Anwendungen."
+  },
+  {
+    id: "school-budget-1",
+    name: "Acer Aspire 3",
+    brand: "Acer",
+    deviceType: "laptop",
+    price: 449,
+    cpuClass: "einsteiger",
+    hasGPU: false,
+    ramGB: 8,
+    storageGB: 256,
+    mobility: 4,
+    lifespanYears: 2,
+    useCases: ["school", "office"],
+    imageUrl: "https://placehold.co/400x300?text=Aspire+3",
+    affiliateUrl: "https://www.notebooksbilliger.de/platzhalter-10",
+    shortPitch: "Günstiger Begleiter für Schule und einfache Aufgaben."
+  }
+];
