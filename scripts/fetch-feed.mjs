@@ -66,5 +66,8 @@ async function main() {
 
 main().catch((err) => {
   console.error("Unerwarteter Fehler beim Feed-Import:", err);
-  process.exit(1);
+  // Absichtlich NICHT process.exit(1): falls der Feed mal kurz nicht
+  // erreichbar ist, soll der Build trotzdem mit den zuletzt bekannten
+  // bzw. Platzhalter-Daten durchlaufen, statt die ganze Seite offline zu nehmen.
+  console.error("Baue trotzdem mit vorhandenen/Platzhalter-Daten weiter.");
 });
