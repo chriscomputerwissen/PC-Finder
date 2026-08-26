@@ -228,7 +228,7 @@ function ResultView({ results, onRestart }: { results: ScoredProduct[]; onRestar
           <div key={r.product.id} className={`result-card ${idx === 0 ? "top" : ""}`}>
             {idx === 0 && <span className="badge">Beste Wahl für dich</span>}
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={r.product.imageUrl} alt={r.product.name} />
+          <img src={r.product.imageUrl} alt={r.product.name} referrerPolicy="no-referrer" />
             <div>
               <h3>{r.product.name}</h3>
               <div className="result-price">{r.product.price.toLocaleString("de-DE")} €</div>
