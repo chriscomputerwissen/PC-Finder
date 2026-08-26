@@ -10,11 +10,16 @@
 export type UseCase = "office" | "gaming" | "creative" | "coding" | "school";
 export type CpuClass = "einsteiger" | "mittel" | "leistung" | "premium";
 export type DeviceType = "laptop" | "desktop";
+export type OS = "windows" | "macos" | "ohne";
 
 export interface Product {
   id: string;
   name: string;
   brand: string;
+  // Welcher Awin-Händler dieses Angebot liefert (notebooksbilliger.de, Otto,
+  // Cyberport, ...). Aktuell nur zur Nachvollziehbarkeit/Diagnose genutzt;
+  // eine "erhältlich bei X"-Anzeige im UI ist ein separater, späterer Schritt.
+  shop: string;
   deviceType: DeviceType;
   price: number;
   cpuClass: CpuClass;
@@ -24,6 +29,7 @@ export interface Product {
   mobility: 1 | 2 | 3 | 4 | 5; // 5 = sehr mobil / lange Akkulaufzeit
   lifespanYears: 2 | 3 | 4 | 5; // grobe Einschätzung, wie "zukunftssicher"
   useCases: UseCase[];
+  os: OS;
   imageUrl: string;
   // Sobald der Awin-Feed eingebunden ist, ersetzt affiliateUrl den Platzhalter
   // durch den echten Tracking-Link (Deeplink mit Publisher-ID).
@@ -38,6 +44,7 @@ export const products: Product[] = [
     id: "office-einsteiger-1",
     name: "Lenovo IdeaPad Slim 3",
     brand: "Lenovo",
+    shop: "notebooksbilliger.de",
     deviceType: "laptop",
     price: 549,
     cpuClass: "einsteiger",
@@ -47,6 +54,7 @@ export const products: Product[] = [
     mobility: 4,
     lifespanYears: 3,
     useCases: ["office", "school"],
+    os: "windows",
     imageUrl: "https://placehold.co/400x300?text=IdeaPad+Slim+3",
     affiliateUrl: "https://www.notebooksbilliger.de/platzhalter-1",
     shortPitch: "Zuverlässiger Allrounder für Uni, Büro und den Alltag."
@@ -55,6 +63,7 @@ export const products: Product[] = [
     id: "office-mittel-1",
     name: "ASUS Vivobook 15",
     brand: "ASUS",
+    shop: "notebooksbilliger.de",
     deviceType: "laptop",
     price: 699,
     cpuClass: "mittel",
@@ -64,6 +73,7 @@ export const products: Product[] = [
     mobility: 4,
     lifespanYears: 4,
     useCases: ["office", "school", "coding"],
+    os: "windows",
     imageUrl: "https://placehold.co/400x300?text=Vivobook+15",
     affiliateUrl: "https://www.notebooksbilliger.de/platzhalter-2",
     shortPitch: "Mehr Reserven für mehrere offene Programme gleichzeitig."
@@ -72,6 +82,7 @@ export const products: Product[] = [
     id: "creative-1",
     name: "Apple MacBook Air 13\" (M3)",
     brand: "Apple",
+    shop: "notebooksbilliger.de",
     deviceType: "laptop",
     price: 1199,
     cpuClass: "leistung",
@@ -81,6 +92,7 @@ export const products: Product[] = [
     mobility: 5,
     lifespanYears: 5,
     useCases: ["creative", "coding", "office"],
+    os: "macos",
     imageUrl: "https://placehold.co/400x300?text=MacBook+Air+M3",
     affiliateUrl: "https://www.notebooksbilliger.de/platzhalter-3",
     shortPitch: "Extrem leise, sehr lange Akkulaufzeit, ideal für unterwegs."
@@ -89,6 +101,7 @@ export const products: Product[] = [
     id: "coding-1",
     name: "Lenovo ThinkPad E14",
     brand: "Lenovo",
+    shop: "notebooksbilliger.de",
     deviceType: "laptop",
     price: 899,
     cpuClass: "mittel",
@@ -98,6 +111,7 @@ export const products: Product[] = [
     mobility: 4,
     lifespanYears: 5,
     useCases: ["coding", "office"],
+    os: "windows",
     imageUrl: "https://placehold.co/400x300?text=ThinkPad+E14",
     affiliateUrl: "https://www.notebooksbilliger.de/platzhalter-4",
     shortPitch: "Robust und langlebig, beliebt für Entwickler-Workflows."
@@ -106,6 +120,7 @@ export const products: Product[] = [
     id: "gaming-einsteiger-1",
     name: "ASUS TUF Gaming A15",
     brand: "ASUS",
+    shop: "notebooksbilliger.de",
     deviceType: "laptop",
     price: 999,
     cpuClass: "mittel",
@@ -115,6 +130,7 @@ export const products: Product[] = [
     mobility: 2,
     lifespanYears: 3,
     useCases: ["gaming", "school"],
+    os: "windows",
     imageUrl: "https://placehold.co/400x300?text=TUF+Gaming+A15",
     affiliateUrl: "https://www.notebooksbilliger.de/platzhalter-5",
     shortPitch: "Solide Einstiegsleistung für aktuelle Spiele in mittleren Details."
@@ -123,6 +139,7 @@ export const products: Product[] = [
     id: "gaming-leistung-1",
     name: "MSI Katana 15",
     brand: "MSI",
+    shop: "notebooksbilliger.de",
     deviceType: "laptop",
     price: 1399,
     cpuClass: "leistung",
@@ -132,6 +149,7 @@ export const products: Product[] = [
     mobility: 2,
     lifespanYears: 4,
     useCases: ["gaming", "creative"],
+    os: "windows",
     imageUrl: "https://placehold.co/400x300?text=MSI+Katana+15",
     affiliateUrl: "https://www.notebooksbilliger.de/platzhalter-6",
     shortPitch: "Spielt aktuelle Titel flüssig in hohen Details."
@@ -140,6 +158,7 @@ export const products: Product[] = [
     id: "gaming-desktop-1",
     name: "Gaming-PC Ryzen 5 / RTX 4060",
     brand: "NBB-Systeme",
+    shop: "notebooksbilliger.de",
     deviceType: "desktop",
     price: 1099,
     cpuClass: "leistung",
@@ -149,6 +168,7 @@ export const products: Product[] = [
     mobility: 1,
     lifespanYears: 4,
     useCases: ["gaming", "creative"],
+    os: "ohne",
     imageUrl: "https://placehold.co/400x300?text=Gaming+PC+RTX+4060",
     affiliateUrl: "https://www.notebooksbilliger.de/platzhalter-7",
     shortPitch: "Bestes Preis-Leistungs-Verhältnis, wenn Mobilität keine Rolle spielt."
@@ -157,6 +177,7 @@ export const products: Product[] = [
     id: "premium-creative-1",
     name: "ASUS ProArt Studiobook",
     brand: "ASUS",
+    shop: "notebooksbilliger.de",
     deviceType: "laptop",
     price: 1899,
     cpuClass: "premium",
@@ -166,6 +187,7 @@ export const products: Product[] = [
     mobility: 3,
     lifespanYears: 5,
     useCases: ["creative", "coding"],
+    os: "windows",
     imageUrl: "https://placehold.co/400x300?text=ProArt+Studiobook",
     affiliateUrl: "https://www.notebooksbilliger.de/platzhalter-8",
     shortPitch: "Für anspruchsvolle Video-/3D-Bearbeitung mit Farbgenauigkeit."
@@ -174,6 +196,7 @@ export const products: Product[] = [
     id: "budget-desktop-1",
     name: "Büro-Desktop-PC Einsteiger",
     brand: "NBB-Systeme",
+    shop: "notebooksbilliger.de",
     deviceType: "desktop",
     price: 449,
     cpuClass: "einsteiger",
@@ -183,6 +206,7 @@ export const products: Product[] = [
     mobility: 1,
     lifespanYears: 3,
     useCases: ["office"],
+    os: "windows",
     imageUrl: "https://placehold.co/400x300?text=Buero+Desktop",
     affiliateUrl: "https://www.notebooksbilliger.de/platzhalter-9",
     shortPitch: "Günstiger Einstieg für Surfen, Mails und Office-Anwendungen."
@@ -191,6 +215,7 @@ export const products: Product[] = [
     id: "school-budget-1",
     name: "Acer Aspire 3",
     brand: "Acer",
+    shop: "notebooksbilliger.de",
     deviceType: "laptop",
     price: 449,
     cpuClass: "einsteiger",
@@ -200,6 +225,7 @@ export const products: Product[] = [
     mobility: 4,
     lifespanYears: 2,
     useCases: ["school", "office"],
+    os: "windows",
     imageUrl: "https://placehold.co/400x300?text=Aspire+3",
     affiliateUrl: "https://www.notebooksbilliger.de/platzhalter-10",
     shortPitch: "Günstiger Begleiter für Schule und einfache Aufgaben."
