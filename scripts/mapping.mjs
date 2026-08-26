@@ -14,18 +14,32 @@ const KNOWN_BRANDS = [
   "LG", "Xiaomi", "Sony"
 ];
 
-function detectBrand(name) {
+function detectBrand(name, fallbackShop) {
   const found = KNOWN_BRANDS.find((b) => name.toLowerCase().startsWith(b.toLowerCase()));
-  return found ? (found === "Asus" ? "ASUS" : found) : "notebooksbilliger.de";
+  // Wenn keine bekannte Hersteller-Marke im Titel erkannt wird (z.B. bei
+  // individuell konfigurierten Systemen), zeigen wir stattdessen den Händler
+  // an, von dem das Angebot stammt (früher hart auf "notebooksbilliger.de"
+  // codiert – das stimmt seit mehreren Händlern im Feed nicht mehr).
+  return found ? (found === "Asus" ? "ASUS" : found) : fallbackShop;
 }
 
 function detectDeviceType(text, categoryName) {
   const desktopHints = [
-    "desktop-pc", "desktop pc", "komplett-pc", "tower", "mini-pc",
-    "all-in-one", "pc-system", "gaming-pc", "workstation-pc"
+    "desktop-pc", "desktop pc", "komplett-pc", "tower", "mini-pc", "mini pc",
+    "minipc", "micro-pc", "microtower", "micro tower", "sff", "nuc",
+    "stick-pc", "stick pc", "barebone", "thinkcentre", "elitedesk",
+    "prodesk", "optiplex", "mac mini", "mac studio", "all-in-one",
+    "pc-system", "gaming-pc", "workstation-pc"
   ];
   const haystack = `${text} ${categoryName || ""}`.toLowerCase();
   return desktopHints.some((h) => haystack.includes(h)) ? "desktop" : "laptop";
+}
+
+function detectOS(text, brand) {
+  const t = text.toLowerCase();
+  if (brand === "Apple" || /mac ?os|macbook|imac|mac mini|mac studio/.test(t)) return "macos";
+  if (/ohne betriebssystem|ohne os\b|no os\b|freedos|free ?dos/.test(t)) return "ohne";
+  return "windows";
 }
 
 function detectCpuClass(text) {
@@ -98,8 +112,10 @@ export function mapFeedRow(row) {
   const description = (row.description || "").trim();
   const text = `${name} ${description}`;
   const categoryName = row.category_name || row.merchant_category || "";
+  const shop = (row.merchant_name || "").trim() || "notebooksbilliger.de";
 
   const price = parseFloat(row.search_price || row.display_price || "0") || 0;
+  const brand = detectBrand(name, shop);
   const deviceType = detectDeviceType(text, categoryName);
   const cpuClass = detectCpuClass(text);
   const hasGPU = detectGPU(text);
@@ -107,8 +123,14 @@ export function mapFeedRow(row) {
   const mobility = detectMobility(deviceType, text);
   const lifespanYears = detectLifespan(cpuClass, ramGB);
   const useCases = detectUseCases({ text, hasGPU, cpuClass, ramGB, price });
+  const os = detectOS(text, brand);
 
-  const id = row.aw_product_id || row.merchant_product_id || row.data_feed_id;
+  const rawId = row.aw_product_id || row.merchant_product_id || row.data_feed_id;
+  // Merchant-ID als Präfix: aw_product_id sollte pro Awin-Feed bereits
+  // eindeutig sein, aber sobald mehrere Händler-Feeds kombiniert werden
+  // (siehe fetch-feed.mjs), schützt der Präfix zuverlässig vor einer
+  // zufälligen ID-Kollision zwischen zwei verschiedenen Händlern.
+  const id = row.merchant_id && rawId ? `${row.merchant_id}-${rawId}` : rawId;
   const affiliateUrl = row.aw_deep_link || row.merchant_deep_link || "";
   const imageUrl = row.aw_image_url || row.merchant_image_url || "";
 
@@ -117,7 +139,8 @@ export function mapFeedRow(row) {
   return {
     id: String(id),
     name,
-    brand: detectBrand(name),
+    brand,
+    shop,
     deviceType,
     price: Math.round(price * 100) / 100,
     cpuClass,
@@ -127,6 +150,7 @@ export function mapFeedRow(row) {
     mobility,
     lifespanYears,
     useCases,
+    os,
     imageUrl,
     affiliateUrl,
     shortPitch: shortPitch({ deviceType, cpuClass, hasGPU, useCases })
