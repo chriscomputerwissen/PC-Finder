@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T06:05:39.589Z",
+  "generatedAt": "2026-08-26T06:17:26.516Z",
   "source": "awin-notebooksbilliger",
   "count": 2983,
   "products": [
@@ -3492,6 +3492,657 @@
       ],
       "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FNUC15__PRO_SLIM_Side_rightview_low_angle_e6ec.png%3Fsize%3D400&feedId=27883&k=b1d81fc6b9ea5423f0374c2afecfa347525c16c0",
       "affiliateUrl": "https://www.awin1.com/pclick.php?p=41295766355&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "44941808776",
+      "name": "XMG NEO 16 - E25qvq + XMG OASIS (MK2/V4) - 16\" QHD 300Hz Mini-LED Display, Intel Ultra 9 275HX, 32GB RAM, 2TB SSD, NVIDIA GeForce RTX 5080, Windows 11",
+      "brand": "notebooksbilliger.de",
+      "deviceType": "laptop",
+      "price": 4239,
+      "cpuClass": "mittel",
+      "hasGPU": true,
+      "ramGB": 32,
+      "storageGB": 2000,
+      "mobility": 3,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "gaming"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FXMG-NEO-16-A25-E25-01_c017.jpg%3Fsize%3D400&feedId=27883&k=59f53f9794da7bcb0b38179fd5c0fc00d9c299b5",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44941808776&a=1569254&m=11348",
+      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
+    },
+    {
+      "id": "41584857743",
+      "name": "CSL VenomBox Mini PC AMD® Ryzen 7 8845HS, 96GB DDR5 RAM, 4000GB M.2 NVMe SSD, Radeon 780M, Windows 11 Pro",
+      "brand": "notebooksbilliger.de",
+      "deviceType": "laptop",
+      "price": 2599,
+      "cpuClass": "leistung",
+      "hasGPU": false,
+      "ramGB": 96,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 5,
+      "useCases": [
+        "office",
+        "coding",
+        "creative"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FCSL_Venom_Box_HS_1_c33c.jpg%3Fsize%3D400&feedId=27883&k=5ebbd72548b2f15e8a153eb86c202579c7d45d09",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41584857743&a=1569254&m=11348",
+      "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
+    },
+    {
+      "id": "42541631801",
+      "name": "Lenovo ThinkPad E14 Gen7 - 21SX003SGE 14\" WUXGA IPS, Intel Core Ultra 7 - 255H, 32GB RAM, 1TB SSD, Windows 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 1649,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_E14_Gen_7_Intel_CT1_03_d749.jpg%3Fsize%3D400&feedId=27883&k=da4e5f68c35e26d8c48e85a8666040d51271904c",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42541631801&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "43347648780",
+      "name": "HP EliteBook 8 G1a 16 CT4C6ES 16,0\" 2.5K IPS 400 Nits, AMD Ryzen 7 250, 64GB RAM, 1TB SSD, LTE/5G, Windows 11 Pro",
+      "brand": "HP",
+      "deviceType": "laptop",
+      "price": 1999,
+      "cpuClass": "leistung",
+      "hasGPU": false,
+      "ramGB": 64,
+      "storageGB": 1000,
+      "mobility": 3,
+      "lifespanYears": 5,
+      "useCases": [
+        "office",
+        "coding",
+        "creative"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_Machu_LaPaz_16_GlacierSilver_FrontOpen_Win11Pro_6428.png%3Fsize%3D400&feedId=27883&k=c646ed3e2e57ede5dfb36bed34b2101c405952f8",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43347648780&a=1569254&m=11348",
+      "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
+    },
+    {
+      "id": "43412897492",
+      "name": "HP EliteBook 8 G1a 14 CV3W0ES 14,0\" WUXGA IPS 400 Nits, AMD Ryzen 7 250, 32GB RAM, 1TB SSD, FreeDOS",
+      "brand": "HP",
+      "deviceType": "laptop",
+      "price": 1299,
+      "cpuClass": "leistung",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 5,
+      "lifespanYears": 5,
+      "useCases": [
+        "office",
+        "coding",
+        "creative"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_Machu_LaPaz_14_GlacierSilver_FrontOpen_ArtSCreen_79d0.png%3Fsize%3D400&feedId=27883&k=85b0eb9beca04a5e81be43db81dd216f3916301d",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43412897492&a=1569254&m=11348",
+      "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
+    },
+    {
+      "id": "43347648779",
+      "name": "HP EliteBook 8 G1a 16 CT3V8ES 16,0\" WUXGA IPS 400 Nits, AMD Ryzen 7 250, 32GB RAM, 1TB SSD, FreeDOS",
+      "brand": "HP",
+      "deviceType": "laptop",
+      "price": 1399,
+      "cpuClass": "leistung",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 3,
+      "lifespanYears": 5,
+      "useCases": [
+        "office",
+        "coding",
+        "creative"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_Machu_Lapaz_16_GlacierSilver_FrontOpen_ArtScreen_366e.png%3Fsize%3D400&feedId=27883&k=75912bef48a69e1857c93df4595bcb2fd8fb0dbd",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43347648779&a=1569254&m=11348",
+      "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
+    },
+    {
+      "id": "37061630451",
+      "name": "MSI Cyborg 15 A13VF-881 - 15,6\" FHD 144Hz Display, Intel Core i5-13420H, 16GB RAM, 512GB SSD, NVIDIA RTX 4060, Windows 11",
+      "brand": "MSI",
+      "deviceType": "laptop",
+      "price": 1199,
+      "cpuClass": "mittel",
+      "hasGPU": true,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "gaming"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FCyborg_15_A13V_photo_02_9fa7.jpg%3Fsize%3D400&feedId=27883&k=cde3bb65492ad02da5401005e7e6e0ae67b2af84",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=37061630451&a=1569254&m=11348",
+      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
+    },
+    {
+      "id": "41581841266",
+      "name": "CSL Narrow Box i3 Mini PC Intel® Core i3 N305, 32GB DDR4 RAM, 1000GB M.2 NVMe SSD, Intel UHD Grafik, Windows 11 Home",
+      "brand": "notebooksbilliger.de",
+      "deviceType": "laptop",
+      "price": 629,
+      "cpuClass": "einsteiger",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 2,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FCSL_Narrow_Box_Premium_1_cd80.jpg%3Fsize%3D400&feedId=27883&k=a80e112e19365ff548b92f3ce231cf31a4790a9d",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41581841266&a=1569254&m=11348",
+      "shortPitch": "Günstiger Einstieg für Alltagsaufgaben."
+    },
+    {
+      "id": "41853432276",
+      "name": "Hyrican Striker 7481 AMD Ryzen 7 9700X, 32GB DDR5 RAM, 1TB M.2 SSD, NVIDIA GeForce RTX 5060 Ti (16GB GDDR7), Windows 11 Home",
+      "brand": "notebooksbilliger.de",
+      "deviceType": "desktop",
+      "price": 2299,
+      "cpuClass": "leistung",
+      "hasGPU": true,
+      "ramGB": 32,
+      "storageGB": 512,
+      "mobility": 1,
+      "lifespanYears": 5,
+      "useCases": [
+        "office",
+        "gaming",
+        "creative"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FBILD_PCK07327_1M_51d5.jpg%3Fsize%3D400&feedId=27883&k=94be770f427f3929679d1923d69d29969befb45c",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41853432276&a=1569254&m=11348",
+      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
+    },
+    {
+      "id": "42793058903",
+      "name": "HP ProBook 4 G1a 16 C7SQ2ES 16\" WUXGA IPS, AMD Ryzen 7 250, 16GB RAM, 512GB SSD, Windows 11 Pro",
+      "brand": "HP",
+      "deviceType": "laptop",
+      "price": 999,
+      "cpuClass": "leistung",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 3,
+      "lifespanYears": 5,
+      "useCases": [
+        "office",
+        "coding",
+        "creative"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_25C2_ProBook_4_G1a_Pudding16_W11Pro_Front_9b81.png%3Fsize%3D400&feedId=27883&k=9099f7bed9b9edd9dfc896e53e6e5fb1fcafa3e2",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42793058903&a=1569254&m=11348",
+      "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
+    },
+    {
+      "id": "43294803538",
+      "name": "HP EliteBook 8 G1i 16 CT3W6ES 16,0\" WUXGA IPS 400 Nits, Intel Core Ultra 7 255U, 32GB RAM, 1TB SSD, LTE/5G, Windows 11 Pro",
+      "brand": "HP",
+      "deviceType": "laptop",
+      "price": 1699,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 3,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_Machu_LaPaz_16_GlacierSilver_FrontOpen_Win11Pro_6428.png%3Fsize%3D400&feedId=27883&k=c646ed3e2e57ede5dfb36bed34b2101c405952f8",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43294803538&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "42631188590",
+      "name": "Lenovo ThinkPad X13 Gen6 - 21RK0042GE 13,3\" WUXGA Touch, Intel® Core Ultra 7 255U, 32GB RAM, 1TB SSD, Windows 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 2099,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovoTP_X13G6-Intel01_2342.avif%3Fsize%3D400&feedId=27883&k=ca955ad6b395cbd89de4bb06e845ca20f02d3d71",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42631188590&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "42438902123",
+      "name": "Lenovo ThinkPad T14s Gen6 - 21TB0036GE 14\" WUXGA, AMD Ryzen™ AI 7 PRO 350, 32GB RAM, 1TB SSD, Windows 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 2799,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovoTP-T14sGen6-01_8f96.avif%3Fsize%3D400&feedId=27883&k=7b31db2544c23c811c3280e50bd2d8061f7d5212",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42438902123&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "43690394473",
+      "name": "MSI Prestige 16 Flip AI+ C3MTG-063 - 16\" 2.8K OLED 120Hz Display, Intel Core Ultra 9 386H, 32GB DDR5 RAM, 2TB SSD, Windows 11 Home",
+      "brand": "MSI",
+      "deviceType": "laptop",
+      "price": 1949,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 2000,
+      "mobility": 3,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FMSIPrestige16-FlipAI-C3MTG-063-01_ca0b.png%3Fsize%3D400&feedId=27883&k=fc017fb8d22310c0cc9b5a56d8e2b13e665979c3",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43690394473&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "44361417507",
+      "name": "HP Pro Mini 400 G9 DM D18LFES [Intel i3-13100T, 16GB RAM, 512GB SSD, Intel UHD Graphics 730, Windows 11 Pro]",
+      "brand": "HP",
+      "deviceType": "laptop",
+      "price": 599.99,
+      "cpuClass": "einsteiger",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 2,
+      "useCases": [
+        "office",
+        "coding",
+        "school"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHP_ProMini400_G9_1_6cc7.jpg%3Fsize%3D400&feedId=27883&k=44292cdd6baf7458884dcb619940efb192ac3a5f",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44361417507&a=1569254&m=11348",
+      "shortPitch": "Günstiger Einstieg für Alltagsaufgaben."
+    },
+    {
+      "id": "42438902142",
+      "name": "Lenovo ThinkPad E16 Gen3 - 21SR0041GE 16\" WUXGA, Intel Core Ultra 7 - 255H, 32GB RAM, 1TB SSD, Windows 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 1699,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 3,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_E16_Gen_3_Intel_CT1_03_8f80.jpg%3Fsize%3D400&feedId=27883&k=8c49bd9bc4bc6b62642117a101aef1d76150e797",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42438902142&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "42438902120",
+      "name": "Lenovo ThinkPad T14 Gen6 - 21QG001VGE 14\" WUXGA IPS, Intel Core Ultra 7 - 258V, 32GB RAM, 1TB SSD, Windows 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 2399,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_T14_Gen_6_Intel_CT1_02_6508.jpg%3Fsize%3D400&feedId=27883&k=e739fabf0a5189448fa326f56a96291ce395c048",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42438902120&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "42486310235",
+      "name": "Lenovo ThinkBook 14 2-in-1 Gen5 - 21SQ0008GE 14\" 2-in-1 WUXGA, Intel Core Ultra 5 - 225U, 16GB RAM, 512GB SSD, Win11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 1179,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkBook_14_2_in_1_G5_IAU_CT1_07_a599.jpg%3Fsize%3D400&feedId=27883&k=3f25843dfa3a387475200b277c1c0c10a7a1e132",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42486310235&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "43709993062",
+      "name": "Hyrican VISTA COC AB 7823 AMD Ryzen 5 7500F 16GB DDR5 RAM 1TB SSD NVIDIA GeForce RTX 5070 (12GB GDDR7) Windows 11 Home",
+      "brand": "notebooksbilliger.de",
+      "deviceType": "desktop",
+      "price": 1759,
+      "cpuClass": "mittel",
+      "hasGPU": true,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 1,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "gaming"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHyricanVISTA-COC-AB-7829-01_ad97.png%3Fsize%3D400&feedId=27883&k=14d7e066f33eb6fa5ce3f458f27fe363cc95851d",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43709993062&a=1569254&m=11348",
+      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
+    },
+    {
+      "id": "44609169260",
+      "name": "Hyrican Cougar FV150 PK 7490 Intel Core Ultra 5 245KF WAK 32GB DDR5 RAM 1TB M.2 SSD RTX 5070 (12GB GDDR7) Windows 11",
+      "brand": "notebooksbilliger.de",
+      "deviceType": "desktop",
+      "price": 2469,
+      "cpuClass": "mittel",
+      "hasGPU": true,
+      "ramGB": 32,
+      "storageGB": 512,
+      "mobility": 1,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "gaming"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FBILD_PCK07490_1_ce4e.jpg%3Fsize%3D400&feedId=27883&k=6efa8502eb4d13d6df74e11ac19a6773ba2f37a9",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44609169260&a=1569254&m=11348",
+      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
+    },
+    {
+      "id": "41578041458",
+      "name": "CSL Narrow Box Premium Mini PC Intel® Processor N200, 16GB DDR4 RAM, 500GB M.2 NVMe SSD, Intel UHD Grafik, Windows 11 Home",
+      "brand": "notebooksbilliger.de",
+      "deviceType": "laptop",
+      "price": 429,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding",
+        "school"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FCSL_Narrow_Box_Premium_1_cd80.jpg%3Fsize%3D400&feedId=27883&k=a80e112e19365ff548b92f3ce231cf31a4790a9d",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41578041458&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "41721041606",
+      "name": "Lenovo ThinkPad X1 Carbon Gen13 - 21NS00MMGE-CAMPUS 14\" 2.8K OLED, Intel Core Ultra 7 - 258V, 32GB RAM, 1TB SSD, Windows 11 Pro, Campus Exklusiv",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 2449,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_X1_Carbon_Gen_13_CT1_10_3327.jpg%3Fsize%3D400&feedId=27883&k=105c02be56c70ffd41be03f4e2c180c122536422",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41721041606&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "42631188490",
+      "name": "Lenovo ThinkPad X9-15 G1 21Q6001RGE - 15\" 2,8K, OLED, Intel® Core™ Ultra 5 228V, 32GB RAM, 512GB SSD, Windows 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 1620.37,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2Fbwpkzbfqwk95ur8ue8khvdbzucr5rz885957_2eee.jpg%3Fsize%3D400&feedId=27883&k=0edf457e1421a57efe52724606e51705038a4f9f",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42631188490&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "44011383871",
+      "name": "Lenovo IdeaPad 5 2-in-1 83KU0012GE - 16\" WUXGA , AMD Ryzen™ AI 7-350, 16GB RAM, 1 TB SSD, Windows 11",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 999,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 1000,
+      "mobility": 3,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FIdeaPad_5_2_in_1_16AKP10_CT1_14_1_1ea0.png%3Fsize%3D400&feedId=27883&k=0f176a333cd0b472d49836ea58e1d810e5979b19",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44011383871&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "43949562080",
+      "name": "HP Pro Mini 400 G9 DM A1JT7ES [Intel i7-13700T, 16GB RAM, 512GB SSD, Intel UHD Graphics 770, Windows 11 Pro]",
+      "brand": "HP",
+      "deviceType": "laptop",
+      "price": 819.99,
+      "cpuClass": "leistung",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 5,
+      "useCases": [
+        "office",
+        "coding",
+        "creative"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHP_ProMini400_G9_1_6cc7.jpg%3Fsize%3D400&feedId=27883&k=44292cdd6baf7458884dcb619940efb192ac3a5f",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43949562080&a=1569254&m=11348",
+      "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
+    },
+    {
+      "id": "42793058890",
+      "name": "HP ProBook 4 G1i 16 C7SS3ES 16\" WQXGA IPS, Intel Core Ultra 7 255H, 32GB RAM, 1TB SSD, Windows 11 Pro",
+      "brand": "HP",
+      "deviceType": "laptop",
+      "price": 1499,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 3,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_25C2_ProBook_4_G1i_Rainbowcake16_W11Pro_Front_d828.png%3Fsize%3D400&feedId=27883&k=c26fee22519bf42cb66ba6e6a37d54ef0dd63b7c",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42793058890&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "42438902138",
+      "name": "Lenovo ThinkPad X1 Carbon Gen13 - 21NS004TGE 14\" 2.8K OLED, Intel Core Ultra 7 - 258V, 32GB RAM, 2TB SSD, 5G, Windows 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 2999,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 2000,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_X1_Carbon_Gen_13_CT1_10_3327.jpg%3Fsize%3D400&feedId=27883&k=105c02be56c70ffd41be03f4e2c180c122536422",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42438902138&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "42438902171",
+      "name": "Lenovo ThinkPad T14 Gen6 - 21QJ00DVGE 14\" WUXGA, AMD Ryzen AI 7 PRO - 350, 32GB RAM, 1TB SSD, Windows 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 2479,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovoTP-T14-G6-01_eab1.png%3Fsize%3D400&feedId=27883&k=90dc7182bd6ba1fe9b3e69054fa7c6e248ed9e8d",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42438902171&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "43896695958",
+      "name": "Hyrican Diamond WT 7845 AMD Ryzen 7 9700X WAK 16GB DDR5 RAM 1TB SSD NVIDIA GeForce RTX 5060Ti (16GB GDDR7) Windows 11 Home",
+      "brand": "notebooksbilliger.de",
+      "deviceType": "desktop",
+      "price": 1759,
+      "cpuClass": "leistung",
+      "hasGPU": true,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 1,
+      "lifespanYears": 5,
+      "useCases": [
+        "office",
+        "gaming",
+        "creative"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHyricanDiamondWT7845-01_9d37.png%3Fsize%3D400&feedId=27883&k=671c00ea1be2407afdb884299c83af12ea3b1628",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43896695958&a=1569254&m=11348",
+      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
+    },
+    {
+      "id": "43825284648",
+      "name": "Hyrican Striker 7814 AMD Ryzen 7 9700X WAK 16GB DDR5 RAM 1TB SSD NVIDIA GeForce RTX 5070 (12GB GDDR7) Windows 11 Home",
+      "brand": "notebooksbilliger.de",
+      "deviceType": "desktop",
+      "price": 1939,
+      "cpuClass": "leistung",
+      "hasGPU": true,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 1,
+      "lifespanYears": 5,
+      "useCases": [
+        "office",
+        "gaming",
+        "creative"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHyricanStriker7814-01_ae11.png%3Fsize%3D400&feedId=27883&k=deca66461da92256a1e7f821e6c580efb310633e",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43825284648&a=1569254&m=11348",
+      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
+    },
+    {
+      "id": "44909202055",
+      "name": "Lenovo V15 AMN G4 - 82YU01AEGE 15\" FHD, AMD Ryzen™ 5 7520U, 16GB RAM, 512GB SSD, Windows 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 879,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovoV15-AMN-G4-01_d8a4.png%3Fsize%3D400&feedId=27883&k=57d0e4a04a9b2317989a58d607c612c4915a87b1",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44909202055&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "45133961096",
+      "name": "Microsoft Surface Laptop 13,8\" for Business - 8 Gen - EP2-59589 13,8\" Privacy Touchscreen, Snapdragon X2 Elite, 32GB RAM, 1TB SSD, Windows 11 Pro Schw",
+      "brand": "Microsoft",
+      "deviceType": "laptop",
+      "price": 3159,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FSUR-FY26-COMMR-HE-138-IN-B-Front-1x1-RGB.png%3Fsize%3D400&feedId=27883&k=6cf14572c4caf63c3268de91ac695471d15192a9",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=45133961096&a=1569254&m=11348",
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
@@ -10539,657 +11190,6 @@
       "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
     },
     {
-      "id": "44941808776",
-      "name": "XMG NEO 16 - E25qvq + XMG OASIS (MK2/V4) - 16\" QHD 300Hz Mini-LED Display, Intel Ultra 9 275HX, 32GB RAM, 2TB SSD, NVIDIA GeForce RTX 5080, Windows 11",
-      "brand": "notebooksbilliger.de",
-      "deviceType": "laptop",
-      "price": 4239,
-      "cpuClass": "mittel",
-      "hasGPU": true,
-      "ramGB": 32,
-      "storageGB": 2000,
-      "mobility": 3,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "gaming"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FXMG-NEO-16-A25-E25-01_c017.jpg%3Fsize%3D400&feedId=27883&k=59f53f9794da7bcb0b38179fd5c0fc00d9c299b5",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44941808776&a=1569254&m=11348",
-      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
-    },
-    {
-      "id": "41584857743",
-      "name": "CSL VenomBox Mini PC AMD® Ryzen 7 8845HS, 96GB DDR5 RAM, 4000GB M.2 NVMe SSD, Radeon 780M, Windows 11 Pro",
-      "brand": "notebooksbilliger.de",
-      "deviceType": "laptop",
-      "price": 2599,
-      "cpuClass": "leistung",
-      "hasGPU": false,
-      "ramGB": 96,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 5,
-      "useCases": [
-        "office",
-        "coding",
-        "creative"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FCSL_Venom_Box_HS_1_c33c.jpg%3Fsize%3D400&feedId=27883&k=5ebbd72548b2f15e8a153eb86c202579c7d45d09",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41584857743&a=1569254&m=11348",
-      "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
-    },
-    {
-      "id": "42541631801",
-      "name": "Lenovo ThinkPad E14 Gen7 - 21SX003SGE 14\" WUXGA IPS, Intel Core Ultra 7 - 255H, 32GB RAM, 1TB SSD, Windows 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 1649,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_E14_Gen_7_Intel_CT1_03_d749.jpg%3Fsize%3D400&feedId=27883&k=da4e5f68c35e26d8c48e85a8666040d51271904c",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42541631801&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "43347648780",
-      "name": "HP EliteBook 8 G1a 16 CT4C6ES 16,0\" 2.5K IPS 400 Nits, AMD Ryzen 7 250, 64GB RAM, 1TB SSD, LTE/5G, Windows 11 Pro",
-      "brand": "HP",
-      "deviceType": "laptop",
-      "price": 1999,
-      "cpuClass": "leistung",
-      "hasGPU": false,
-      "ramGB": 64,
-      "storageGB": 1000,
-      "mobility": 3,
-      "lifespanYears": 5,
-      "useCases": [
-        "office",
-        "coding",
-        "creative"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_Machu_LaPaz_16_GlacierSilver_FrontOpen_Win11Pro_6428.png%3Fsize%3D400&feedId=27883&k=c646ed3e2e57ede5dfb36bed34b2101c405952f8",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43347648780&a=1569254&m=11348",
-      "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
-    },
-    {
-      "id": "43412897492",
-      "name": "HP EliteBook 8 G1a 14 CV3W0ES 14,0\" WUXGA IPS 400 Nits, AMD Ryzen 7 250, 32GB RAM, 1TB SSD, FreeDOS",
-      "brand": "HP",
-      "deviceType": "laptop",
-      "price": 1299,
-      "cpuClass": "leistung",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 5,
-      "useCases": [
-        "office",
-        "coding",
-        "creative"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_Machu_LaPaz_14_GlacierSilver_FrontOpen_ArtSCreen_79d0.png%3Fsize%3D400&feedId=27883&k=85b0eb9beca04a5e81be43db81dd216f3916301d",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43412897492&a=1569254&m=11348",
-      "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
-    },
-    {
-      "id": "43347648779",
-      "name": "HP EliteBook 8 G1a 16 CT3V8ES 16,0\" WUXGA IPS 400 Nits, AMD Ryzen 7 250, 32GB RAM, 1TB SSD, FreeDOS",
-      "brand": "HP",
-      "deviceType": "laptop",
-      "price": 1399,
-      "cpuClass": "leistung",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 3,
-      "lifespanYears": 5,
-      "useCases": [
-        "office",
-        "coding",
-        "creative"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_Machu_Lapaz_16_GlacierSilver_FrontOpen_ArtScreen_366e.png%3Fsize%3D400&feedId=27883&k=75912bef48a69e1857c93df4595bcb2fd8fb0dbd",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43347648779&a=1569254&m=11348",
-      "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
-    },
-    {
-      "id": "37061630451",
-      "name": "MSI Cyborg 15 A13VF-881 - 15,6\" FHD 144Hz Display, Intel Core i5-13420H, 16GB RAM, 512GB SSD, NVIDIA RTX 4060, Windows 11",
-      "brand": "MSI",
-      "deviceType": "laptop",
-      "price": 1199,
-      "cpuClass": "mittel",
-      "hasGPU": true,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "gaming"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FCyborg_15_A13V_photo_02_9fa7.jpg%3Fsize%3D400&feedId=27883&k=cde3bb65492ad02da5401005e7e6e0ae67b2af84",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=37061630451&a=1569254&m=11348",
-      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
-    },
-    {
-      "id": "41581841266",
-      "name": "CSL Narrow Box i3 Mini PC Intel® Core i3 N305, 32GB DDR4 RAM, 1000GB M.2 NVMe SSD, Intel UHD Grafik, Windows 11 Home",
-      "brand": "notebooksbilliger.de",
-      "deviceType": "laptop",
-      "price": 629,
-      "cpuClass": "einsteiger",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 2,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FCSL_Narrow_Box_Premium_1_cd80.jpg%3Fsize%3D400&feedId=27883&k=a80e112e19365ff548b92f3ce231cf31a4790a9d",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41581841266&a=1569254&m=11348",
-      "shortPitch": "Günstiger Einstieg für Alltagsaufgaben."
-    },
-    {
-      "id": "41853432276",
-      "name": "Hyrican Striker 7481 AMD Ryzen 7 9700X, 32GB DDR5 RAM, 1TB M.2 SSD, NVIDIA GeForce RTX 5060 Ti (16GB GDDR7), Windows 11 Home",
-      "brand": "notebooksbilliger.de",
-      "deviceType": "desktop",
-      "price": 2299,
-      "cpuClass": "leistung",
-      "hasGPU": true,
-      "ramGB": 32,
-      "storageGB": 512,
-      "mobility": 1,
-      "lifespanYears": 5,
-      "useCases": [
-        "office",
-        "gaming",
-        "creative"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FBILD_PCK07327_1M_51d5.jpg%3Fsize%3D400&feedId=27883&k=94be770f427f3929679d1923d69d29969befb45c",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41853432276&a=1569254&m=11348",
-      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
-    },
-    {
-      "id": "42793058903",
-      "name": "HP ProBook 4 G1a 16 C7SQ2ES 16\" WUXGA IPS, AMD Ryzen 7 250, 16GB RAM, 512GB SSD, Windows 11 Pro",
-      "brand": "HP",
-      "deviceType": "laptop",
-      "price": 999,
-      "cpuClass": "leistung",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 3,
-      "lifespanYears": 5,
-      "useCases": [
-        "office",
-        "coding",
-        "creative"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_25C2_ProBook_4_G1a_Pudding16_W11Pro_Front_9b81.png%3Fsize%3D400&feedId=27883&k=9099f7bed9b9edd9dfc896e53e6e5fb1fcafa3e2",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42793058903&a=1569254&m=11348",
-      "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
-    },
-    {
-      "id": "43294803538",
-      "name": "HP EliteBook 8 G1i 16 CT3W6ES 16,0\" WUXGA IPS 400 Nits, Intel Core Ultra 7 255U, 32GB RAM, 1TB SSD, LTE/5G, Windows 11 Pro",
-      "brand": "HP",
-      "deviceType": "laptop",
-      "price": 1699,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 3,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_Machu_LaPaz_16_GlacierSilver_FrontOpen_Win11Pro_6428.png%3Fsize%3D400&feedId=27883&k=c646ed3e2e57ede5dfb36bed34b2101c405952f8",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43294803538&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "42631188590",
-      "name": "Lenovo ThinkPad X13 Gen6 - 21RK0042GE 13,3\" WUXGA Touch, Intel® Core Ultra 7 255U, 32GB RAM, 1TB SSD, Windows 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 2099,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovoTP_X13G6-Intel01_2342.avif%3Fsize%3D400&feedId=27883&k=ca955ad6b395cbd89de4bb06e845ca20f02d3d71",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42631188590&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "42438902123",
-      "name": "Lenovo ThinkPad T14s Gen6 - 21TB0036GE 14\" WUXGA, AMD Ryzen™ AI 7 PRO 350, 32GB RAM, 1TB SSD, Windows 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 2799,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovoTP-T14sGen6-01_8f96.avif%3Fsize%3D400&feedId=27883&k=7b31db2544c23c811c3280e50bd2d8061f7d5212",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42438902123&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "43690394473",
-      "name": "MSI Prestige 16 Flip AI+ C3MTG-063 - 16\" 2.8K OLED 120Hz Display, Intel Core Ultra 9 386H, 32GB DDR5 RAM, 2TB SSD, Windows 11 Home",
-      "brand": "MSI",
-      "deviceType": "laptop",
-      "price": 1949,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 2000,
-      "mobility": 3,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FMSIPrestige16-FlipAI-C3MTG-063-01_ca0b.png%3Fsize%3D400&feedId=27883&k=fc017fb8d22310c0cc9b5a56d8e2b13e665979c3",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43690394473&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "44361417507",
-      "name": "HP Pro Mini 400 G9 DM D18LFES [Intel i3-13100T, 16GB RAM, 512GB SSD, Intel UHD Graphics 730, Windows 11 Pro]",
-      "brand": "HP",
-      "deviceType": "laptop",
-      "price": 599.99,
-      "cpuClass": "einsteiger",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 2,
-      "useCases": [
-        "office",
-        "coding",
-        "school"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHP_ProMini400_G9_1_6cc7.jpg%3Fsize%3D400&feedId=27883&k=44292cdd6baf7458884dcb619940efb192ac3a5f",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44361417507&a=1569254&m=11348",
-      "shortPitch": "Günstiger Einstieg für Alltagsaufgaben."
-    },
-    {
-      "id": "42438902142",
-      "name": "Lenovo ThinkPad E16 Gen3 - 21SR0041GE 16\" WUXGA, Intel Core Ultra 7 - 255H, 32GB RAM, 1TB SSD, Windows 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 1699,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 3,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_E16_Gen_3_Intel_CT1_03_8f80.jpg%3Fsize%3D400&feedId=27883&k=8c49bd9bc4bc6b62642117a101aef1d76150e797",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42438902142&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "42438902120",
-      "name": "Lenovo ThinkPad T14 Gen6 - 21QG001VGE 14\" WUXGA IPS, Intel Core Ultra 7 - 258V, 32GB RAM, 1TB SSD, Windows 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 2399,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_T14_Gen_6_Intel_CT1_02_6508.jpg%3Fsize%3D400&feedId=27883&k=e739fabf0a5189448fa326f56a96291ce395c048",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42438902120&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "42486310235",
-      "name": "Lenovo ThinkBook 14 2-in-1 Gen5 - 21SQ0008GE 14\" 2-in-1 WUXGA, Intel Core Ultra 5 - 225U, 16GB RAM, 512GB SSD, Win11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 1179,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkBook_14_2_in_1_G5_IAU_CT1_07_a599.jpg%3Fsize%3D400&feedId=27883&k=3f25843dfa3a387475200b277c1c0c10a7a1e132",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42486310235&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "43709993062",
-      "name": "Hyrican VISTA COC AB 7823 AMD Ryzen 5 7500F 16GB DDR5 RAM 1TB SSD NVIDIA GeForce RTX 5070 (12GB GDDR7) Windows 11 Home",
-      "brand": "notebooksbilliger.de",
-      "deviceType": "desktop",
-      "price": 1759,
-      "cpuClass": "mittel",
-      "hasGPU": true,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 1,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "gaming"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHyricanVISTA-COC-AB-7829-01_ad97.png%3Fsize%3D400&feedId=27883&k=14d7e066f33eb6fa5ce3f458f27fe363cc95851d",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43709993062&a=1569254&m=11348",
-      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
-    },
-    {
-      "id": "44609169260",
-      "name": "Hyrican Cougar FV150 PK 7490 Intel Core Ultra 5 245KF WAK 32GB DDR5 RAM 1TB M.2 SSD RTX 5070 (12GB GDDR7) Windows 11",
-      "brand": "notebooksbilliger.de",
-      "deviceType": "desktop",
-      "price": 2469,
-      "cpuClass": "mittel",
-      "hasGPU": true,
-      "ramGB": 32,
-      "storageGB": 512,
-      "mobility": 1,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "gaming"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FBILD_PCK07490_1_ce4e.jpg%3Fsize%3D400&feedId=27883&k=6efa8502eb4d13d6df74e11ac19a6773ba2f37a9",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44609169260&a=1569254&m=11348",
-      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
-    },
-    {
-      "id": "41578041458",
-      "name": "CSL Narrow Box Premium Mini PC Intel® Processor N200, 16GB DDR4 RAM, 500GB M.2 NVMe SSD, Intel UHD Grafik, Windows 11 Home",
-      "brand": "notebooksbilliger.de",
-      "deviceType": "laptop",
-      "price": 429,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding",
-        "school"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FCSL_Narrow_Box_Premium_1_cd80.jpg%3Fsize%3D400&feedId=27883&k=a80e112e19365ff548b92f3ce231cf31a4790a9d",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41578041458&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "41721041606",
-      "name": "Lenovo ThinkPad X1 Carbon Gen13 - 21NS00MMGE-CAMPUS 14\" 2.8K OLED, Intel Core Ultra 7 - 258V, 32GB RAM, 1TB SSD, Windows 11 Pro, Campus Exklusiv",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 2449,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_X1_Carbon_Gen_13_CT1_10_3327.jpg%3Fsize%3D400&feedId=27883&k=105c02be56c70ffd41be03f4e2c180c122536422",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41721041606&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "42631188490",
-      "name": "Lenovo ThinkPad X9-15 G1 21Q6001RGE - 15\" 2,8K, OLED, Intel® Core™ Ultra 5 228V, 32GB RAM, 512GB SSD, Windows 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 1620.37,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2Fbwpkzbfqwk95ur8ue8khvdbzucr5rz885957_2eee.jpg%3Fsize%3D400&feedId=27883&k=0edf457e1421a57efe52724606e51705038a4f9f",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42631188490&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "44011383871",
-      "name": "Lenovo IdeaPad 5 2-in-1 83KU0012GE - 16\" WUXGA , AMD Ryzen™ AI 7-350, 16GB RAM, 1 TB SSD, Windows 11",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 999,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 1000,
-      "mobility": 3,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FIdeaPad_5_2_in_1_16AKP10_CT1_14_1_1ea0.png%3Fsize%3D400&feedId=27883&k=0f176a333cd0b472d49836ea58e1d810e5979b19",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44011383871&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "43949562080",
-      "name": "HP Pro Mini 400 G9 DM A1JT7ES [Intel i7-13700T, 16GB RAM, 512GB SSD, Intel UHD Graphics 770, Windows 11 Pro]",
-      "brand": "HP",
-      "deviceType": "laptop",
-      "price": 819.99,
-      "cpuClass": "leistung",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 5,
-      "useCases": [
-        "office",
-        "coding",
-        "creative"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHP_ProMini400_G9_1_6cc7.jpg%3Fsize%3D400&feedId=27883&k=44292cdd6baf7458884dcb619940efb192ac3a5f",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43949562080&a=1569254&m=11348",
-      "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
-    },
-    {
-      "id": "42793058890",
-      "name": "HP ProBook 4 G1i 16 C7SS3ES 16\" WQXGA IPS, Intel Core Ultra 7 255H, 32GB RAM, 1TB SSD, Windows 11 Pro",
-      "brand": "HP",
-      "deviceType": "laptop",
-      "price": 1499,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 3,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_25C2_ProBook_4_G1i_Rainbowcake16_W11Pro_Front_d828.png%3Fsize%3D400&feedId=27883&k=c26fee22519bf42cb66ba6e6a37d54ef0dd63b7c",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42793058890&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "42438902138",
-      "name": "Lenovo ThinkPad X1 Carbon Gen13 - 21NS004TGE 14\" 2.8K OLED, Intel Core Ultra 7 - 258V, 32GB RAM, 2TB SSD, 5G, Windows 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 2999,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 2000,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_X1_Carbon_Gen_13_CT1_10_3327.jpg%3Fsize%3D400&feedId=27883&k=105c02be56c70ffd41be03f4e2c180c122536422",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42438902138&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "42438902171",
-      "name": "Lenovo ThinkPad T14 Gen6 - 21QJ00DVGE 14\" WUXGA, AMD Ryzen AI 7 PRO - 350, 32GB RAM, 1TB SSD, Windows 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 2479,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovoTP-T14-G6-01_eab1.png%3Fsize%3D400&feedId=27883&k=90dc7182bd6ba1fe9b3e69054fa7c6e248ed9e8d",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42438902171&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "43896695958",
-      "name": "Hyrican Diamond WT 7845 AMD Ryzen 7 9700X WAK 16GB DDR5 RAM 1TB SSD NVIDIA GeForce RTX 5060Ti (16GB GDDR7) Windows 11 Home",
-      "brand": "notebooksbilliger.de",
-      "deviceType": "desktop",
-      "price": 1759,
-      "cpuClass": "leistung",
-      "hasGPU": true,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 1,
-      "lifespanYears": 5,
-      "useCases": [
-        "office",
-        "gaming",
-        "creative"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHyricanDiamondWT7845-01_9d37.png%3Fsize%3D400&feedId=27883&k=671c00ea1be2407afdb884299c83af12ea3b1628",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43896695958&a=1569254&m=11348",
-      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
-    },
-    {
-      "id": "43825284648",
-      "name": "Hyrican Striker 7814 AMD Ryzen 7 9700X WAK 16GB DDR5 RAM 1TB SSD NVIDIA GeForce RTX 5070 (12GB GDDR7) Windows 11 Home",
-      "brand": "notebooksbilliger.de",
-      "deviceType": "desktop",
-      "price": 1939,
-      "cpuClass": "leistung",
-      "hasGPU": true,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 1,
-      "lifespanYears": 5,
-      "useCases": [
-        "office",
-        "gaming",
-        "creative"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHyricanStriker7814-01_ae11.png%3Fsize%3D400&feedId=27883&k=deca66461da92256a1e7f821e6c580efb310633e",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43825284648&a=1569254&m=11348",
-      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
-    },
-    {
-      "id": "44909202055",
-      "name": "Lenovo V15 AMN G4 - 82YU01AEGE 15\" FHD, AMD Ryzen™ 5 7520U, 16GB RAM, 512GB SSD, Windows 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 879,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovoV15-AMN-G4-01_d8a4.png%3Fsize%3D400&feedId=27883&k=57d0e4a04a9b2317989a58d607c612c4915a87b1",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44909202055&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "45133961096",
-      "name": "Microsoft Surface Laptop 13,8\" for Business - 8 Gen - EP2-59589 13,8\" Privacy Touchscreen, Snapdragon X2 Elite, 32GB RAM, 1TB SSD, Windows 11 Pro Schw",
-      "brand": "Microsoft",
-      "deviceType": "laptop",
-      "price": 3159,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FSUR-FY26-COMMR-HE-138-IN-B-Front-1x1-RGB.png%3Fsize%3D400&feedId=27883&k=6cf14572c4caf63c3268de91ac695471d15192a9",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=45133961096&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
       "id": "41950943275",
       "name": "Lenovo ThinkPad T14 Gen6 - 21QJ00DVGE-CAMPUS 14\" WUXGA, AMD Ryzen AI 7 PRO - 350, 32GB RAM, 1TB SSD, Windows 11 Pro, Campus Exklusiv",
       "brand": "Lenovo",
@@ -15459,652 +15459,6 @@
       "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHP_Pro400_G9_Tower_1_c983.jpg%3Fsize%3D400&feedId=27883&k=d9b40c4dd0661072ad5471b8a573198d302f0d15",
       "affiliateUrl": "https://www.awin1.com/pclick.php?p=38259280661&a=1569254&m=11348",
       "shortPitch": "Gutes Preis-Leistungs-Verhältnis für den festen Arbeitsplatz."
-    },
-    {
-      "id": "43809039652",
-      "name": "Acer NUC VN1502G Intel Core 3 100U, Intel Graphics, 2x DDR4 SO-DIMM, 1x M.2, WIFI 6E, BT 5.3, oOS",
-      "brand": "Acer",
-      "deviceType": "laptop",
-      "price": 319,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 10,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 3,
-      "useCases": [
-        "office",
-        "school"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2Facer-veriton-nuc-1502g-03_0_38c0.jpg%3Fsize%3D400&feedId=27883&k=3b56c165deb71107b12e1c5b0a49f24f9fd5c3b0",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43809039652&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "42541631640",
-      "name": "Lenovo ThinkPad T14s G6 21M1000CGE 14\" WUXGA, AMD Ryzen™ AI 7 PRO 360, 32GB RAM, 1TB SSD, Windows 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 2399,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovoTP-T14sG6-21M1000CGE-01_d47b.jpg%3Fsize%3D400&feedId=27883&k=b71c5fe42dc9bf95c63249a634adf48aeb8894b3",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42541631640&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "40957575676",
-      "name": "HP ZBook Ultra G1a A3ZQ0ET 14\" WUXGA IPS, AMD Ryzen AI Max PRO 390 (12 Core CPU, 32 Core GPU), 32GB RAM, 1TB SSD, Windows 11 Pro",
-      "brand": "HP",
-      "deviceType": "laptop",
-      "price": 2299,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHP_ZBook_Ultra_G1a_14_Mobile_Workstation_PC_AMD_MeteorSilver_FrontOpen_V3_7410.png%3Fsize%3D400&feedId=27883&k=3158d05b52bccae4a943be842adf59cc2b7a43a0",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=40957575676&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "42793058895",
-      "name": "HP ProBook 4 G1a 14 C7SP2ES 14\" WUXGA IPS 400 Nits, AMD Ryzen 7 250, 16GB RAM, 512GB SSD, Windows 11 Pro",
-      "brand": "HP",
-      "deviceType": "laptop",
-      "price": 999,
-      "cpuClass": "leistung",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 5,
-      "lifespanYears": 5,
-      "useCases": [
-        "office",
-        "coding",
-        "creative"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_25C2_ProBook_4_G1i_Rainbowcake14_W11Pro_Front_dcfc.png%3Fsize%3D400&feedId=27883&k=35726e7a6e57a4ff97b51775f91724402dab017c",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42793058895&a=1569254&m=11348",
-      "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
-    },
-    {
-      "id": "42438902130",
-      "name": "Lenovo ThinkPad T14s 2-in-1 Gen1 - 21R3003JGE 14\" WUXGA-touch 2in1, Intel Core Ultra 5 225U, 16GB RAM, 512GB SSD, Windows 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 1999,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovoTP-T14s2in1G1-01_cc6a.avif%3Fsize%3D400&feedId=27883&k=5f47e901cc80c5ee988b73192ed941e9a532a9b8",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42438902130&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "42541631793",
-      "name": "Lenovo ThinkBook 14 2-in-1 Gen5 - 21SQ000GGE 14\" 2-in-1 WUXGA, Intel Core Ultra 5 - 225U, 32GB RAM, 512GB SSD, Windows 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 1349,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 512,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkBook_14_2_in_1_G5_IAU_CT1_07_a599.jpg%3Fsize%3D400&feedId=27883&k=3f25843dfa3a387475200b277c1c0c10a7a1e132",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42541631793&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "44129480884",
-      "name": "HP Pro Mini 400 G9 DM D3JU2ES [Intel Core i5-12500T, 16GB RAM, 512GB SSD, Intel UHD Graphics 770, DOS]",
-      "brand": "HP",
-      "deviceType": "laptop",
-      "price": 589.99,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding",
-        "school"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHP_ProMini400_G9_1_6cc7.jpg%3Fsize%3D400&feedId=27883&k=44292cdd6baf7458884dcb619940efb192ac3a5f",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44129480884&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "43709993055",
-      "name": "Hyrican HYPE-M BK 7824 AMD Ryzen 5 7500F 16GB DDR5 RAM 1TB SSD NVIDIA GeForce RTX 5060 Windows 11 Home",
-      "brand": "notebooksbilliger.de",
-      "deviceType": "desktop",
-      "price": 1439,
-      "cpuClass": "mittel",
-      "hasGPU": true,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 1,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "gaming"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHyricanHYPE-M-BK-7824-01_c510.png%3Fsize%3D400&feedId=27883&k=08ce1e5a273b983e36ab04abbe8f404eab9a6d93",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43709993055&a=1569254&m=11348",
-      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
-    },
-    {
-      "id": "37969953746",
-      "name": "Lenovo ThinkPad X1 Carbon G12 21KC0065GE - 14.0\" WUXGA, Intel® Core™ Ultra 5 125U, 16GB, 512GB, 4G, Windows 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 2129,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2Faz3wzqybxqqtsi2rh6v1klhw0jmlbz785737_4a59.jpg%3Fsize%3D400&feedId=27883&k=cdc8e5771887790ed3b05ff452edb471f7502543",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=37969953746&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "39890156349",
-      "name": "HP EliteBook 845 G9 9M438AT 14\" WUXGA IPS, AMD Ryzen 5 PRO 6650U, 16GB RAM, 512GB SSD, Windows 11 Pro",
-      "brand": "HP",
-      "deviceType": "laptop",
-      "price": 899,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHP_EliteBook_Warpath_14_NaturalSilver_IRcam_FPR_Win11_FrontOpen_01_5d44.png%3Fsize%3D400&feedId=27883&k=3e3f74abcfffad40d61156b9b037552cd3986806",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=39890156349&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "41588337304",
-      "name": "CSL Unity F27B-ALS All-in-One PC 27\" (68,6cm) FHD Display, Intel N200, 32GB RAM, 512GB M.2 SSD, Intel Grafik, Wi-Fi 6, Bluetooth 5.2, Windows 11 Pro",
-      "brand": "notebooksbilliger.de",
-      "deviceType": "desktop",
-      "price": 719,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 512,
-      "mobility": 1,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01-CSL-AIO-Unity-F27B-ALS-schwarz_Hauptansicht_international_3310.jpg%3Fsize%3D400&feedId=27883&k=57c003c9d7baebd778ebca6483d4e2ff37b1ba5e",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41588337304&a=1569254&m=11348",
-      "shortPitch": "Gutes Preis-Leistungs-Verhältnis für den festen Arbeitsplatz."
-    },
-    {
-      "id": "42486310238",
-      "name": "Lenovo ThinkPad E14 Gen7 - 21SX000RGE 14\" WUXGA IPS, Intel Core Ultra 5 - 225U, 16GB RAM, 512GB SSD, Windows 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 1149,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_E14_Gen_7_Intel_CT1_03_d749.jpg%3Fsize%3D400&feedId=27883&k=da4e5f68c35e26d8c48e85a8666040d51271904c",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42486310238&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "42541631813",
-      "name": "Lenovo ThinkPad T14s Gen6 - 21R1003BGE 14\" WUXGA, Intel Core Ultra 5 - 225U, 16GB RAM, 512GB SSD, Windows 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 1699,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovoTP-T14sG6-01_55f9.png%3Fsize%3D400&feedId=27883&k=36a64e6938592170e425d2accbdd00abd4a5be4f",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42541631813&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "43359532906",
-      "name": "Lenovo ThinkBook 14 G8 21SJ007SGE - 14\" WUXGA, Intel® Core Ultra 7 255H, 32GB, 1TB, Windows 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 1299,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovoTB14-G8-01_9c2e.png%3Fsize%3D400&feedId=27883&k=14a4fff9be4638223c79c1a3a44cdc22720d378f",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43359532906&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "42541631816",
-      "name": "Lenovo ThinkPad T14s Gen6 - 21R10067GE 14\" WUXGA, Intel Core Ultra 7 - 255U, 32GB RAM, 1TB SSD, LTE, Windows 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 2399,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovoTP-T14sGen6-01_8f96.avif%3Fsize%3D400&feedId=27883&k=7b31db2544c23c811c3280e50bd2d8061f7d5212",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42541631816&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "44532686625",
-      "name": "ASUS Zenbook S14 OLED UX5406SA-PV524W - 14\" 2,8k OLED, Intel Core Ultra 7-258V, 32GB RAM, 1000GB SSD, Windows 11",
-      "brand": "ASUS",
-      "deviceType": "laptop",
-      "price": 1499,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FDownload_5_ba46.jpg%3Fsize%3D400&feedId=27883&k=d6974b9a4d9b6a4824a243413b9a476080d6d73a",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44532686625&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "44327049444",
-      "name": "Microsoft Surface Laptop 6 for business 13,5\" - ZJY-00030 - 13,5\" IPS, Intel® Core™ Ultra 7 - 165H, 32GB RAM, 256GB SSD, Windows 11 Pro, Platinum",
-      "brand": "Microsoft",
-      "deviceType": "laptop",
-      "price": 2249,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 256,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FNTS_53d7.png%3Fsize%3D400&feedId=27883&k=6fea36bb64d434e29c7d1d95f32d28be7cbd51b3",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44327049444&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "38838359060",
-      "name": "MSI Barebone Cubi 5 12M-282BAT MFF 16GB RAM 512GB SSD Bundle i3-1215U, Intel Grafik, 2x DDR4 SO-DIMM, 1x M.2, 1x 2,5\", WIFI 6E, BT 5.3",
-      "brand": "MSI",
-      "deviceType": "laptop",
-      "price": 499,
-      "cpuClass": "einsteiger",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 2,
-      "useCases": [
-        "office",
-        "coding",
-        "school"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2Fmsi-cubi_5_12m-MAIN_c093.jpg%3Fsize%3D400&feedId=27883&k=082129f4e505621f6f108fd8246840d38a5e886c",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=38838359060&a=1569254&m=11348",
-      "shortPitch": "Günstiger Einstieg für Alltagsaufgaben."
-    },
-    {
-      "id": "41446775955",
-      "name": "Lenovo ThinkCentre M90s SFF 12HQ0003GE - Intel i5-13500, 16GB DDR5 RAM, 512GB SSD, Intel UHD Grafik 770, Win11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 799.99,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FTC_M90s_Side1_b24e.png%3Fsize%3D400&feedId=27883&k=a6d8c7bce92b2ef6d63e05739dd2b02bd91da036",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41446775955&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "42793058891",
-      "name": "HP ProBook 4 G1i 16 C7SS4ES 16\" WUXGA IPS 400 Nits, Intel Core Ultra 7 255H, 32GB RAM, 1TB SSD, RTX 3050, Windows 11 Pro",
-      "brand": "HP",
-      "deviceType": "laptop",
-      "price": 1699,
-      "cpuClass": "mittel",
-      "hasGPU": true,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 3,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "gaming"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_25C2_ProBook_4_G1i_Rainbowcake16_W11Pro_Front_d828.png%3Fsize%3D400&feedId=27883&k=c26fee22519bf42cb66ba6e6a37d54ef0dd63b7c",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42793058891&a=1569254&m=11348",
-      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
-    },
-    {
-      "id": "42636605067",
-      "name": "Lenovo ThinkPad X1 Carbon Gen13 - 21NX007GGE 14\" WUXGA IPS, Intel Core Ultra 7 - 255U, 32GB RAM, 1TB SSD, 5G, Windows 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 2749,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_X1_Carbon_Gen_13_CT1_10_3327.jpg%3Fsize%3D400&feedId=27883&k=105c02be56c70ffd41be03f4e2c180c122536422",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42636605067&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "43825284610",
-      "name": "Lenovo ThinkPad X1 Carbon Gen13 - 21NS004NGE 14\" WUXGA Touch, Intel Core Ultra 7 - 258V, 32GB RAM, 1TB SSD, 5G, Windows 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 2799,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_X1_Carbon_Gen_13_CT1_10_3327.jpg%3Fsize%3D400&feedId=27883&k=105c02be56c70ffd41be03f4e2c180c122536422",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43825284610&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "43472771145",
-      "name": "Lenovo V15 G5 83GW00A9GE - 15,6\" FHD, Intel® Core™ i5 13420H, 16GB RAM, 1TB SSD, DOS",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 599,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 1000,
-      "mobility": 4,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding",
-        "school"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovo_V15_G4_IAH_CT1_01_c3dc.jpeg%3Fsize%3D400&feedId=27883&k=7aa92a854da3cb1c7a8109bf658b4d50007ed056",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43472771145&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "43896695959",
-      "name": "Hyrican Diamond WT 7844 AMD Ryzen 5 9600X WAK 16GB DDR5 RAM 1TB SSD NVIDIA GeForce RTX 5060 Windows 11 Home",
-      "brand": "notebooksbilliger.de",
-      "deviceType": "desktop",
-      "price": 1529,
-      "cpuClass": "mittel",
-      "hasGPU": true,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 1,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "gaming"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHyricanDiamondWT7845-01_9d37.png%3Fsize%3D400&feedId=27883&k=671c00ea1be2407afdb884299c83af12ea3b1628",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43896695959&a=1569254&m=11348",
-      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
-    },
-    {
-      "id": "41584857732",
-      "name": "CSL VenomBox Mini PC AMD® Ryzen 5 7640HS, 16GB DDR5 RAM, 500GB M.2 NVMe SSD, Radeon 760M, oOS",
-      "brand": "notebooksbilliger.de",
-      "deviceType": "laptop",
-      "price": 659,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FCSL_Venom_Box_HS_1_c33c.jpg%3Fsize%3D400&feedId=27883&k=5ebbd72548b2f15e8a153eb86c202579c7d45d09",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41584857732&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "43878641832",
-      "name": "Lenovo ThinkCentre Neo 50t Tower 12UD0045GE - Intel i5-14400, 16GB DDR5 RAM, 512GB SSD, Intel UHD Grafik 730, DOS",
-      "brand": "Lenovo",
-      "deviceType": "desktop",
-      "price": 699.99,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 1,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FTC_Neo_50t_Side4_1_c022.png%3Fsize%3D400&feedId=27883&k=956e665a2badd3e68811b13b110572c599396d91",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43878641832&a=1569254&m=11348",
-      "shortPitch": "Gutes Preis-Leistungs-Verhältnis für den festen Arbeitsplatz."
-    },
-    {
-      "id": "39053404192",
-      "name": "Lenovo ThinkCentre Neo 50t Tower 12UD000NGE - Intel i5-13400, 16GB DDR5 RAM, 512GB SSD, Intel UHD Grafik 730, Win11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "desktop",
-      "price": 799.99,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 1,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FTC_Neo_50t_Side4_1_c022.png%3Fsize%3D400&feedId=27883&k=956e665a2badd3e68811b13b110572c599396d91",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=39053404192&a=1569254&m=11348",
-      "shortPitch": "Gutes Preis-Leistungs-Verhältnis für den festen Arbeitsplatz."
-    },
-    {
-      "id": "42541631794",
-      "name": "Lenovo ThinkBook 14 2-in-1 Gen5 - 21SQ0013GE 14\" 2-in-1 WUXGA, Intel Core Ultra 7 - 225U, 32GB RAM, 1TB SSD, Windows 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 1749,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkBook_14_2_in_1_G5_IAU_CT2_01_8859.jpg%3Fsize%3D400&feedId=27883&k=f17b3bf0cc864e11f1b6e2cbcf37ce060ca51980",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42541631794&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "41578041464",
-      "name": "CSL Narrow Box i3 Mini PC Intel® Core i3 N305, 16GB DDR4 RAM, 500GB M.2 NVMe SSD, Intel UHD Grafik, Windows 11 Home",
-      "brand": "notebooksbilliger.de",
-      "deviceType": "laptop",
-      "price": 479,
-      "cpuClass": "einsteiger",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 2,
-      "useCases": [
-        "office",
-        "coding",
-        "school"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FCSL_Narrow_Box_Premium_1_cd80.jpg%3Fsize%3D400&feedId=27883&k=a80e112e19365ff548b92f3ce231cf31a4790a9d",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41578041464&a=1569254&m=11348",
-      "shortPitch": "Günstiger Einstieg für Alltagsaufgaben."
-    },
-    {
-      "id": "45009667946",
-      "name": "Hyrican Draco XD 7799 AMD Ryzen 5 7500F 16GB DDR5 RAM 1TB SSD NVIDIA GeForce RTX 5060Ti (16GB GDDR7) Windows 11 Home",
-      "brand": "notebooksbilliger.de",
-      "deviceType": "desktop",
-      "price": 1569,
-      "cpuClass": "mittel",
-      "hasGPU": true,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 1,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "gaming"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHyricanDracoXD-7799-01_711e.png%3Fsize%3D400&feedId=27883&k=36fb38bdbc591ba337d5b733477921f10460bc27",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=45009667946&a=1569254&m=11348",
-      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
-    },
-    {
-      "id": "41584857735",
-      "name": "CSL VenomBox Mini PC AMD® Ryzen 5 7640HS, 16GB DDR5 RAM, 1000GB M.2 NVMe SSD, Radeon 760M, Windows 11 Home",
-      "brand": "notebooksbilliger.de",
-      "deviceType": "laptop",
-      "price": 799,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FCSL_Venom_Box_HS_1_c33c.jpg%3Fsize%3D400&feedId=27883&k=5ebbd72548b2f15e8a153eb86c202579c7d45d09",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41584857735&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "41578041462",
-      "name": "CSL Narrow Box Premium Mini PC Intel® Processor N200, 16GB DDR4 RAM, 1000GB M.2 NVMe SSD, Intel UHD Grafik, Windows 11 Pro",
-      "brand": "notebooksbilliger.de",
-      "deviceType": "laptop",
-      "price": 519,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding",
-        "school"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FCSL_Narrow_Box_Premium_1_cd80.jpg%3Fsize%3D400&feedId=27883&k=a80e112e19365ff548b92f3ce231cf31a4790a9d",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41578041462&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
       "id": "45563249357",
@@ -25189,6 +24543,652 @@
       "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHP_EliteStudio_8_G1i_1_030e.jpg%3Fsize%3D400&feedId=27883&k=b7d12d0c96957e67f263b8f9a452e9826d52cfaf",
       "affiliateUrl": "https://www.awin1.com/pclick.php?p=44070304138&a=1569254&m=11348",
       "shortPitch": "Gutes Preis-Leistungs-Verhältnis für den festen Arbeitsplatz."
+    },
+    {
+      "id": "43809039652",
+      "name": "Acer NUC VN1502G Intel Core 3 100U, Intel Graphics, 2x DDR4 SO-DIMM, 1x M.2, WIFI 6E, BT 5.3, oOS",
+      "brand": "Acer",
+      "deviceType": "laptop",
+      "price": 319,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 10,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 3,
+      "useCases": [
+        "office",
+        "school"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2Facer-veriton-nuc-1502g-03_0_38c0.jpg%3Fsize%3D400&feedId=27883&k=3b56c165deb71107b12e1c5b0a49f24f9fd5c3b0",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43809039652&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "42541631640",
+      "name": "Lenovo ThinkPad T14s G6 21M1000CGE 14\" WUXGA, AMD Ryzen™ AI 7 PRO 360, 32GB RAM, 1TB SSD, Windows 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 2399,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovoTP-T14sG6-21M1000CGE-01_d47b.jpg%3Fsize%3D400&feedId=27883&k=b71c5fe42dc9bf95c63249a634adf48aeb8894b3",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42541631640&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "40957575676",
+      "name": "HP ZBook Ultra G1a A3ZQ0ET 14\" WUXGA IPS, AMD Ryzen AI Max PRO 390 (12 Core CPU, 32 Core GPU), 32GB RAM, 1TB SSD, Windows 11 Pro",
+      "brand": "HP",
+      "deviceType": "laptop",
+      "price": 2299,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHP_ZBook_Ultra_G1a_14_Mobile_Workstation_PC_AMD_MeteorSilver_FrontOpen_V3_7410.png%3Fsize%3D400&feedId=27883&k=3158d05b52bccae4a943be842adf59cc2b7a43a0",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=40957575676&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "42793058895",
+      "name": "HP ProBook 4 G1a 14 C7SP2ES 14\" WUXGA IPS 400 Nits, AMD Ryzen 7 250, 16GB RAM, 512GB SSD, Windows 11 Pro",
+      "brand": "HP",
+      "deviceType": "laptop",
+      "price": 999,
+      "cpuClass": "leistung",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 5,
+      "lifespanYears": 5,
+      "useCases": [
+        "office",
+        "coding",
+        "creative"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_25C2_ProBook_4_G1i_Rainbowcake14_W11Pro_Front_dcfc.png%3Fsize%3D400&feedId=27883&k=35726e7a6e57a4ff97b51775f91724402dab017c",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42793058895&a=1569254&m=11348",
+      "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
+    },
+    {
+      "id": "42438902130",
+      "name": "Lenovo ThinkPad T14s 2-in-1 Gen1 - 21R3003JGE 14\" WUXGA-touch 2in1, Intel Core Ultra 5 225U, 16GB RAM, 512GB SSD, Windows 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 1999,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovoTP-T14s2in1G1-01_cc6a.avif%3Fsize%3D400&feedId=27883&k=5f47e901cc80c5ee988b73192ed941e9a532a9b8",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42438902130&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "42541631793",
+      "name": "Lenovo ThinkBook 14 2-in-1 Gen5 - 21SQ000GGE 14\" 2-in-1 WUXGA, Intel Core Ultra 5 - 225U, 32GB RAM, 512GB SSD, Windows 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 1349,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 512,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkBook_14_2_in_1_G5_IAU_CT1_07_a599.jpg%3Fsize%3D400&feedId=27883&k=3f25843dfa3a387475200b277c1c0c10a7a1e132",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42541631793&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "44129480884",
+      "name": "HP Pro Mini 400 G9 DM D3JU2ES [Intel Core i5-12500T, 16GB RAM, 512GB SSD, Intel UHD Graphics 770, DOS]",
+      "brand": "HP",
+      "deviceType": "laptop",
+      "price": 589.99,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding",
+        "school"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHP_ProMini400_G9_1_6cc7.jpg%3Fsize%3D400&feedId=27883&k=44292cdd6baf7458884dcb619940efb192ac3a5f",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44129480884&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "43709993055",
+      "name": "Hyrican HYPE-M BK 7824 AMD Ryzen 5 7500F 16GB DDR5 RAM 1TB SSD NVIDIA GeForce RTX 5060 Windows 11 Home",
+      "brand": "notebooksbilliger.de",
+      "deviceType": "desktop",
+      "price": 1439,
+      "cpuClass": "mittel",
+      "hasGPU": true,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 1,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "gaming"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHyricanHYPE-M-BK-7824-01_c510.png%3Fsize%3D400&feedId=27883&k=08ce1e5a273b983e36ab04abbe8f404eab9a6d93",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43709993055&a=1569254&m=11348",
+      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
+    },
+    {
+      "id": "37969953746",
+      "name": "Lenovo ThinkPad X1 Carbon G12 21KC0065GE - 14.0\" WUXGA, Intel® Core™ Ultra 5 125U, 16GB, 512GB, 4G, Windows 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 2129,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2Faz3wzqybxqqtsi2rh6v1klhw0jmlbz785737_4a59.jpg%3Fsize%3D400&feedId=27883&k=cdc8e5771887790ed3b05ff452edb471f7502543",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=37969953746&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "39890156349",
+      "name": "HP EliteBook 845 G9 9M438AT 14\" WUXGA IPS, AMD Ryzen 5 PRO 6650U, 16GB RAM, 512GB SSD, Windows 11 Pro",
+      "brand": "HP",
+      "deviceType": "laptop",
+      "price": 899,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHP_EliteBook_Warpath_14_NaturalSilver_IRcam_FPR_Win11_FrontOpen_01_5d44.png%3Fsize%3D400&feedId=27883&k=3e3f74abcfffad40d61156b9b037552cd3986806",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=39890156349&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "41588337304",
+      "name": "CSL Unity F27B-ALS All-in-One PC 27\" (68,6cm) FHD Display, Intel N200, 32GB RAM, 512GB M.2 SSD, Intel Grafik, Wi-Fi 6, Bluetooth 5.2, Windows 11 Pro",
+      "brand": "notebooksbilliger.de",
+      "deviceType": "desktop",
+      "price": 719,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 512,
+      "mobility": 1,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01-CSL-AIO-Unity-F27B-ALS-schwarz_Hauptansicht_international_3310.jpg%3Fsize%3D400&feedId=27883&k=57c003c9d7baebd778ebca6483d4e2ff37b1ba5e",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41588337304&a=1569254&m=11348",
+      "shortPitch": "Gutes Preis-Leistungs-Verhältnis für den festen Arbeitsplatz."
+    },
+    {
+      "id": "42486310238",
+      "name": "Lenovo ThinkPad E14 Gen7 - 21SX000RGE 14\" WUXGA IPS, Intel Core Ultra 5 - 225U, 16GB RAM, 512GB SSD, Windows 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 1149,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_E14_Gen_7_Intel_CT1_03_d749.jpg%3Fsize%3D400&feedId=27883&k=da4e5f68c35e26d8c48e85a8666040d51271904c",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42486310238&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "42541631813",
+      "name": "Lenovo ThinkPad T14s Gen6 - 21R1003BGE 14\" WUXGA, Intel Core Ultra 5 - 225U, 16GB RAM, 512GB SSD, Windows 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 1699,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovoTP-T14sG6-01_55f9.png%3Fsize%3D400&feedId=27883&k=36a64e6938592170e425d2accbdd00abd4a5be4f",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42541631813&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "43359532906",
+      "name": "Lenovo ThinkBook 14 G8 21SJ007SGE - 14\" WUXGA, Intel® Core Ultra 7 255H, 32GB, 1TB, Windows 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 1299,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovoTB14-G8-01_9c2e.png%3Fsize%3D400&feedId=27883&k=14a4fff9be4638223c79c1a3a44cdc22720d378f",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43359532906&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "42541631816",
+      "name": "Lenovo ThinkPad T14s Gen6 - 21R10067GE 14\" WUXGA, Intel Core Ultra 7 - 255U, 32GB RAM, 1TB SSD, LTE, Windows 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 2399,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovoTP-T14sGen6-01_8f96.avif%3Fsize%3D400&feedId=27883&k=7b31db2544c23c811c3280e50bd2d8061f7d5212",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42541631816&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "44532686625",
+      "name": "ASUS Zenbook S14 OLED UX5406SA-PV524W - 14\" 2,8k OLED, Intel Core Ultra 7-258V, 32GB RAM, 1000GB SSD, Windows 11",
+      "brand": "ASUS",
+      "deviceType": "laptop",
+      "price": 1499,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FDownload_5_ba46.jpg%3Fsize%3D400&feedId=27883&k=d6974b9a4d9b6a4824a243413b9a476080d6d73a",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44532686625&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "44327049444",
+      "name": "Microsoft Surface Laptop 6 for business 13,5\" - ZJY-00030 - 13,5\" IPS, Intel® Core™ Ultra 7 - 165H, 32GB RAM, 256GB SSD, Windows 11 Pro, Platinum",
+      "brand": "Microsoft",
+      "deviceType": "laptop",
+      "price": 2249,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 256,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FNTS_53d7.png%3Fsize%3D400&feedId=27883&k=6fea36bb64d434e29c7d1d95f32d28be7cbd51b3",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44327049444&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "38838359060",
+      "name": "MSI Barebone Cubi 5 12M-282BAT MFF 16GB RAM 512GB SSD Bundle i3-1215U, Intel Grafik, 2x DDR4 SO-DIMM, 1x M.2, 1x 2,5\", WIFI 6E, BT 5.3",
+      "brand": "MSI",
+      "deviceType": "laptop",
+      "price": 499,
+      "cpuClass": "einsteiger",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 2,
+      "useCases": [
+        "office",
+        "coding",
+        "school"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2Fmsi-cubi_5_12m-MAIN_c093.jpg%3Fsize%3D400&feedId=27883&k=082129f4e505621f6f108fd8246840d38a5e886c",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=38838359060&a=1569254&m=11348",
+      "shortPitch": "Günstiger Einstieg für Alltagsaufgaben."
+    },
+    {
+      "id": "41446775955",
+      "name": "Lenovo ThinkCentre M90s SFF 12HQ0003GE - Intel i5-13500, 16GB DDR5 RAM, 512GB SSD, Intel UHD Grafik 770, Win11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 799.99,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FTC_M90s_Side1_b24e.png%3Fsize%3D400&feedId=27883&k=a6d8c7bce92b2ef6d63e05739dd2b02bd91da036",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41446775955&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "42793058891",
+      "name": "HP ProBook 4 G1i 16 C7SS4ES 16\" WUXGA IPS 400 Nits, Intel Core Ultra 7 255H, 32GB RAM, 1TB SSD, RTX 3050, Windows 11 Pro",
+      "brand": "HP",
+      "deviceType": "laptop",
+      "price": 1699,
+      "cpuClass": "mittel",
+      "hasGPU": true,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 3,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "gaming"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_25C2_ProBook_4_G1i_Rainbowcake16_W11Pro_Front_d828.png%3Fsize%3D400&feedId=27883&k=c26fee22519bf42cb66ba6e6a37d54ef0dd63b7c",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42793058891&a=1569254&m=11348",
+      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
+    },
+    {
+      "id": "42636605067",
+      "name": "Lenovo ThinkPad X1 Carbon Gen13 - 21NX007GGE 14\" WUXGA IPS, Intel Core Ultra 7 - 255U, 32GB RAM, 1TB SSD, 5G, Windows 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 2749,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_X1_Carbon_Gen_13_CT1_10_3327.jpg%3Fsize%3D400&feedId=27883&k=105c02be56c70ffd41be03f4e2c180c122536422",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42636605067&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "43825284610",
+      "name": "Lenovo ThinkPad X1 Carbon Gen13 - 21NS004NGE 14\" WUXGA Touch, Intel Core Ultra 7 - 258V, 32GB RAM, 1TB SSD, 5G, Windows 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 2799,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_X1_Carbon_Gen_13_CT1_10_3327.jpg%3Fsize%3D400&feedId=27883&k=105c02be56c70ffd41be03f4e2c180c122536422",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43825284610&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "43472771145",
+      "name": "Lenovo V15 G5 83GW00A9GE - 15,6\" FHD, Intel® Core™ i5 13420H, 16GB RAM, 1TB SSD, DOS",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 599,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 1000,
+      "mobility": 4,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding",
+        "school"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovo_V15_G4_IAH_CT1_01_c3dc.jpeg%3Fsize%3D400&feedId=27883&k=7aa92a854da3cb1c7a8109bf658b4d50007ed056",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43472771145&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "43896695959",
+      "name": "Hyrican Diamond WT 7844 AMD Ryzen 5 9600X WAK 16GB DDR5 RAM 1TB SSD NVIDIA GeForce RTX 5060 Windows 11 Home",
+      "brand": "notebooksbilliger.de",
+      "deviceType": "desktop",
+      "price": 1529,
+      "cpuClass": "mittel",
+      "hasGPU": true,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 1,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "gaming"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHyricanDiamondWT7845-01_9d37.png%3Fsize%3D400&feedId=27883&k=671c00ea1be2407afdb884299c83af12ea3b1628",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43896695959&a=1569254&m=11348",
+      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
+    },
+    {
+      "id": "41584857732",
+      "name": "CSL VenomBox Mini PC AMD® Ryzen 5 7640HS, 16GB DDR5 RAM, 500GB M.2 NVMe SSD, Radeon 760M, oOS",
+      "brand": "notebooksbilliger.de",
+      "deviceType": "laptop",
+      "price": 659,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FCSL_Venom_Box_HS_1_c33c.jpg%3Fsize%3D400&feedId=27883&k=5ebbd72548b2f15e8a153eb86c202579c7d45d09",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41584857732&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "43878641832",
+      "name": "Lenovo ThinkCentre Neo 50t Tower 12UD0045GE - Intel i5-14400, 16GB DDR5 RAM, 512GB SSD, Intel UHD Grafik 730, DOS",
+      "brand": "Lenovo",
+      "deviceType": "desktop",
+      "price": 699.99,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 1,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FTC_Neo_50t_Side4_1_c022.png%3Fsize%3D400&feedId=27883&k=956e665a2badd3e68811b13b110572c599396d91",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43878641832&a=1569254&m=11348",
+      "shortPitch": "Gutes Preis-Leistungs-Verhältnis für den festen Arbeitsplatz."
+    },
+    {
+      "id": "39053404192",
+      "name": "Lenovo ThinkCentre Neo 50t Tower 12UD000NGE - Intel i5-13400, 16GB DDR5 RAM, 512GB SSD, Intel UHD Grafik 730, Win11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "desktop",
+      "price": 799.99,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 1,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FTC_Neo_50t_Side4_1_c022.png%3Fsize%3D400&feedId=27883&k=956e665a2badd3e68811b13b110572c599396d91",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=39053404192&a=1569254&m=11348",
+      "shortPitch": "Gutes Preis-Leistungs-Verhältnis für den festen Arbeitsplatz."
+    },
+    {
+      "id": "42541631794",
+      "name": "Lenovo ThinkBook 14 2-in-1 Gen5 - 21SQ0013GE 14\" 2-in-1 WUXGA, Intel Core Ultra 7 - 225U, 32GB RAM, 1TB SSD, Windows 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 1749,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkBook_14_2_in_1_G5_IAU_CT2_01_8859.jpg%3Fsize%3D400&feedId=27883&k=f17b3bf0cc864e11f1b6e2cbcf37ce060ca51980",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42541631794&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "41578041464",
+      "name": "CSL Narrow Box i3 Mini PC Intel® Core i3 N305, 16GB DDR4 RAM, 500GB M.2 NVMe SSD, Intel UHD Grafik, Windows 11 Home",
+      "brand": "notebooksbilliger.de",
+      "deviceType": "laptop",
+      "price": 479,
+      "cpuClass": "einsteiger",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 2,
+      "useCases": [
+        "office",
+        "coding",
+        "school"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FCSL_Narrow_Box_Premium_1_cd80.jpg%3Fsize%3D400&feedId=27883&k=a80e112e19365ff548b92f3ce231cf31a4790a9d",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41578041464&a=1569254&m=11348",
+      "shortPitch": "Günstiger Einstieg für Alltagsaufgaben."
+    },
+    {
+      "id": "45009667946",
+      "name": "Hyrican Draco XD 7799 AMD Ryzen 5 7500F 16GB DDR5 RAM 1TB SSD NVIDIA GeForce RTX 5060Ti (16GB GDDR7) Windows 11 Home",
+      "brand": "notebooksbilliger.de",
+      "deviceType": "desktop",
+      "price": 1569,
+      "cpuClass": "mittel",
+      "hasGPU": true,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 1,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "gaming"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHyricanDracoXD-7799-01_711e.png%3Fsize%3D400&feedId=27883&k=36fb38bdbc591ba337d5b733477921f10460bc27",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=45009667946&a=1569254&m=11348",
+      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
+    },
+    {
+      "id": "41584857735",
+      "name": "CSL VenomBox Mini PC AMD® Ryzen 5 7640HS, 16GB DDR5 RAM, 1000GB M.2 NVMe SSD, Radeon 760M, Windows 11 Home",
+      "brand": "notebooksbilliger.de",
+      "deviceType": "laptop",
+      "price": 799,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FCSL_Venom_Box_HS_1_c33c.jpg%3Fsize%3D400&feedId=27883&k=5ebbd72548b2f15e8a153eb86c202579c7d45d09",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41584857735&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "41578041462",
+      "name": "CSL Narrow Box Premium Mini PC Intel® Processor N200, 16GB DDR4 RAM, 1000GB M.2 NVMe SSD, Intel UHD Grafik, Windows 11 Pro",
+      "brand": "notebooksbilliger.de",
+      "deviceType": "laptop",
+      "price": 519,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding",
+        "school"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FCSL_Narrow_Box_Premium_1_cd80.jpg%3Fsize%3D400&feedId=27883&k=a80e112e19365ff548b92f3ce231cf31a4790a9d",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41578041462&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
       "id": "44940556753",
@@ -54505,6 +54505,27 @@
       "shortPitch": "Günstiger Einstieg für Alltagsaufgaben."
     },
     {
+      "id": "44268050237",
+      "name": "Acer Veriton N2595G Mini PC Intel Core i5-13420H, 16 GB DDR5 RAM, 512 GB M.2 SSD, WIFI 6E, BT 5.3, oOS",
+      "brand": "Acer",
+      "deviceType": "laptop",
+      "price": 559,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding",
+        "school"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2Facer-revo-box-rb610-07_1_312a.png%3Fsize%3D400&feedId=27883&k=4485cceb373809381ddbaadd240661bba45d80b9",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44268050237&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
       "id": "41586836485",
       "name": "CSL Unity F27B-ALS All-in-One PC 27\" (68,6cm) FHD Display, Intel N200, 8GB RAM, 256GB M.2 SSD, Intel Grafik, Wi-Fi 6, Bluetooth 5.2, Windows 11",
       "brand": "notebooksbilliger.de",
@@ -54542,27 +54563,6 @@
       ],
       "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F23C1_OPP_VladEunice_17_FFPlus_NaturalSilver_NT_HDcam_nonFPR_nonBL_Win11_01_6797.png%3Fsize%3D400&feedId=27883&k=f79ec97c460063d1f9eb64d41255962345cf9b6a",
       "affiliateUrl": "https://www.awin1.com/pclick.php?p=44048438157&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "44268050237",
-      "name": "Acer Veriton N2595G Mini PC Intel Core i5-13420H, 16 GB DDR5 RAM, 512 GB M.2 SSD, WIFI 6E, BT 5.3, oOS",
-      "brand": "Acer",
-      "deviceType": "laptop",
-      "price": 559,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding",
-        "school"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2Facer-revo-box-rb610-07_1_312a.png%3Fsize%3D400&feedId=27883&k=4485cceb373809381ddbaadd240661bba45d80b9",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44268050237&a=1569254&m=11348",
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
@@ -54606,6 +54606,26 @@
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
+      "id": "41090090558",
+      "name": "Surface Pro 10 for business - 13\" - 13\" PixelSense IPS, Intel® Core™ Ultra 5 - 135U, 16GB RAM, 256GB SSD, Windows 11 Pro, Device Only, Black",
+      "brand": "notebooksbilliger.de",
+      "deviceType": "laptop",
+      "price": 1837.87,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 256,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FSurface10_daf2.png%3Fsize%3D400&feedId=27883&k=a99d4c4fd40d1b3f30f855055a90525a7d2b15f0",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41090090558&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
       "id": "41950943272",
       "name": "Lenovo ThinkPad L16 Gen2 - 21SA002EGE-CAMPUS 16\" WUXGA, Intel Core Ultra 7 - 255U, 16GB RAM, 512GB SSD, Windows 11 Pro, Campus Exklusiv",
       "brand": "Lenovo",
@@ -54646,24 +54666,24 @@
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
-      "id": "41090090558",
-      "name": "Surface Pro 10 for business - 13\" - 13\" PixelSense IPS, Intel® Core™ Ultra 5 - 135U, 16GB RAM, 256GB SSD, Windows 11 Pro, Device Only, Black",
-      "brand": "notebooksbilliger.de",
+      "id": "45349996781",
+      "name": "Acer Predator Helios Neo 16 AI (PHN16-73-9816) 16,0\" WQXGA, IPS, 240Hz, Intel i9U-275HX, 32GB RAM, 1TB SSD, GeForce RTX5070, Windows 11",
+      "brand": "Acer",
       "deviceType": "laptop",
-      "price": 1837.87,
+      "price": 2699,
       "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 256,
-      "mobility": 5,
+      "hasGPU": true,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 3,
       "lifespanYears": 4,
       "useCases": [
         "office",
-        "coding"
+        "gaming"
       ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FSurface10_daf2.png%3Fsize%3D400&feedId=27883&k=a99d4c4fd40d1b3f30f855055a90525a7d2b15f0",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41090090558&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2Fpredator-helios-neo-16-ai-phn16-73-non-fingerprint-with-backlit-on-wp-abyssal-black-01-custom.jpg%3Fsize%3D400&feedId=27883&k=c737df7e26ee744ffb7908db16e6de70b821b88b",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=45349996781&a=1569254&m=11348",
+      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
     },
     {
       "id": "45556194306",
@@ -54805,26 +54825,6 @@
       "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHP_ProDesk_4_SFF_G1i_1_527c.jpg%3Fsize%3D400&feedId=27883&k=dfd5e38456ec0dc32b8a6f79b2c76c0e1f56f470",
       "affiliateUrl": "https://www.awin1.com/pclick.php?p=42026348009&a=1569254&m=11348",
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "45349996781",
-      "name": "Acer Predator Helios Neo 16 AI (PHN16-73-9816) 16,0\" WQXGA, IPS, 240Hz, Intel i9U-275HX, 32GB RAM, 1TB SSD, GeForce RTX5070, Windows 11",
-      "brand": "Acer",
-      "deviceType": "laptop",
-      "price": 2699,
-      "cpuClass": "mittel",
-      "hasGPU": true,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 3,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "gaming"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2Fpredator-helios-neo-16-ai-phn16-73-non-fingerprint-with-backlit-on-wp-abyssal-black-01-custom.jpg%3Fsize%3D400&feedId=27883&k=c737df7e26ee744ffb7908db16e6de70b821b88b",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=45349996781&a=1569254&m=11348",
-      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
     },
     {
       "id": "43137411223",
@@ -55379,6 +55379,26 @@
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
+      "id": "45012882092",
+      "name": "Acer Aspire Vero 16 (AV16-71P-57YB) 16,0\" WUXGA, IPS, Intel Ultra 5-225H (13 TOPS), 16GB RAM, 512GB SSD, Windows 11",
+      "brand": "Acer",
+      "deviceType": "laptop",
+      "price": 999,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 3,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2Facer-aspire-vero-av16-71p-with-fingerprint-with-backlit-on-wp-logo-cobblestone-gray-01-custom_9ad4_1.jpg%3Fsize%3D400&feedId=27883&k=144f4a6648c48f49fba84d6d4bf385306cb75699",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=45012882092&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
       "id": "44531627664",
       "name": "Captiva PC Highend Gaming R90-435 AMD Ryzen 7 7700X, 32GB DDR5 RAM, Nvidia Geforce RTX 5070 (12GB GDDR7), 1TB M.2 SSD, Windows 11 Home",
       "brand": "notebooksbilliger.de",
@@ -55419,26 +55439,6 @@
       "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F10752934_0_1099.jpg%3Fsize%3D400&feedId=27883&k=d4ff9a05a56b6ba74190c8ec647ea4c0ce758718",
       "affiliateUrl": "https://www.awin1.com/pclick.php?p=40843605393&a=1569254&m=11348",
       "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
-    },
-    {
-      "id": "45012882092",
-      "name": "Acer Aspire Vero 16 (AV16-71P-57YB) 16,0\" WUXGA, IPS, Intel Ultra 5-225H (13 TOPS), 16GB RAM, 512GB SSD, Windows 11",
-      "brand": "Acer",
-      "deviceType": "laptop",
-      "price": 999,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 3,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2Facer-aspire-vero-av16-71p-with-fingerprint-with-backlit-on-wp-logo-cobblestone-gray-01-custom_9ad4_1.jpg%3Fsize%3D400&feedId=27883&k=144f4a6648c48f49fba84d6d4bf385306cb75699",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=45012882092&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
       "id": "40977642645",
@@ -55541,6 +55541,48 @@
       ],
       "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FCaptiva_Aqua_1.jpg%3Fsize%3D400&feedId=27883&k=2b82aa859e333226cb64c9af348b499b22cc3e2d",
       "affiliateUrl": "https://www.awin1.com/pclick.php?p=40323255313&a=1569254&m=11348",
+      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
+    },
+    {
+      "id": "41651741341",
+      "name": "HP Z2 Tower G1i Workstation A40MNET [Intel Core Ultra 7 265, 16GB RAM, 512GB SSD, Intel Grafik, Windows 11 Pro]",
+      "brand": "HP",
+      "deviceType": "desktop",
+      "price": 1826.99,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 1,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "creative",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHP_Z2_Tower_G1i_1_7370_1.jpg%3Fsize%3D400&feedId=27883&k=3c59815e28f9c99c8c7911bf1205936e3d8cf812",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41651741341&a=1569254&m=11348",
+      "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
+    },
+    {
+      "id": "41842905667",
+      "name": "Captiva Highend Gaming PC R88-644 AMD Ryzen 7 7800X3D, 32GB DDR5 RAM, 1TB M.2 SSD, AMD Radeon RX 9070 (16GB GDDR6), Windows 11 Home",
+      "brand": "notebooksbilliger.de",
+      "deviceType": "desktop",
+      "price": 2120.75,
+      "cpuClass": "leistung",
+      "hasGPU": true,
+      "ramGB": 32,
+      "storageGB": 512,
+      "mobility": 1,
+      "lifespanYears": 5,
+      "useCases": [
+        "office",
+        "gaming",
+        "creative"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F10752934_0_1099.jpg%3Fsize%3D400&feedId=27883&k=d4ff9a05a56b6ba74190c8ec647ea4c0ce758718",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41842905667&a=1569254&m=11348",
       "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
     },
     {
@@ -55686,48 +55728,6 @@
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
-      "id": "41651741341",
-      "name": "HP Z2 Tower G1i Workstation A40MNET [Intel Core Ultra 7 265, 16GB RAM, 512GB SSD, Intel Grafik, Windows 11 Pro]",
-      "brand": "HP",
-      "deviceType": "desktop",
-      "price": 1826.99,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 1,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "creative",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHP_Z2_Tower_G1i_1_7370_1.jpg%3Fsize%3D400&feedId=27883&k=3c59815e28f9c99c8c7911bf1205936e3d8cf812",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41651741341&a=1569254&m=11348",
-      "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
-    },
-    {
-      "id": "41842905667",
-      "name": "Captiva Highend Gaming PC R88-644 AMD Ryzen 7 7800X3D, 32GB DDR5 RAM, 1TB M.2 SSD, AMD Radeon RX 9070 (16GB GDDR6), Windows 11 Home",
-      "brand": "notebooksbilliger.de",
-      "deviceType": "desktop",
-      "price": 2120.75,
-      "cpuClass": "leistung",
-      "hasGPU": true,
-      "ramGB": 32,
-      "storageGB": 512,
-      "mobility": 1,
-      "lifespanYears": 5,
-      "useCases": [
-        "office",
-        "gaming",
-        "creative"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F10752934_0_1099.jpg%3Fsize%3D400&feedId=27883&k=d4ff9a05a56b6ba74190c8ec647ea4c0ce758718",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41842905667&a=1569254&m=11348",
-      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
-    },
-    {
       "id": "44940556719",
       "name": "Microsoft Surface Pro 13\" for business - 12 Gen - EP2-54476 13\" PixelSense Touchscreen, Intel® Core™ Ultra 5 (335), 16GB RAM, 256GB SSD, Windows 11 Pr",
       "brand": "Microsoft",
@@ -55745,6 +55745,26 @@
       ],
       "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FSUR-FY26-COMMR-R5-13-IN-P-FrontKB_RGB.png%3Fsize%3D400&feedId=27883&k=c6fa841e0a1787bfae8419600a21371f2531a6f0",
       "affiliateUrl": "https://www.awin1.com/pclick.php?p=44940556719&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "44133771659",
+      "name": "Apple MacBook Air 13\" M5 Mitternacht MDHG4D/A Apple M5 chip mit 10-core CPU and 10-core GPU, 24GB, 1TB SSD - Mitternacht, kein Netzteil",
+      "brand": "Apple",
+      "deviceType": "laptop",
+      "price": 1799,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 24,
+      "storageGB": 1000,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FMacBook_Air_13-in_Midnight_Pure_Front_Print__USEN_46d3.jpg%3Fsize%3D400&feedId=27883&k=a0338ebde4f7c2756cb1504dc79e74a84ce8f209",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44133771659&a=1569254&m=11348",
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
@@ -55849,23 +55869,23 @@
       "shortPitch": "Günstiger Einstieg für Alltagsaufgaben."
     },
     {
-      "id": "44133771659",
-      "name": "Apple MacBook Air 13\" M5 Mitternacht MDHG4D/A Apple M5 chip mit 10-core CPU and 10-core GPU, 24GB, 1TB SSD - Mitternacht, kein Netzteil",
-      "brand": "Apple",
+      "id": "41403595528",
+      "name": "ASUS NUC 15 Pro Kit RNUC15CRHC500002 - Intel Core 5 210H, Intel UHD Graphics, 2x DDR5 SO-DIMM, 2x M.2, WiFi 7",
+      "brand": "ASUS",
       "deviceType": "laptop",
-      "price": 1799,
+      "price": 382.99,
       "cpuClass": "mittel",
       "hasGPU": false,
-      "ramGB": 24,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 4,
+      "ramGB": 10,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 3,
       "useCases": [
         "office",
-        "coding"
+        "school"
       ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FMacBook_Air_13-in_Midnight_Pure_Front_Print__USEN_46d3.jpg%3Fsize%3D400&feedId=27883&k=a0338ebde4f7c2756cb1504dc79e74a84ce8f209",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44133771659&a=1569254&m=11348",
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FNUC15__PRO_TALL_Side_rightview_low_angle_e5ff.png%3Fsize%3D400&feedId=27883&k=a311dcd70c44950b63b6fd92b2c9350d003c79b5",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41403595528&a=1569254&m=11348",
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
@@ -55886,26 +55906,6 @@
       ],
       "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2Fdevice-1-hero_7.jpg%3Fsize%3D400&feedId=27883&k=b8e6a5064725189b98a022e37558fd046c326f71",
       "affiliateUrl": "https://www.awin1.com/pclick.php?p=45056515001&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "41403595528",
-      "name": "ASUS NUC 15 Pro Kit RNUC15CRHC500002 - Intel Core 5 210H, Intel UHD Graphics, 2x DDR5 SO-DIMM, 2x M.2, WiFi 7",
-      "brand": "ASUS",
-      "deviceType": "laptop",
-      "price": 382.99,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 10,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 3,
-      "useCases": [
-        "office",
-        "school"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FNUC15__PRO_TALL_Side_rightview_low_angle_e5ff.png%3Fsize%3D400&feedId=27883&k=a311dcd70c44950b63b6fd92b2c9350d003c79b5",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41403595528&a=1569254&m=11348",
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
@@ -56854,6 +56854,46 @@
       "shortPitch": "Gutes Preis-Leistungs-Verhältnis für den festen Arbeitsplatz."
     },
     {
+      "id": "44293164584",
+      "name": "Apple MacBook Air 15\" Polarstern CZ1LT-0100000 Apple M5 10-Core CPU, 10-Core GPU, 24GB, 512GB SSD, Kein Netzteil",
+      "brand": "Apple",
+      "deviceType": "laptop",
+      "price": 1772,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 24,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FMacBook_Air_15-in_Starlight_Pure_Front_Print__USEN_d61c.jpg%3Fsize%3D400&feedId=27883&k=6a684f668279ba32f85e6a4a63d86e606e917258",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44293164584&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "44293164599",
+      "name": "Apple MacBook Air 15\" Mitternacht CZ1LW-0210000 Apple M5 10-Core CPU, 10-Core GPU, 32GB,1TB SSD, Kein Netzteil",
+      "brand": "Apple",
+      "deviceType": "laptop",
+      "price": 2278,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 4,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FMacBook_Air_15-in_Midnight_Pure_Front_Print__USEN_e564.jpg%3Fsize%3D400&feedId=27883&k=de7b52a6a7b16efe2c0e96f723a8006271c650b0",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44293164599&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
       "id": "45180363423",
       "name": "Lenovo Yoga 7 Slim 83QR001UGE - 14\" WQXGA OLED, Snapdragon X2P-42-100, 16GB RAM, 1TB SSD, W11",
       "brand": "Lenovo",
@@ -57032,6 +57072,26 @@
       "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_P16s_Gen_4_Intel_CT1_01_4541.jpg%3Fsize%3D400&feedId=27883&k=3f56b51bcec9d4ff0078c450985e5ebafb6eaf0e",
       "affiliateUrl": "https://www.awin1.com/pclick.php?p=44856191864&a=1569254&m=11348",
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "39441774888",
+      "name": "Apple iMac Pink CZ1E6-0121000 - 61cm(24'') M4 8-Core CPU, 8-Core GPU, 24GB RAM, 1TB SSD, Standardglas, Magic Keyboard",
+      "brand": "Apple",
+      "deviceType": "desktop",
+      "price": 2398,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 24,
+      "storageGB": 512,
+      "mobility": 1,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FiMac_M4_Chip_2-port_24-in_Pink_PDP_Image_Position_1__DEDE_028d.jpg%3Fsize%3D400&feedId=27883&k=4669382647e89a43d7fdf3f253711963a7fcc470",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=39441774888&a=1569254&m=11348",
+      "shortPitch": "Gutes Preis-Leistungs-Verhältnis für den festen Arbeitsplatz."
     },
     {
       "id": "44466774284",
@@ -57655,6 +57715,26 @@
       "shortPitch": "Gutes Preis-Leistungs-Verhältnis für den festen Arbeitsplatz."
     },
     {
+      "id": "44985427635",
+      "name": "Lenovo ThinkPad L14 Gen7 - 21X60021GE-CAMPUS 14\" WUXGA, Ryzen AI 5 430, 32GB RAM, 512GB SSD, Windows 11 Pro, Campus Exklusiv",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 1519,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 512,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_L14_Gen_7_AMD_CT1_02.avif%3Fsize%3D400&feedId=27883&k=1ffb093f6a524e1204199c27d57901194d0c64cf",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44985427635&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
       "id": "44531627677",
       "name": "Lenovo ThinkPad T14s Gen6 - 21QX00N2GE-CAMPUS 14\" WUXGA, Intel Core Ultra 5 - 226V, 16GB RAM, 512GB SSD, Windows 11 Pro, Campus Exklusiv",
       "brand": "Lenovo",
@@ -57672,6 +57752,66 @@
       ],
       "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FLenovo-21QYS1EL00-CAMPUS-01_d26e.png%3Fsize%3D400&feedId=27883&k=bdef58c5096e922be5053e6b968cf863c1758e19",
       "affiliateUrl": "https://www.awin1.com/pclick.php?p=44531627677&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "42378047000",
+      "name": "Lenovo ThinkPad X13 Gen6 - 21RK0042GE-CAMPUS 13,3\" WUXGA, Intel Core Ultra 7 - 255U, 32GB RAM, 1TB SSD, Windows 11 Pro, Campus Exklusiv",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 2149,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_X13_Gen_6_Intel_CT1_04_d0c8_1.jpg%3Fsize%3D400&feedId=27883&k=99e423472bbd7db6d6f6df8e0184ca0dc228e5f2",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42378047000&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "44839742716",
+      "name": "Lenovo ThinkPad E14 Gen8 - 21Y6000NGE-CAMPUS 14\" WUXGA IPS, Intel Core Ultra 5 - 325, 32GB RAM, 1TB SSD, Windows 11 Pro, Campus Exklusiv",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 1429,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_E14_Gen_8_Intel_CT1_03_c66e.jpg%3Fsize%3D400&feedId=27883&k=bf117e897391a6dc72c2ae4a135fe499f626c56d",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44839742716&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "45119405876",
+      "name": "Lenovo ThinkPad T14s 2-in-1 Gen2 - 21YY0028GE-CAMPUS 14\" WUXGA Touch, Intel Core Ultra 5 - 325, 16GB RAM, 512GB SSD, Windows 11 Pro, Campus Exklusiv",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 1819,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_T14s_2_in_1_Gen_2_CT1_03.avif%3Fsize%3D400&feedId=27883&k=b365a604dfedc1b47fb937d764c327743a45b808",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=45119405876&a=1569254&m=11348",
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
@@ -57753,46 +57893,6 @@
       ],
       "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FM70s_Gen6_Side2_1e84.png%3Fsize%3D400&feedId=27883&k=108cc65005791a31c39422e1e78ff1307a0ee83b",
       "affiliateUrl": "https://www.awin1.com/pclick.php?p=44779897954&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "44293164584",
-      "name": "Apple MacBook Air 15\" Polarstern CZ1LT-0100000 Apple M5 10-Core CPU, 10-Core GPU, 24GB, 512GB SSD, Kein Netzteil",
-      "brand": "Apple",
-      "deviceType": "laptop",
-      "price": 1772,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 24,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FMacBook_Air_15-in_Starlight_Pure_Front_Print__USEN_d61c.jpg%3Fsize%3D400&feedId=27883&k=6a684f668279ba32f85e6a4a63d86e606e917258",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44293164584&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "44293164599",
-      "name": "Apple MacBook Air 15\" Mitternacht CZ1LW-0210000 Apple M5 10-Core CPU, 10-Core GPU, 32GB,1TB SSD, Kein Netzteil",
-      "brand": "Apple",
-      "deviceType": "laptop",
-      "price": 2278,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 4,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FMacBook_Air_15-in_Midnight_Pure_Front_Print__USEN_e564.jpg%3Fsize%3D400&feedId=27883&k=de7b52a6a7b16efe2c0e96f723a8006271c650b0",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44293164599&a=1569254&m=11348",
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
@@ -57934,26 +58034,6 @@
       "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkCentre_M75q_Gen_2_CT2_05_9af1.png%3Fsize%3D400&feedId=27883&k=fcbf56a043e36fc39b3664b7978c2e1f95731196",
       "affiliateUrl": "https://www.awin1.com/pclick.php?p=42813193058&a=1569254&m=11348",
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "39441774888",
-      "name": "Apple iMac Pink CZ1E6-0121000 - 61cm(24'') M4 8-Core CPU, 8-Core GPU, 24GB RAM, 1TB SSD, Standardglas, Magic Keyboard",
-      "brand": "Apple",
-      "deviceType": "desktop",
-      "price": 2398,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 24,
-      "storageGB": 512,
-      "mobility": 1,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FiMac_M4_Chip_2-port_24-in_Pink_PDP_Image_Position_1__DEDE_028d.jpg%3Fsize%3D400&feedId=27883&k=4669382647e89a43d7fdf3f253711963a7fcc470",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=39441774888&a=1569254&m=11348",
-      "shortPitch": "Gutes Preis-Leistungs-Verhältnis für den festen Arbeitsplatz."
     },
     {
       "id": "43878641830",
@@ -58237,23 +58317,23 @@
       "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
     },
     {
-      "id": "44985427635",
-      "name": "Lenovo ThinkPad L14 Gen7 - 21X60021GE-CAMPUS 14\" WUXGA, Ryzen AI 5 430, 32GB RAM, 512GB SSD, Windows 11 Pro, Campus Exklusiv",
-      "brand": "Lenovo",
+      "id": "44912178924",
+      "name": "ASUS Zenbook A14 UX3407QA-QD488W - 14\" WUXGA OLED, Qualcomm Snapdragon X X1-26-100, 16GB RAM, 1TB SSD, Qualcomm Adreno, Windows 11",
+      "brand": "ASUS",
       "deviceType": "laptop",
-      "price": 1519,
+      "price": 899,
       "cpuClass": "mittel",
       "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 512,
+      "ramGB": 16,
+      "storageGB": 1000,
       "mobility": 5,
       "lifespanYears": 4,
       "useCases": [
         "office",
         "coding"
       ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_L14_Gen_7_AMD_CT1_02.avif%3Fsize%3D400&feedId=27883&k=1ffb093f6a524e1204199c27d57901194d0c64cf",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44985427635&a=1569254&m=11348",
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FASUS_90NB1501-M00Y60_INT_1.jpg%3Fsize%3D400&feedId=27883&k=abe9947b9e28029b89832646e1ba2608d21e8602",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44912178924&a=1569254&m=11348",
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
@@ -58277,6 +58357,46 @@
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
+      "id": "39180166050",
+      "name": "Apple iMac MD2T4D/A Blau 61cm(24'') M4 10-Core Chip, 10-Core GPU, 24GB Ram, 512GB SSD",
+      "brand": "Apple",
+      "deviceType": "desktop",
+      "price": 2439,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 24,
+      "storageGB": 512,
+      "mobility": 1,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FiMac_M4_Pro_Chip_4-port_24-in_Blue_PDP_Image_Position_1__DEDE_b234.jpg%3Fsize%3D400&feedId=27883&k=b2842b2bed873ddfb7f9be94cdbce4ddf50743e2",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=39180166050&a=1569254&m=11348",
+      "shortPitch": "Gutes Preis-Leistungs-Verhältnis für den festen Arbeitsplatz."
+    },
+    {
+      "id": "43436249911",
+      "name": "HP EliteBook 8 Flip G1i 13 AD3G0ET 13,3\" WUXGA Touch, Intel Core Ultra 5 225U, 16GB RAM, 512GB SSD, Windows 11 Pro",
+      "brand": "HP",
+      "deviceType": "laptop",
+      "price": 2421.29,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_Machu_13X_GlacierSilver_FrontOpen_Win11Pro_6c5f.png%3Fsize%3D400&feedId=27883&k=155d1e88a99375f730a3d0d3968340aae39352dd",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43436249911&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
       "id": "44885286526",
       "name": "Captiva Ultimate Gaming PC R89-514 AMD Ryzen 7 9800X3D, 64GB DDR5 RAM, 2TB M.2 SSD, Nvidia Geforce RTX 5090 (32GB GDDR7), X670E, Windows 11",
       "brand": "notebooksbilliger.de",
@@ -58296,66 +58416,6 @@
       "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F10434465_0_81ee.jpg%3Fsize%3D400&feedId=27883&k=0584d1e8b818c0d906f59819bc0eeaf63651a772",
       "affiliateUrl": "https://www.awin1.com/pclick.php?p=44885286526&a=1569254&m=11348",
       "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
-    },
-    {
-      "id": "42378047000",
-      "name": "Lenovo ThinkPad X13 Gen6 - 21RK0042GE-CAMPUS 13,3\" WUXGA, Intel Core Ultra 7 - 255U, 32GB RAM, 1TB SSD, Windows 11 Pro, Campus Exklusiv",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 2149,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_X13_Gen_6_Intel_CT1_04_d0c8_1.jpg%3Fsize%3D400&feedId=27883&k=99e423472bbd7db6d6f6df8e0184ca0dc228e5f2",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=42378047000&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "44839742716",
-      "name": "Lenovo ThinkPad E14 Gen8 - 21Y6000NGE-CAMPUS 14\" WUXGA IPS, Intel Core Ultra 5 - 325, 32GB RAM, 1TB SSD, Windows 11 Pro, Campus Exklusiv",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 1429,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_E14_Gen_8_Intel_CT1_03_c66e.jpg%3Fsize%3D400&feedId=27883&k=bf117e897391a6dc72c2ae4a135fe499f626c56d",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44839742716&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "45119405876",
-      "name": "Lenovo ThinkPad T14s 2-in-1 Gen2 - 21YY0028GE-CAMPUS 14\" WUXGA Touch, Intel Core Ultra 5 - 325, 16GB RAM, 512GB SSD, Windows 11 Pro, Campus Exklusiv",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 1819,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FThinkPad_T14s_2_in_1_Gen_2_CT1_03.avif%3Fsize%3D400&feedId=27883&k=b365a604dfedc1b47fb937d764c327743a45b808",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=45119405876&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
       "id": "44940556733",
@@ -58748,14 +58808,35 @@
       "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
     },
     {
-      "id": "44912178924",
-      "name": "ASUS Zenbook A14 UX3407QA-QD488W - 14\" WUXGA OLED, Qualcomm Snapdragon X X1-26-100, 16GB RAM, 1TB SSD, Qualcomm Adreno, Windows 11",
-      "brand": "ASUS",
+      "id": "45168382874",
+      "name": "Acer Aspire XC-1715 SFF PC Intel Core 3 N355, 16 GB RAM, 512 GB M.2 SSD, Intel UHD-Grafik, Windows 11",
+      "brand": "Acer",
       "deviceType": "laptop",
-      "price": 899,
-      "cpuClass": "mittel",
+      "price": 529,
+      "cpuClass": "einsteiger",
       "hasGPU": false,
       "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 2,
+      "useCases": [
+        "office",
+        "coding",
+        "school"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FAspire-XC-1785-non-dvd-with-sd-E19-usbkm-01.tif-custom_fd1b.jpg%3Fsize%3D400&feedId=27883&k=68e6e73f7faaec62fd113c01b40c644d1ca17ad0",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=45168382874&a=1569254&m=11348",
+      "shortPitch": "Günstiger Einstieg für Alltagsaufgaben."
+    },
+    {
+      "id": "40323255287",
+      "name": "ASUS Zenbook Duo UX8406CA-QL194W - 14\" WUXGA OLED, Intel Core Ultra 9-285H, 32GB RAM, 1TB SSD, Intel Arc, Windows 11",
+      "brand": "ASUS",
+      "deviceType": "laptop",
+      "price": 1699,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
       "storageGB": 1000,
       "mobility": 5,
       "lifespanYears": 4,
@@ -58763,48 +58844,28 @@
         "office",
         "coding"
       ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FASUS_90NB1501-M00Y60_INT_1.jpg%3Fsize%3D400&feedId=27883&k=abe9947b9e28029b89832646e1ba2608d21e8602",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44912178924&a=1569254&m=11348",
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FZenbook_DUO_UX8406_1_bb98.png%3Fsize%3D400&feedId=27883&k=a30995b5ac4946092275fc5a3d3e3468bcff42e1",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=40323255287&a=1569254&m=11348",
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
-      "id": "39180166050",
-      "name": "Apple iMac MD2T4D/A Blau 61cm(24'') M4 10-Core Chip, 10-Core GPU, 24GB Ram, 512GB SSD",
-      "brand": "Apple",
-      "deviceType": "desktop",
-      "price": 2439,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 24,
-      "storageGB": 512,
-      "mobility": 1,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FiMac_M4_Pro_Chip_4-port_24-in_Blue_PDP_Image_Position_1__DEDE_b234.jpg%3Fsize%3D400&feedId=27883&k=b2842b2bed873ddfb7f9be94cdbce4ddf50743e2",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=39180166050&a=1569254&m=11348",
-      "shortPitch": "Gutes Preis-Leistungs-Verhältnis für den festen Arbeitsplatz."
-    },
-    {
-      "id": "43436249911",
-      "name": "HP EliteBook 8 Flip G1i 13 AD3G0ET 13,3\" WUXGA Touch, Intel Core Ultra 5 225U, 16GB RAM, 512GB SSD, Windows 11 Pro",
+      "id": "41525197589",
+      "name": "HP Omnidesk Slim Desktop S03-0153ng - Intel i5-14400, 16GB RAM, 512GB SSD, Intel UHD Grafik, W11",
       "brand": "HP",
       "deviceType": "laptop",
-      "price": 2421.29,
+      "price": 669,
       "cpuClass": "mittel",
       "hasGPU": false,
       "ramGB": 16,
       "storageGB": 512,
-      "mobility": 5,
+      "mobility": 4,
       "lifespanYears": 4,
       "useCases": [
         "office",
         "coding"
       ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_Machu_13X_GlacierSilver_FrontOpen_Win11Pro_6c5f.png%3Fsize%3D400&feedId=27883&k=155d1e88a99375f730a3d0d3968340aae39352dd",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43436249911&a=1569254&m=11348",
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHP_Omnidesk_S03_1_808b.jpg%3Fsize%3D400&feedId=27883&k=e606664fe4e6ad160948a98230f72c4b1e7cb9a6",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41525197589&a=1569254&m=11348",
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
@@ -58847,6 +58908,45 @@
       "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FTC_Neo_55s_Side2_62d3.png%3Fsize%3D400&feedId=27883&k=1fb909d6848cc21ce8c707bd634cd7ea2d39ad25",
       "affiliateUrl": "https://www.awin1.com/pclick.php?p=43317065189&a=1569254&m=11348",
       "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
+    },
+    {
+      "id": "41972301132",
+      "name": "ASUS NUC 13 Pro Kit RNUC13L3KV700002I - Intel i7-1370P, Intel Iris Xe Graphics, 2x DDR4 SO-DIMM, 2x M.2, WiFi 6E, vPro",
+      "brand": "ASUS",
+      "deviceType": "laptop",
+      "price": 715.99,
+      "cpuClass": "leistung",
+      "hasGPU": false,
+      "ramGB": 10,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 3,
+      "useCases": [
+        "office"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FNUC13pro_Slim_Side1_fde9.png%3Fsize%3D400&feedId=27883&k=c5e5090434ba10d2564baf3a2b6ce996ee86f6ae",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41972301132&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "45395970971",
+      "name": "HP ZBook 8 G2a 14 DK3D1ET 14\" WUXGA 400 Nits IPS, AMD Ryzen AI 7 PRO 450, 32GB RAM, 1TB SSD, Windows 11 Pro",
+      "brand": "HP",
+      "deviceType": "laptop",
+      "price": 3022.12,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 5,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_HP_ZBook_Lampas_14_G2_WWAN_FPR_RJ45_NonAI_MeteorSilver_Catalog_Front_8f3f.png%3Fsize%3D400&feedId=27883&k=f18181475907953f2e0380ab1b4bbcec92e88380",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=45395970971&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
       "id": "38145115137",
@@ -59133,6 +59233,67 @@
       "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
     },
     {
+      "id": "41105575318",
+      "name": "ASUS NUC 15 Pro Kit RNUC15CRHI300002 - Intel Core 3 100U, Intel UHD Graphics, 2x DDR5 SO-DIMM, 2x M.2, WiFi 7",
+      "brand": "ASUS",
+      "deviceType": "laptop",
+      "price": 309.99,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 10,
+      "storageGB": 512,
+      "mobility": 4,
+      "lifespanYears": 3,
+      "useCases": [
+        "office",
+        "school"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FNUC15__PRO_TALL_Side_rightview_low_angle_e5ff.png%3Fsize%3D400&feedId=27883&k=a311dcd70c44950b63b6fd92b2c9350d003c79b5",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41105575318&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
+      "id": "41802196048",
+      "name": "HP OMEN 16-ap0174ng 16\" WUXGA IPS 144Hz, Ryzen 9 8940HX, 16GB RAM, 1TB SSD, RTX 5060, Windows 11",
+      "brand": "HP",
+      "deviceType": "laptop",
+      "price": 1399,
+      "cpuClass": "premium",
+      "hasGPU": true,
+      "ramGB": 16,
+      "storageGB": 1000,
+      "mobility": 3,
+      "lifespanYears": 5,
+      "useCases": [
+        "office",
+        "gaming",
+        "creative"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F25C1_OMEN_16_ShadowBlack_4-Zone_ArtScreen_FrontOpen_01_34d9.png%3Fsize%3D400&feedId=27883&k=34b85fd204f759a7fa66fcae0bbc26ef905621a6",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41802196048&a=1569254&m=11348",
+      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
+    },
+    {
+      "id": "44293164589",
+      "name": "Apple MacBook Air 15\" Polarstern CZ1LT-0210000 Apple M5 10-Core CPU, 10-Core GPU, 32GB,1TB SSD, Kein Netzteil",
+      "brand": "Apple",
+      "deviceType": "laptop",
+      "price": 2278,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 4,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FMacBook_Air_15-in_Starlight_Pure_Front_Print__USEN_d61c.jpg%3Fsize%3D400&feedId=27883&k=6a684f668279ba32f85e6a4a63d86e606e917258",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44293164589&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
       "id": "41829190636",
       "name": "HP ZBook Ultra G1a B72TBET 14\" 2.8K OLED Touch, AMD Ryzen AI Max+ PRO 395 (16 Core CPU, 40 Core GPU), 128GB RAM, 2TB SSD, Windows 11 Pro",
       "brand": "HP",
@@ -59336,27 +59497,6 @@
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
-      "id": "45168382874",
-      "name": "Acer Aspire XC-1715 SFF PC Intel Core 3 N355, 16 GB RAM, 512 GB M.2 SSD, Intel UHD-Grafik, Windows 11",
-      "brand": "Acer",
-      "deviceType": "laptop",
-      "price": 529,
-      "cpuClass": "einsteiger",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 2,
-      "useCases": [
-        "office",
-        "coding",
-        "school"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FAspire-XC-1785-non-dvd-with-sd-E19-usbkm-01.tif-custom_fd1b.jpg%3Fsize%3D400&feedId=27883&k=68e6e73f7faaec62fd113c01b40c644d1ca17ad0",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=45168382874&a=1569254&m=11348",
-      "shortPitch": "Günstiger Einstieg für Alltagsaufgaben."
-    },
-    {
       "id": "38334212798",
       "name": "HP EliteBook 840 G9 8V6A6AT 14,0\" WUXGA IPS, Intel Core i7-1255U, 16GB RAM, 512GB SSD, LTE, Windows 11 Pro",
       "brand": "HP",
@@ -59376,46 +59516,6 @@
       "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHP_EliteBook_Warpath_14_NaturalSilver_IRcam_FPR_Win11_FrontOpen_01_5d44.png%3Fsize%3D400&feedId=27883&k=3e3f74abcfffad40d61156b9b037552cd3986806",
       "affiliateUrl": "https://www.awin1.com/pclick.php?p=38334212798&a=1569254&m=11348",
       "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
-    },
-    {
-      "id": "40323255287",
-      "name": "ASUS Zenbook Duo UX8406CA-QL194W - 14\" WUXGA OLED, Intel Core Ultra 9-285H, 32GB RAM, 1TB SSD, Intel Arc, Windows 11",
-      "brand": "ASUS",
-      "deviceType": "laptop",
-      "price": 1699,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FZenbook_DUO_UX8406_1_bb98.png%3Fsize%3D400&feedId=27883&k=a30995b5ac4946092275fc5a3d3e3468bcff42e1",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=40323255287&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "41525197589",
-      "name": "HP Omnidesk Slim Desktop S03-0153ng - Intel i5-14400, 16GB RAM, 512GB SSD, Intel UHD Grafik, W11",
-      "brand": "HP",
-      "deviceType": "laptop",
-      "price": 669,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FHP_Omnidesk_S03_1_808b.jpg%3Fsize%3D400&feedId=27883&k=e606664fe4e6ad160948a98230f72c4b1e7cb9a6",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41525197589&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
       "id": "42307475106",
@@ -59478,45 +59578,6 @@
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
-      "id": "41972301132",
-      "name": "ASUS NUC 13 Pro Kit RNUC13L3KV700002I - Intel i7-1370P, Intel Iris Xe Graphics, 2x DDR4 SO-DIMM, 2x M.2, WiFi 6E, vPro",
-      "brand": "ASUS",
-      "deviceType": "laptop",
-      "price": 715.99,
-      "cpuClass": "leistung",
-      "hasGPU": false,
-      "ramGB": 10,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 3,
-      "useCases": [
-        "office"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FNUC13pro_Slim_Side1_fde9.png%3Fsize%3D400&feedId=27883&k=c5e5090434ba10d2564baf3a2b6ce996ee86f6ae",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41972301132&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "45395970971",
-      "name": "HP ZBook 8 G2a 14 DK3D1ET 14\" WUXGA 400 Nits IPS, AMD Ryzen AI 7 PRO 450, 32GB RAM, 1TB SSD, Windows 11 Pro",
-      "brand": "HP",
-      "deviceType": "laptop",
-      "price": 3022.12,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 5,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_HP_ZBook_Lampas_14_G2_WWAN_FPR_RJ45_NonAI_MeteorSilver_Catalog_Front_8f3f.png%3Fsize%3D400&feedId=27883&k=f18181475907953f2e0380ab1b4bbcec92e88380",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=45395970971&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
       "id": "42793058882",
       "name": "HP ProBook 4 G1i 16 C7SR5ES 16\" WUXGA IPS, Intel Core Ultra 5 225U, 16GB RAM, 512GB SSD, FreeDOS",
       "brand": "HP",
@@ -59575,67 +59636,6 @@
       "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2Fmsi-cubi_5_12m-MAIN_c093.jpg%3Fsize%3D400&feedId=27883&k=082129f4e505621f6f108fd8246840d38a5e886c",
       "affiliateUrl": "https://www.awin1.com/pclick.php?p=45751830246&a=1569254&m=11348",
       "shortPitch": "Günstiger Einstieg für Alltagsaufgaben."
-    },
-    {
-      "id": "41105575318",
-      "name": "ASUS NUC 15 Pro Kit RNUC15CRHI300002 - Intel Core 3 100U, Intel UHD Graphics, 2x DDR5 SO-DIMM, 2x M.2, WiFi 7",
-      "brand": "ASUS",
-      "deviceType": "laptop",
-      "price": 309.99,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 10,
-      "storageGB": 512,
-      "mobility": 4,
-      "lifespanYears": 3,
-      "useCases": [
-        "office",
-        "school"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FNUC15__PRO_TALL_Side_rightview_low_angle_e5ff.png%3Fsize%3D400&feedId=27883&k=a311dcd70c44950b63b6fd92b2c9350d003c79b5",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41105575318&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "41802196048",
-      "name": "HP OMEN 16-ap0174ng 16\" WUXGA IPS 144Hz, Ryzen 9 8940HX, 16GB RAM, 1TB SSD, RTX 5060, Windows 11",
-      "brand": "HP",
-      "deviceType": "laptop",
-      "price": 1399,
-      "cpuClass": "premium",
-      "hasGPU": true,
-      "ramGB": 16,
-      "storageGB": 1000,
-      "mobility": 3,
-      "lifespanYears": 5,
-      "useCases": [
-        "office",
-        "gaming",
-        "creative"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F25C1_OMEN_16_ShadowBlack_4-Zone_ArtScreen_FrontOpen_01_34d9.png%3Fsize%3D400&feedId=27883&k=34b85fd204f759a7fa66fcae0bbc26ef905621a6",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=41802196048&a=1569254&m=11348",
-      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
-    },
-    {
-      "id": "44293164589",
-      "name": "Apple MacBook Air 15\" Polarstern CZ1LT-0210000 Apple M5 10-Core CPU, 10-Core GPU, 32GB,1TB SSD, Kein Netzteil",
-      "brand": "Apple",
-      "deviceType": "laptop",
-      "price": 2278,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 4,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FMacBook_Air_15-in_Starlight_Pure_Front_Print__USEN_d61c.jpg%3Fsize%3D400&feedId=27883&k=6a684f668279ba32f85e6a4a63d86e606e917258",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=44293164589&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
       "id": "45751830247",
@@ -59739,6 +59739,26 @@
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
+      "id": "43614738075",
+      "name": "Lenovo ThinkPad T16 Gen 4 Ultra 7 (200), 16 GB, 512 GB SSD, 16\" WUXGA, onboard Grafik, Win 11 Pro",
+      "brand": "Lenovo",
+      "deviceType": "laptop",
+      "price": 1641.99,
+      "cpuClass": "mittel",
+      "hasGPU": false,
+      "ramGB": 16,
+      "storageGB": 512,
+      "mobility": 3,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "coding"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F21QE004KIMPORT_0_4dfd.jpg%3Fsize%3D400&feedId=27883&k=4ff60d874008c66364b20fc39d2be6aa067d7065",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43614738075&a=1569254&m=11348",
+      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
+    },
+    {
       "id": "43294803511",
       "name": "Lenovo IdeaPad 3 Slim 83N30003GE - 15.3\" WUXGA, Snapdragon X1-26-100, 16GB RAM, 1TB SSD, Windows 11 Home",
       "brand": "Lenovo",
@@ -59836,26 +59856,6 @@
       ],
       "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FSUR-FY26-COMMR-H-15-IN-P-Front-1x1-RGB.png%3Fsize%3D400&feedId=27883&k=13d207d529d74d025e6a9c11f42bfc40f61ca664",
       "affiliateUrl": "https://www.awin1.com/pclick.php?p=44940556769&a=1569254&m=11348",
-      "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "43614738075",
-      "name": "Lenovo ThinkPad T16 Gen 4 Ultra 7 (200), 16 GB, 512 GB SSD, 16\" WUXGA, onboard Grafik, Win 11 Pro",
-      "brand": "Lenovo",
-      "deviceType": "laptop",
-      "price": 1641.99,
-      "cpuClass": "mittel",
-      "hasGPU": false,
-      "ramGB": 16,
-      "storageGB": 512,
-      "mobility": 3,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "coding"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F21QE004KIMPORT_0_4dfd.jpg%3Fsize%3D400&feedId=27883&k=4ff60d874008c66364b20fc39d2be6aa067d7065",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=43614738075&a=1569254&m=11348",
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
     },
     {
@@ -59979,6 +59979,26 @@
       "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FZBOX-EAMAX395C-windows-image01_1636.jpg%3Fsize%3D400&feedId=27883&k=2ccb86ca4be6dc77f63cf456c53cabf7509b8e62",
       "affiliateUrl": "https://www.awin1.com/pclick.php?p=44982233814&a=1569254&m=11348",
       "shortPitch": "Genug Leistung für anspruchsvollere Anwendungen und Multitasking."
+    },
+    {
+      "id": "45762434683",
+      "name": "HP HyperX OMEN 16-ah1192ng + HyperX Cloud Alpha Gaming Headset 16.0\" 2.5K OLED 240Hz, Intel Core Ultra 9 290HX Plus, 32GB RAM, 1TB SSD, RTX 5090, Wind",
+      "brand": "HP",
+      "deviceType": "laptop",
+      "price": 4399,
+      "cpuClass": "mittel",
+      "hasGPU": true,
+      "ramGB": 32,
+      "storageGB": 1000,
+      "mobility": 3,
+      "lifespanYears": 4,
+      "useCases": [
+        "office",
+        "gaming"
+      ],
+      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_HX_OMEN_MAX16_Intel_ShadBlack_LB_OLED_IR_Win11_CoreSet_Front.png%3Fsize%3D400&feedId=27883&k=40533c6de6602f4c58a50e087861f3b46c599aa5",
+      "affiliateUrl": "https://www.awin1.com/pclick.php?p=45762434683&a=1569254&m=11348",
+      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
     },
     {
       "id": "44630121870",
@@ -60160,26 +60180,6 @@
       "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2FSUR-FY26-COMMR-H-15-IN-B-Front-16x9-RGB.png%3Fsize%3D400&feedId=27883&k=eb63580f798cc06c82c526fa58bf9237ed9fd4da",
       "affiliateUrl": "https://www.awin1.com/pclick.php?p=44940556784&a=1569254&m=11348",
       "shortPitch": "Solider Allrounder für Alltag, Büro und unterwegs."
-    },
-    {
-      "id": "45762434683",
-      "name": "HP HyperX OMEN 16-ah1192ng + HyperX Cloud Alpha Gaming Headset 16.0\" 2.5K OLED 240Hz, Intel Core Ultra 9 290HX Plus, 32GB RAM, 1TB SSD, RTX 5090, Wind",
-      "brand": "HP",
-      "deviceType": "laptop",
-      "price": 4399,
-      "cpuClass": "mittel",
-      "hasGPU": true,
-      "ramGB": 32,
-      "storageGB": 1000,
-      "mobility": 3,
-      "lifespanYears": 4,
-      "useCases": [
-        "office",
-        "gaming"
-      ],
-      "imageUrl": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Amedia2.nbb-cdn.de%2Fimages%2Fproducts%2F01_HX_OMEN_MAX16_Intel_ShadBlack_LB_OLED_IR_Win11_CoreSet_Front.png%3Fsize%3D400&feedId=27883&k=40533c6de6602f4c58a50e087861f3b46c599aa5",
-      "affiliateUrl": "https://www.awin1.com/pclick.php?p=45762434683&a=1569254&m=11348",
-      "shortPitch": "Eigene Grafikkarte an Bord – geeignet für Gaming oder kreative Anwendungen."
     },
     {
       "id": "45133961099",
