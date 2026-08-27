@@ -68,6 +68,13 @@ const EXCLUDED_HINTS = [
   "galaxy tab",
   "matepad",
   "lenovo tab",
+  "idea tab",
+  "ideatab",
+  "yoga tab",
+  "yogatab",
+  "smart tab",
+  "smarttab",
+  "iconia",
   "fire hd",
   "fire max",
   "fire 7",
@@ -86,6 +93,48 @@ const EXCLUDED_HINTS = [
 function isExcludedProduct(text, categoryName) {
   const haystack = `${text} ${categoryName || ""}`.toLowerCase();
   return EXCLUDED_HINTS.some((h) => haystack.includes(h));
+}
+
+// Zubehör/Ersatz-/Aufrüstteile (z.B. "Lenovo ThinkCentre M.2 SSD Kit III -
+// Speicher-Installationskit") sind keine eigenständigen PCs und sollen nicht
+// als Empfehlung auftauchen. Bewusst NUR gegen Titel + Kategorie geprüft
+// (nicht gegen die Beschreibung wie EXCLUDED_HINTS oben) – Beschreibungen
+// echter PCs erwähnen Begriffe wie "Netzteil" oder "Arbeitsspeicher" oft
+// beiläufig als Spezifikation, das würde sonst wieder zu Fehlausschlüssen
+// echter Geräte führen (siehe Regression bei EXCLUDED_HINTS).
+const ACCESSORY_HINTS = [
+  "ssd kit",
+  "installationskit",
+  "speicher-installationskit",
+  "speicherkit",
+  "aufrüstkit",
+  "aufrüst-kit",
+  "arbeitsspeicher-kit",
+  "ram-kit",
+  "speichermodul",
+  "arbeitsspeichermodul",
+  "erweiterungskit",
+  "upgrade-kit",
+  "upgrade kit",
+  "dockingstation",
+  "docking station",
+  "usb-hub",
+  "netzteil",
+  "ladegerät",
+  "ersatzakku",
+  "akku-pack",
+  "laptoptasche",
+  "notebooktasche",
+  "schutzhülle",
+  "displayschutz",
+  "tastatur",
+  "headset",
+  "kopfhörer"
+];
+
+function isAccessoryProduct(name, categoryName) {
+  const haystack = `${name} ${categoryName || ""}`.toLowerCase();
+  return ACCESSORY_HINTS.some((h) => haystack.includes(h));
 }
 
 function detectRamAndStorage(text) {
@@ -166,6 +215,7 @@ export function mapFeedRow(row) {
   // komplett aus dem Katalog ausgeschlossen, statt sie (falsch) als Laptop
   // oder Desktop einzusortieren.
   if (isExcludedProduct(exclusionText, categoryName)) return null;
+  if (isAccessoryProduct(name, categoryName)) return null;
 
   const price = parseFloat(row.search_price || row.display_price || "0") || 0;
   const brand = detectBrand(name, shop);
