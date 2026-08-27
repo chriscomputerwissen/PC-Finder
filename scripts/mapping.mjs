@@ -55,6 +55,39 @@ function detectGPU(text) {
   return /rtx ?\d{3,4}|gtx ?\d{3,4}|radeon rx ?\d{3,4}|arc a\d{3}/i.test(text);
 }
 
+// Der Awin-Feed (insbesondere Cyberport) enthält in den genutzten Kategorien
+// auch Tablets, E-Reader & Co. mit – das sind keine "PCs" im Sinne dieses
+// Tools und sollen nicht als Empfehlung auftauchen (z.B. "Amazon Fire HD 8
+// Kids Tablet" wurde fälschlich als Laptop einsortiert, weil kein
+// Desktop-Formfaktor-Begriff erkannt wurde). Statt die Geräteart zu raten,
+// schließen wir solche Zeilen komplett aus dem Katalog aus.
+const EXCLUDED_HINTS = [
+  "tablet",
+  "tablet-pc",
+  "ipad",
+  "galaxy tab",
+  "matepad",
+  "lenovo tab",
+  "fire hd",
+  "fire max",
+  "fire 7",
+  "kindle",
+  "surface go",
+  "mediapad",
+  "tab a8",
+  "tab s9",
+  "tab s8",
+  "e-reader",
+  "ereader",
+  "smartphone",
+  "handy"
+];
+
+function isExcludedProduct(text, categoryName) {
+  const haystack = `${text} ${categoryName || ""}`.toLowerCase();
+  return EXCLUDED_HINTS.some((h) => haystack.includes(h));
+}
+
 function detectRamAndStorage(text) {
   const storageMatch = text.match(/(\d{2,4})\s?(gb|tb)\s*(ssd|nvme|hdd|festplatte)/i);
   let storageGB = 512;
@@ -110,20 +143,40 @@ function shortPitch({ deviceType, cpuClass, hasGPU, useCases }) {
 export function mapFeedRow(row) {
   const name = (row.product_name || "").trim();
   const description = (row.description || "").trim();
-  const text = `${name} ${description}`;
+  // Bisher wurden CPU/RAM/Speicher/GPU/OS ausschliesslich per Text-Heuristik
+  // aus Titel + Beschreibung erkannt. Der Awin-Feed liefert bei manchen
+  // Produkten zusaetzlich strukturiertere Spalten (`specifications`,
+  // `product_short_description`), die dieselben Angaben oft nochmal
+  // separat/vollstaendiger enthalten (z.B. wenn der Titel selbst gekuerzt
+  // ist). Diese Spalten fliessen NUR in die Hardware-Erkennung (CPU/RAM/
+  // Speicher/GPU/OS) mit ein, NICHT in die Tablet/Smartphone-Ausschluss-
+  // Pruefung weiter unten: `specifications` enthaelt bei PCs/Laptops oft
+  // generische Kompatibilitaets-Floskeln ("auch mit Tablet/Smartphone
+  // nutzbar" o.ae.), die sonst reihenweise echte PCs faelschlich
+  // ausgeschlossen haetten. Die Ausschluss-Pruefung bleibt daher bewusst
+  // auf Titel + Beschreibung + Kategorie beschraenkt (siehe exclusionText).
+  const specifications = (row.specifications || "").trim();
+  const shortDescription = (row.product_short_description || "").trim();
+  const detectionText = `${name} ${description} ${specifications} ${shortDescription}`;
+  const exclusionText = `${name} ${description}`;
   const categoryName = row.category_name || row.merchant_category || "";
   const shop = (row.merchant_name || "").trim() || "notebooksbilliger.de";
 
+  // Tablets, E-Reader, Smartphones etc. sind keine PCs/Laptops und werden
+  // komplett aus dem Katalog ausgeschlossen, statt sie (falsch) als Laptop
+  // oder Desktop einzusortieren.
+  if (isExcludedProduct(exclusionText, categoryName)) return null;
+
   const price = parseFloat(row.search_price || row.display_price || "0") || 0;
   const brand = detectBrand(name, shop);
-  const deviceType = detectDeviceType(text, categoryName);
-  const cpuClass = detectCpuClass(text);
-  const hasGPU = detectGPU(text);
-  const { ramGB, storageGB } = detectRamAndStorage(text);
-  const mobility = detectMobility(deviceType, text);
+  const deviceType = detectDeviceType(detectionText, categoryName);
+  const cpuClass = detectCpuClass(detectionText);
+  const hasGPU = detectGPU(detectionText);
+  const { ramGB, storageGB } = detectRamAndStorage(detectionText);
+  const mobility = detectMobility(deviceType, detectionText);
   const lifespanYears = detectLifespan(cpuClass, ramGB);
-  const useCases = detectUseCases({ text, hasGPU, cpuClass, ramGB, price });
-  const os = detectOS(text, brand);
+  const useCases = detectUseCases({ text: detectionText, hasGPU, cpuClass, ramGB, price });
+  const os = detectOS(detectionText, brand);
 
   const rawId = row.aw_product_id || row.merchant_product_id || row.data_feed_id;
   // Merchant-ID als Präfix: aw_product_id sollte pro Awin-Feed bereits
