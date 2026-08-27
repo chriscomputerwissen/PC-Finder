@@ -2,7 +2,12 @@ import PcFinder from "@/components/PcFinder";
 import { loadProducts } from "@/lib/loadProducts";
 
 export default function Home() {
-  const { products, isLiveData } = loadProducts();
+  // Nur die isLiveData-Markierung wird hier gebraucht (für den Platzhalter-
+  // Hinweis unten) – der eigentliche Produktkatalog wird NICHT mehr an die
+  // Client-Komponente durchgereicht. Seit der achten Runde läuft das
+  // Matching über eine Server Action (app/actions.ts), die den Katalog
+  // serverseitig hält; siehe dortigen Kommentar für den Hintergrund.
+  const { isLiveData } = loadProducts();
 
   return (
     <main className="page">
@@ -16,7 +21,7 @@ export default function Home() {
           <code>npm run fetch-feed</code> aus, um echte notebooksbilliger.de-Angebote zu laden.
         </p>
       )}
-      <PcFinder products={products} />
+      <PcFinder />
     </main>
   );
 }
