@@ -22,16 +22,20 @@ console.log(JSON.stringify(products, null, 2));
 
 const assertions = [
   [
-    objects.length === 8,
-    "Es sollten 8 Testzeilen im CSV stehen (inkl. der ausgeschlossenen Tablet-Zeile)"
+    objects.length === 11,
+    "Es sollten 11 Testzeilen im CSV stehen (inkl. Tablet- und Zubehoer-Zeilen)"
   ],
   [
     products.length === 7,
-    "Es sollten 7 Produkte gemappt werden (Tablet-Zeile wird ausgeschlossen)"
+    "Es sollten 7 Produkte gemappt werden (Tablet- und Zubehoer-Zeilen werden ausgeschlossen)"
   ],
   [
-    !products.some((p) => /fire hd|tablet/i.test(p.name)),
-    "Tablets (z.B. 'Amazon Fire HD 8 Kids') sollten NICHT im gemappten Katalog auftauchen"
+    !products.some((p) => /fire hd|tablet|iconia|idea ?tab/i.test(p.name)),
+    "Tablets (z.B. 'Amazon Fire HD 8 Kids', 'Acer Iconia A10', 'Lenovo IdeaTab') sollten NICHT im gemappten Katalog auftauchen"
+  ],
+  [
+    !products.some((p) => /ssd kit|installationskit/i.test(p.name)),
+    "Zubehoer/Aufruest-Kits (z.B. 'M.2 SSD Kit') sollten NICHT im gemappten Katalog auftauchen"
   ],
   [products[0].deviceType === "laptop", "Zeile 1 sollte ein Laptop sein"],
   [products[0].cpuClass === "mittel", "i5 sollte als 'mittel' erkannt werden"],
