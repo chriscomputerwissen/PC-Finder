@@ -21,7 +21,18 @@ console.log(`${objects.length} Testzeilen, ${products.length} gemappte Produkte:
 console.log(JSON.stringify(products, null, 2));
 
 const assertions = [
-  [products.length === 7, "Es sollten 7 Produkte gemappt werden"],
+  [
+    objects.length === 8,
+    "Es sollten 8 Testzeilen im CSV stehen (inkl. der ausgeschlossenen Tablet-Zeile)"
+  ],
+  [
+    products.length === 7,
+    "Es sollten 7 Produkte gemappt werden (Tablet-Zeile wird ausgeschlossen)"
+  ],
+  [
+    !products.some((p) => /fire hd|tablet/i.test(p.name)),
+    "Tablets (z.B. 'Amazon Fire HD 8 Kids') sollten NICHT im gemappten Katalog auftauchen"
+  ],
   [products[0].deviceType === "laptop", "Zeile 1 sollte ein Laptop sein"],
   [products[0].cpuClass === "mittel", "i5 sollte als 'mittel' erkannt werden"],
   [products[0].ramGB === 16, "16GB RAM sollte erkannt werden"],
