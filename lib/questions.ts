@@ -1,9 +1,10 @@
-import { UseCase } from "./products";
+import { UseCase, OS } from "./products";
 
 export interface Answers {
   useCase: UseCase;
   gamingLevel?: "casual" | "demanding";
   deviceType: "laptop" | "desktop" | "egal";
+  os: OS | "egal";
   mobilityImportance: number; // 1-5, nur relevant bei laptop/egal
   budget: number; // in Euro
   lifespan: "kurz" | "lang"; // 2-3 Jahre vs. möglichst lange
@@ -20,6 +21,17 @@ export const useCaseOptions: { value: UseCase; label: string; hint: string }[] =
 export const gamingLevelOptions = [
   { value: "casual" as const, label: "Eher entspannt", hint: "z. B. Fortnite, League of Legends, ältere Titel" },
   { value: "demanding" as const, label: "Anspruchsvoll", hint: "Aktuelle AAA-Titel in guten Details" }
+];
+
+export const osOptions: { value: OS | "egal"; label: string; hint: string }[] = [
+  { value: "windows", label: "Windows", hint: "Der Standard für die meisten PCs und Laptops" },
+  { value: "macos", label: "macOS (Apple)", hint: "Nur für Apple-Geräte wie MacBook oder Mac mini" },
+  {
+    value: "ohne",
+    label: "Ohne Betriebssystem",
+    hint: "Meist günstiger – Windows installierst du selbst (wir zeigen dir wie)"
+  },
+  { value: "egal", label: "Egal", hint: "Zeig mir alle Optionen" }
 ];
 
 export const deviceTypeOptions = [
