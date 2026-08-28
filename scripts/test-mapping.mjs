@@ -22,16 +22,24 @@ console.log(JSON.stringify(products, null, 2));
 
 const assertions = [
   [
-    objects.length === 11,
-    "Es sollten 11 Testzeilen im CSV stehen (inkl. Tablet- und Zubehoer-Zeilen)"
+    objects.length === 13,
+    "Es sollten 13 Testzeilen im CSV stehen (inkl. Tablet-, Zubehoer- und Grenzfall-Zeilen)"
   ],
   [
-    products.length === 7,
-    "Es sollten 7 Produkte gemappt werden (Tablet- und Zubehoer-Zeilen werden ausgeschlossen)"
+    products.length === 8,
+    "Es sollten 8 Produkte gemappt werden (Tablets/Zubehoer ausgeschlossen, guenstiger Celeron-PC bleibt drin)"
   ],
   [
     !products.some((p) => /fire hd|tablet|iconia|idea ?tab/i.test(p.name)),
     "Tablets (z.B. 'Amazon Fire HD 8 Kids', 'Acer Iconia A10', 'Lenovo IdeaTab') sollten NICHT im gemappten Katalog auftauchen"
+  ],
+  [
+    !products.some((p) => /no-name tab x200/i.test(p.name)),
+    "Ein no-name Tablet ohne bekannten Produktnamen sollte über Android/MediaTek/Mali technisch erkannt und ausgeschlossen werden"
+  ],
+  [
+    products.some((p) => /hp 15s/i.test(p.name)),
+    "Ein echter guenstiger PC (329 EUR, Intel Celeron) sollte trotz Preis unter 350 EUR NICHT faelschlich ausgeschlossen werden"
   ],
   [
     !products.some((p) => /ssd kit|installationskit/i.test(p.name)),
