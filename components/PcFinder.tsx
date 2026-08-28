@@ -308,7 +308,7 @@ export default function PcFinder() {
           isRefreshing={isMatching}
           onRestart={restart}
           budget={answers.budget ?? 800}
-          onIncreaseBudget={(newBudget) => update("budget", newBudget)}
+          onBudgetChange={(newBudget) => update("budget", newBudget)}
         />
       )}
     </div>
@@ -320,19 +320,26 @@ function ResultView({
   isRefreshing,
   onRestart,
   budget,
-  onIncreaseBudget
+  onBudgetChange
 }: {
   results: ScoredProduct[];
   isRefreshing: boolean;
   onRestart: () => void;
   budget: number;
-  onIncreaseBudget: (newBudget: number) => void;
+  onBudgetChange: (newBudget: number) => void;
 }) {
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const [glossaryOpen, setGlossaryOpen] = useState(false);
 
   const topResult = results[0];
   const hasFullMatch = !!topResult?.fullMatch;
+
+  // Wenn wirklich JEDE angezeigte Empfehlung über dem Budget liegt, bringt es
+  // nichts, das nur pro Karte einzeln anzuzeigen – stattdessen ein zentraler,
+  // gut sichtbarer Hinweis samt Regler, um das Budget direkt hier anzupassen
+  // (Nutzer-Feedback 28.08.2026: "nichts für den Preis gefunden, ändere dein
+  // Budget" statt zurück zum Anfang der Fragen zu müssen).
+  const allOverBudget = results.length > 0 && results.every((r) => r.product.price > budget);
 
   return (
     <div>
@@ -351,6 +358,29 @@ function ResultView({
         </button>
         {isRefreshing && <p className="data-note">Aktualisiere Empfehlung …</p>}
       </div>
+
+      <div className="budget-editor">
+        {allOverBudget ? (
+          <p className="budget-editor-title budget-editor-title-warning">
+            ⚠ Für {budget.toLocaleString("de-DE")} € haben wir nichts Passendes gefunden – ändere
+            dein Budget:
+          </p>
+        ) : (
+          <p className="budget-editor-title">Dein Budget</p>
+        )}
+        <div className="slider-wrap">
+          <div className="slider-value">{budget.toLocaleString("de-DE")} €</div>
+          <input
+            type="range"
+            min={300}
+            max={2500}
+            step={BUDGET_STEP}
+            value={budget}
+            onChange={(e) => onBudgetChange(Number(e.target.value))}
+          />
+        </div>
+      </div>
+
       <div className="result-list">
         {results.map((r, idx) => {
           const isOpen = expandedId === r.product.id;
@@ -380,7 +410,7 @@ function ResultView({
                     </p>
                     <button
                       className="btn btn-ghost btn-small"
-                      onClick={() => onIncreaseBudget(suggestedBudget)}
+                      onClick={() => onBudgetChange(suggestedBudget)}
                     >
                       Budget auf {suggestedBudget.toLocaleString("de-DE")} € erhöhen
                     </button>
@@ -429,14 +459,30 @@ function ResultView({
                 </div>
                 {isOpen && (
                   <div className="detail-breakdown">
-                    {r.assessments.map((a) => (
-                      <div key={a.key} className={`detail-row verdict-${a.verdict}`}>
-                        <span className="detail-label">
-                          {a.label} ({a.scoreOutOf5}/5)
-                        </span>
-                        <span className="detail-text">{a.detail}</span>
-                      </div>
-                    ))}
+                    <table className="detail-table">
+                      <thead>
+                        <tr>
+                          <th>Kriterium</th>
+                          <th>Bewertung</th>
+                          <th>Begründung</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {r.assessments.map((a) => (
+                          <tr key={a.key}>
+                            <td className="detail-label" data-th="Kriterium">
+                              {a.label}
+                            </td>
+                            <td data-th="Bewertung">
+                              <span className={`score-pill verdict-${a.verdict}`}>{a.scoreOutOf5}/5</span>
+                            </td>
+                            <td className="detail-text" data-th="Begründung">
+                              {a.detail}
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
                   </div>
                 )}
               </div>
