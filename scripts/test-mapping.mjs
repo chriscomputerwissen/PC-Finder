@@ -22,16 +22,28 @@ console.log(JSON.stringify(products, null, 2));
 
 const assertions = [
   [
-    objects.length === 13,
-    "Es sollten 13 Testzeilen im CSV stehen (inkl. Tablet-, Zubehoer- und Grenzfall-Zeilen)"
+    objects.length === 16,
+    "Es sollten 16 Testzeilen im CSV stehen (inkl. Tablet-, Zubehoer-, Monitor- und Grenzfall-Zeilen)"
   ],
   [
     products.length === 8,
-    "Es sollten 8 Produkte gemappt werden (Tablets/Zubehoer ausgeschlossen, guenstiger Celeron-PC bleibt drin)"
+    "Es sollten 8 Produkte gemappt werden (Tablets/Zubehoer/Monitore ausgeschlossen, guenstiger Celeron-PC bleibt drin)"
+  ],
+  [
+    products.every((p) => !/usb-c kabel/i.test(p.name)),
+    "Zubehoer mit händlereigener Kategorie 'Zub. Notebooks Win' sollte auch INNERHALB der erlaubten Awin-Kategorie 'Computers' ausgeschlossen werden"
+  ],
+  [
+    products.every((p) => p.name !== "Samsung Odyssey G7 32 Zoll Gaming-Monitor, WQHD, 240Hz"),
+    "Monitore (Awin-Kategorie 'Monitors') sollten NICHT im gemappten Katalog auftauchen, auch ohne passendes Namens-Stichwort"
+  ],
+  [
+    products.every((p) => !/xbox game pass/i.test(p.name)),
+    "Zubehoer/Gutscheine/Digitalcodes aus der Awin-Kategorie 'Hardware' sollten NICHT im gemappten Katalog auftauchen"
   ],
   [
     !products.some((p) => /fire hd|tablet|iconia|idea ?tab/i.test(p.name)),
-    "Tablets (z.B. 'Amazon Fire HD 8 Kids', 'Acer Iconia A10', 'Lenovo IdeaTab') sollten NICHT im gemappten Katalog auftauchen"
+    "Tablets (z.B. 'Amazon Fire HD 8 Kids', 'Acer Iconia A10', 'Lenovo IdeaTab'), auch wenn sie faelschlich in 'Computers' einsortiert sind, sollten NICHT im gemappten Katalog auftauchen"
   ],
   [
     !products.some((p) => /no-name tab x200/i.test(p.name)),
@@ -39,11 +51,11 @@ const assertions = [
   ],
   [
     products.some((p) => /hp 15s/i.test(p.name)),
-    "Ein echter guenstiger PC (329 EUR, Intel Celeron) sollte trotz Preis unter 350 EUR NICHT faelschlich ausgeschlossen werden"
+    "Ein echter guenstiger PC (329 EUR, Intel Celeron, Kategorie 'Laptops') sollte trotz Preis unter 350 EUR NICHT faelschlich ausgeschlossen werden"
   ],
   [
     !products.some((p) => /ssd kit|installationskit/i.test(p.name)),
-    "Zubehoer/Aufruest-Kits (z.B. 'M.2 SSD Kit') sollten NICHT im gemappten Katalog auftauchen"
+    "Zubehoer/Aufruest-Kits (z.B. 'M.2 SSD Kit', Awin-Kategorie 'Hardware') sollten NICHT im gemappten Katalog auftauchen"
   ],
   [products[0].deviceType === "laptop", "Zeile 1 sollte ein Laptop sein"],
   [products[0].cpuClass === "mittel", "i5 sollte als 'mittel' erkannt werden"],
