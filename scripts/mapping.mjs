@@ -37,6 +37,11 @@ function detectDeviceType(text, categoryName) {
 
 function detectOS(text, brand) {
   const t = text.toLowerCase();
+  // ChromeOS-Geraete (Chromebooks) muessen VOR der generischen Windows-
+  // Erkennung geprueft werden, sonst fallen sie faelschlich unter "windows"
+  // (siehe Nutzer-Feedback 28.08.2026: Chromebooks sollen nur auftauchen,
+  // wenn beim Betriebssystem "Egal" gewaehlt wurde, nicht bei "Windows").
+  if (/chromebook|chrome ?os/.test(t)) return "chromeos";
   if (brand === "Apple" || /mac ?os|macbook|imac|mac mini|mac studio/.test(t)) return "macos";
   if (/ohne betriebssystem|ohne os\b|no os\b|freedos|free ?dos/.test(t)) return "ohne";
   return "windows";
@@ -218,6 +223,33 @@ function isTabletLikeByTech(detectionText) {
   );
 }
 
+// Nutzer-Feedback (28.08.2026): Refurbished/generalueberholte und gebrauchte
+// Geraete sollen nicht mehr im Katalog auftauchen (neue Geraete, z.B. auch
+// ein neues MS Surface, bleiben davon unberuehrt). Bewusst NUR gegen Titel +
+// Beschreibung geprueft (exclusionText), nicht gegen die technischen
+// Spezifikations-Spalten, um keine echten Neugeraete faelschlich
+// auszuschliessen.
+const REFURBISHED_HINTS = [
+  "refurbished",
+  "generalüberholt",
+  "generalueberholt",
+  "gebraucht",
+  "b-ware",
+  "b ware",
+  "second hand",
+  "secondhand",
+  "wiederaufbereitet",
+  "renewed",
+  "vorbenutzt",
+  "gebrauchtgerät",
+  "gebrauchtgeraet"
+];
+
+function isRefurbishedProduct(text) {
+  const haystack = text.toLowerCase();
+  return REFURBISHED_HINTS.some((h) => haystack.includes(h));
+}
+
 // Eine Preisuntergrenze (z.B. "unter 350 € = kein PC") wurde bewusst NICHT
 // eingebaut: ein Testlauf mit einer kombinierten Regel ("Preis < 350 € UND
 // keine erkennbare PC-CPU-Bezeichnung im Text") ließ den Katalog von ca.
@@ -326,6 +358,7 @@ export function mapFeedRow(row) {
   if (isExcludedProduct(exclusionText, categoryName)) return null;
   if (isAccessoryProduct(name, categoryName)) return null;
   if (isTabletLikeByTech(detectionText)) return null;
+  if (isRefurbishedProduct(exclusionText)) return null;
 
   const brand = detectBrand(name, shop);
   const deviceType = detectDeviceType(detectionText, categoryName);
