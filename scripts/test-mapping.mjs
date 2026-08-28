@@ -22,12 +22,12 @@ console.log(JSON.stringify(products, null, 2));
 
 const assertions = [
   [
-    objects.length === 16,
-    "Es sollten 16 Testzeilen im CSV stehen (inkl. Tablet-, Zubehoer-, Monitor- und Grenzfall-Zeilen)"
+    objects.length === 18,
+    "Es sollten 18 Testzeilen im CSV stehen (inkl. Tablet-, Zubehoer-, Monitor-, Chromebook-, Refurbished- und Grenzfall-Zeilen)"
   ],
   [
-    products.length === 8,
-    "Es sollten 8 Produkte gemappt werden (Tablets/Zubehoer/Monitore ausgeschlossen, guenstiger Celeron-PC bleibt drin)"
+    products.length === 9,
+    "Es sollten 9 Produkte gemappt werden (Tablets/Zubehoer/Monitore/Refurbished ausgeschlossen, guenstiger Celeron-PC und Chromebook bleiben drin)"
   ],
   [
     products.every((p) => !/usb-c kabel/i.test(p.name)),
@@ -56,6 +56,18 @@ const assertions = [
   [
     !products.some((p) => /ssd kit|installationskit/i.test(p.name)),
     "Zubehoer/Aufruest-Kits (z.B. 'M.2 SSD Kit', Awin-Kategorie 'Hardware') sollten NICHT im gemappten Katalog auftauchen"
+  ],
+  [
+    !products.some((p) => /generalüberholt|refurbished/i.test(p.name)),
+    "Refurbished/generalueberholte Geraete sollten NICHT im gemappten Katalog auftauchen"
+  ],
+  [
+    products.some((p) => /chromebook/i.test(p.name)),
+    "Ein neues Chromebook sollte NICHT ausgeschlossen werden (nur bei explizit gewaehltem Windows/macOS unsichtbar, siehe scoring.ts)"
+  ],
+  [
+    (products.find((p) => /chromebook/i.test(p.name)) || {}).os === "chromeos",
+    "Ein Chromebook sollte als os='chromeos' erkannt werden, nicht faelschlich als 'windows'"
   ],
   [products[0].deviceType === "laptop", "Zeile 1 sollte ein Laptop sein"],
   [products[0].cpuClass === "mittel", "i5 sollte als 'mittel' erkannt werden"],
