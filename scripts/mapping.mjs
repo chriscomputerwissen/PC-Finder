@@ -55,6 +55,58 @@ function detectGPU(text) {
   return /rtx ?\d{3,4}|gtx ?\d{3,4}|radeon rx ?\d{3,4}|arc a\d{3}/i.test(text);
 }
 
+// Der kombinierte Awin-Datenfeed nutzt Awins EIGENE, händlerübergreifende
+// Kategorien (gesteuert über die "cid"-Parameter in der Feed-URL) – nicht die
+// Kategorien der einzelnen Shops. Eine Auswertung des Rohfeeds (28.08.2026)
+// zeigt genau 4 Kategorien: "Laptops" (11052), "Monitors" (4021), "Hardware"
+// (1898), "Computers" (1513). Eine Stichprobe der günstigsten Katalog-Einträge
+// zeigte: "Monitors" enthält (wie der Name sagt) Bildschirme statt PCs, und
+// "Hardware" ist ein Sammelbecken für Zubehör (Kabel, Adapter, Gehäuse,
+// Netzteile, Notebookständer, Blickschutzfilter, Geschenkkarten, digitale
+// Spielecodes, Garantieverlängerungen etc.) – keine eigenständigen PCs.
+// Statt jeden einzelnen Zubehör-/Gutschein-/Kabel-Typ per Stichwort zu jagen
+// (nie vollständig, siehe Nutzer-Feedback), lassen wir grundsätzlich NUR
+// Zeilen aus "Laptops" und "Computers" in den Katalog – das ist robuster als
+// jede Namens-Denyliste. Die Namens-/Technik-Filter weiter unten bleiben
+// zusätzlich bestehen, weil auch innerhalb dieser beiden Kategorien
+// vereinzelt Tablets/Zubehör falsch einsortiert sein können.
+const ALLOWED_CATEGORIES = ["laptops", "computers"];
+
+function isAllowedCategory(categoryName) {
+  const cat = (categoryName || "").trim().toLowerCase();
+  return ALLOWED_CATEGORIES.includes(cat);
+}
+
+// Selbst innerhalb von "Computers"/"Laptops" steckte noch jede Menge
+// Zubehör (Adapter, Docks, Ladegeräte, Stifte, Notebookständer, ...). Eine
+// Auswertung der 150 günstigsten Roh-Zeilen zeigte: die Awin-Kategorie
+// verrät das nicht, aber die HÄNDLEREIGENE Kategorie (`merchant_category`,
+// z.B. bei Cyberport) schon – ausnahmslos ALLE günstigen Zubehör-Treffer
+// trugen den Wert "Zub. Notebooks Win". Die restlichen, im Feed
+// vorkommenden Werte sind allesamt echte PC-Kategorien: "Notebooks
+// Windows", "Apple-Notebooks", "Notebooks", "PC", "Apple-Desktops". Auch
+// hier wieder bewusst eine Positivliste statt "alles außer Zub.*"
+// auszuschließen: taucht künftig eine neue, unbekannte merchant_category
+// auf, fällt sie erstmal raus statt ungeprüft durchzurutschen – sichtbar
+// bleibt das über die Kategorie-Diagnose-Logs in fetch-feed.mjs.
+const ALLOWED_MERCHANT_CATEGORIES = [
+  "notebooks windows",
+  "apple-notebooks",
+  "notebooks",
+  "pc",
+  "apple-desktops"
+];
+
+// Manche Zeilen (insbesondere von notebooksbilliger.de) liefern gar keine
+// merchant_category – dort verlassen wir uns weiter auf die Awin-Kategorie
+// (Laptops/Computers) allein, statt echte Angebote ohne erkennbaren Grund
+// auszuschließen.
+function isAllowedMerchantCategory(merchantCategory) {
+  const cat = (merchantCategory || "").trim().toLowerCase();
+  if (!cat) return true;
+  return ALLOWED_MERCHANT_CATEGORIES.includes(cat);
+}
+
 // Der Awin-Feed (insbesondere Cyberport) enthält in den genutzten Kategorien
 // auch Tablets, E-Reader & Co. mit – das sind keine "PCs" im Sinne dieses
 // Tools und sollen nicht als Empfehlung auftauchen (z.B. "Amazon Fire HD 8
@@ -251,9 +303,22 @@ export function mapFeedRow(row) {
   const detectionText = `${name} ${description} ${specifications} ${shortDescription}`;
   const exclusionText = `${name} ${description}`;
   const categoryName = row.category_name || row.merchant_category || "";
+  const merchantCategory = row.merchant_category || "";
   const shop = (row.merchant_name || "").trim() || "notebooksbilliger.de";
 
   const price = parseFloat(row.search_price || row.display_price || "0") || 0;
+
+  // Nur Awin-Kategorien "Laptops"/"Computers" zulassen (siehe Kommentar bei
+  // ALLOWED_CATEGORIES oben) – filtert Monitore und die "Hardware"-Sammel-
+  // kategorie (Zubehör, Gutscheine, Spielecodes, ...) komplett heraus.
+  if (!isAllowedCategory(categoryName)) return null;
+
+  // Zusätzlich die händlereigene Kategorie prüfen (siehe
+  // ALLOWED_MERCHANT_CATEGORIES oben) – filtert das verbliebene
+  // Notebook-Zubehör (Adapter, Docks, Ladegeräte, Stifte, ...) heraus, das
+  // innerhalb von "Laptops"/"Computers" weiterhin unter "Zub. Notebooks
+  // Win" o.ä. läuft.
+  if (!isAllowedMerchantCategory(merchantCategory)) return null;
 
   // Tablets, E-Reader, Smartphones etc. sind keine PCs/Laptops und werden
   // komplett aus dem Katalog ausgeschlossen, statt sie (falsch) als Laptop
