@@ -137,6 +137,48 @@ function isAccessoryProduct(name, categoryName) {
   return ACCESSORY_HINTS.some((h) => haystack.includes(h));
 }
 
+// Statt jede einzelne Tablet-Produktlinie beim Namen zu kennen (siehe
+// Iconia/IdeaTab-Nachtrag oben – nie vollständig, jede neue Serie rutscht
+// erstmal durch), erkennen wir Tablets zusätzlich technisch: Android als
+// Betriebssystem, ARM-Tablet-Chips und mobile GPUs kommen in echten
+// Windows-/Mac-PCs praktisch nie vor. Diese Begriffe sind viel eindeutiger
+// als generische Wörter wie "Tablet" und lösen keine Fehlausschlüsse bei
+// echten PCs aus – deshalb wird hier bewusst der breitere detectionText
+// (inkl. specifications/short description) genutzt statt der engeren
+// exclusionText, die für die generischen Namens-Stichwörter oben aus gutem
+// Grund enger gefasst ist (siehe Regression bei EXCLUDED_HINTS).
+const TABLET_OS_HINTS = ["android"];
+
+// Snapdragon wird bewusst NICHT hier gelistet: es gibt inzwischen auch
+// "Windows on ARM"-Laptops (Copilot+ PCs) mit Snapdragon-Chips, die aber als
+// Betriebssystem "Windows" führen – die Android-Prüfung oben schützt schon
+// vor den eigentlichen Tablets/Smartphones mit Snapdragon.
+const TABLET_CHIP_HINTS = ["mediatek", "helio g", "helio p", "helio a", "dimensity", "unisoc", "exynos"];
+
+const TABLET_GPU_HINTS = ["mali-400", "mali-g", "mali g", "adreno", "powervr"];
+
+function isTabletLikeByTech(detectionText) {
+  const t = detectionText.toLowerCase();
+  return (
+    TABLET_OS_HINTS.some((h) => t.includes(h)) ||
+    TABLET_CHIP_HINTS.some((h) => t.includes(h)) ||
+    TABLET_GPU_HINTS.some((h) => t.includes(h))
+  );
+}
+
+// Eine Preisuntergrenze (z.B. "unter 350 € = kein PC") wurde bewusst NICHT
+// eingebaut: ein Testlauf mit einer kombinierten Regel ("Preis < 350 € UND
+// keine erkennbare PC-CPU-Bezeichnung im Text") ließ den Katalog von ca.
+// 8.700 auf ca. 6.100 Produkte einbrechen (-30%) – deutlich mehr als die
+// erwartete zusätzliche Tablet-Reduktion. Grund: viele echte günstige
+// Einsteiger-PCs/Business-Desktops nennen ihre CPU im Feed-Text nicht immer
+// so präzise (z.B. nur "Intel Core Prozessor" ohne i3/i5-Zusatz, oder AMD-
+// Bezeichnungen außerhalb des erkannten Musters). Eine reine Preisgrenze
+// hätte also reihenweise echte günstige PCs mit-ausgeschlossen. Die
+// technische Erkennung oben (Android/ARM-Chips/mobile GPUs) bleibt
+// stattdessen der einzige zusätzliche Signal-Typ, weil sie sehr präzise ist
+// und nicht auf den Preis angewiesen ist.
+
 function detectRamAndStorage(text) {
   const storageMatch = text.match(/(\d{2,4})\s?(gb|tb)\s*(ssd|nvme|hdd|festplatte)/i);
   let storageGB = 512;
@@ -211,13 +253,15 @@ export function mapFeedRow(row) {
   const categoryName = row.category_name || row.merchant_category || "";
   const shop = (row.merchant_name || "").trim() || "notebooksbilliger.de";
 
+  const price = parseFloat(row.search_price || row.display_price || "0") || 0;
+
   // Tablets, E-Reader, Smartphones etc. sind keine PCs/Laptops und werden
   // komplett aus dem Katalog ausgeschlossen, statt sie (falsch) als Laptop
   // oder Desktop einzusortieren.
   if (isExcludedProduct(exclusionText, categoryName)) return null;
   if (isAccessoryProduct(name, categoryName)) return null;
+  if (isTabletLikeByTech(detectionText)) return null;
 
-  const price = parseFloat(row.search_price || row.display_price || "0") || 0;
   const brand = detectBrand(name, shop);
   const deviceType = detectDeviceType(detectionText, categoryName);
   const cpuClass = detectCpuClass(detectionText);
