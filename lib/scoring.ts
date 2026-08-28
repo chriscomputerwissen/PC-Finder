@@ -50,7 +50,8 @@ function findLabel<T extends string>(options: { value: T; label: string }[], val
 const osLabel: Record<OS, string> = {
   windows: "Windows",
   macos: "macOS",
-  ohne: "ohne Betriebssystem"
+  ohne: "ohne Betriebssystem",
+  chromeos: "ChromeOS"
 };
 
 export type Verdict = "gut" | "ok" | "weniger-passend";
