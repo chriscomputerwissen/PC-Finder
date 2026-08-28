@@ -10,7 +10,7 @@
 export type UseCase = "office" | "gaming" | "creative" | "coding" | "school";
 export type CpuClass = "einsteiger" | "mittel" | "leistung" | "premium";
 export type DeviceType = "laptop" | "desktop";
-export type OS = "windows" | "macos" | "ohne";
+export type OS = "windows" | "macos" | "ohne" | "chromeos";
 
 export interface Product {
   id: string;
