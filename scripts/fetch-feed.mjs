@@ -41,6 +41,72 @@ async function main() {
   const objects = rowsToObjects(rows);
   console.log(`${objects.length} Zeilen im Feed gefunden.`);
 
+  // Diagnose: welche Kategorien liefert der Feed überhaupt (vor jedem
+  // Mapping/Ausschluss)? Das reine Filtern über Namens-Stichwörter
+  // (Zubehör, Tablets, ...) ist ein Fass ohne Boden – jede neue Serie/jeder
+  // neue Zubehör-Typ rutscht erstmal durch. Kategorienamen sind der
+  // Awin-Feed-Struktur nach viel eindeutiger (z.B. "Notebooks" vs.
+  // "PC-Komponenten & Zubehör" vs. "Tablets"), deshalb loggen wir hier die
+  // rohe Kategorie-Verteilung, um darauf ggf. eine Positivliste (nur
+  // erlaubte Kategorien) statt einer Negativliste (Stichwörter) aufbauen
+  // zu können.
+  const categoryCounts = new Map();
+  for (const o of objects) {
+    const cat = (o.category_name || o.merchant_category || "(keine Kategorie)").trim();
+    categoryCounts.set(cat, (categoryCounts.get(cat) || 0) + 1);
+  }
+  console.log("Kategorien im Rohfeed (vor Mapping/Ausschluss), absteigend nach Häufigkeit:");
+  Array.from(categoryCounts.entries())
+    .sort((a, b) => b[1] - a[1])
+    .forEach(([cat, n]) => console.log(`  ${n}x  ${cat}`));
+
+  // Diagnose: "Computers" und "Laptops" (die einzigen beiden zugelassenen
+  // Awin-Kategorien, siehe ALLOWED_CATEGORIES in mapping.mjs) enthalten laut
+  // Stichprobe der günstigsten Produkte weiterhin viel Zubehör (Adapter,
+  // Kabel, Docks, Stifte, Halterungen, Notebookständer, ...). Der Awin-
+  // Feed liefert zusätzlich `merchant_category` (die ROHE, händlereigene
+  // Kategorie, nicht die von Awin normalisierte `category_name`) – hier
+  // loggen wir deren Verteilung NUR innerhalb von Computers/Laptops, um zu
+  // sehen, ob sich darüber eine feinere, zuverlässigere Trennung zwischen
+  // echten PCs und Zubehör bauen lässt als über Namens-Stichwörter.
+  const merchantCategoryCounts = new Map();
+  for (const o of objects) {
+    const awinCat = (o.category_name || "").trim().toLowerCase();
+    if (awinCat !== "computers" && awinCat !== "laptops") continue;
+    const mcat = (o.merchant_category || "(keine Händler-Kategorie)").trim();
+    merchantCategoryCounts.set(mcat, (merchantCategoryCounts.get(mcat) || 0) + 1);
+  }
+  console.log(
+    "Händler-eigene Kategorien (merchant_category) INNERHALB von Awin-Kategorie Computers/Laptops, absteigend nach Häufigkeit:"
+  );
+  Array.from(merchantCategoryCounts.entries())
+    .sort((a, b) => b[1] - a[1])
+    .forEach(([cat, n]) => console.log(`  ${n}x  ${cat}`));
+
+  // Diagnose: die 150 günstigsten ROHEN Zeilen (nicht das Endergebnis)
+  // innerhalb von Computers/Laptops, mit merchant_category, damit sich
+  // Preis + Händler-Kategorie + Name gemeinsam anschauen lassen, um ein
+  // Muster für verbliebenes Zubehör zu finden.
+  const allowedRaw = objects.filter((o) => {
+    const awinCat = (o.category_name || "").trim().toLowerCase();
+    return awinCat === "computers" || awinCat === "laptops";
+  });
+  const cheapestRaw = [...allowedRaw]
+    .map((o) => ({
+      price: parseFloat(o.search_price || o.display_price || "0") || 0,
+      merchantCategory: (o.merchant_category || "(keine)").trim(),
+      name: (o.product_name || "").trim()
+    }))
+    .filter((o) => o.price > 0)
+    .sort((a, b) => a.price - b.price)
+    .slice(0, 150);
+  console.log(
+    `Die ${cheapestRaw.length} günstigsten ROH-Zeilen innerhalb Computers/Laptops (vor jedem weiteren Filter), mit merchant_category:`
+  );
+  cheapestRaw.forEach((o) => {
+    console.log(`  ${o.price.toFixed(2)}€ | ${o.merchantCategory} | ${o.name}`);
+  });
+
   const mapped = objects
     .map(mapFeedRow)
     .filter((p) => p !== null);
@@ -107,6 +173,17 @@ async function main() {
         .map(([shop, n]) => `${shop}: ${n}`)
         .join(", ")
   );
+
+  // Diagnose: die 200 günstigsten Produkte im FINALEN Katalog loggen.
+  // Zubehör/Ersatzteile, die durch die bisherigen Filter rutschen, sind so
+  // gut wie immer sehr günstig – das ist die schnellste Art, verbliebenes
+  // Zubehör konkret zu sehen (statt blind neue Stichwörter zu raten), ohne
+  // den kompletten Katalog aus dem Build exportieren zu müssen.
+  const cheapest = [...products].sort((a, b) => a.price - b.price).slice(0, 200);
+  console.log(`Die ${cheapest.length} günstigsten Produkte im finalen Katalog (Zubehör-Kontrolle):`);
+  cheapest.forEach((p) => {
+    console.log(`  ${p.price.toFixed(2)}€ | ${p.shop} | ${p.name}`);
+  });
 
   const output = {
     generatedAt: new Date().toISOString(),
