@@ -35,6 +35,13 @@ export interface Product {
   // durch den echten Tracking-Link (Deeplink mit Publisher-ID).
   affiliateUrl: string;
   shortPitch: string; // ein Satz, der das Gerät auf den Punkt bringt
+  // Cross-Shop-Preisvergleich (seit 01.09.2026): wird von
+  // scripts/dedupe.mjs befüllt, wenn dasselbe Gerät (gleicher normalisierter
+  // Name) auch bei anderen Händlern gelistet ist. Enthält jeweils nur das
+  // günstigste Angebot PRO anderem Shop, aufsteigend nach Preis – das
+  // Angebot in diesem Product-Objekt selbst ist immer das insgesamt
+  // günstigste. Optional/leer, wenn kein anderer Shop dasselbe Gerät führt.
+  alternativeOffers?: { shop: string; price: number }[];
 }
 
 // Platzhalter-Katalog. Wird ersetzt/ergänzt, sobald der echte NBB-Produktfeed
