@@ -399,6 +399,14 @@ function ResultView({
               <div>
                 <h3>{r.product.name}</h3>
                 <div className="result-price">{r.product.price.toLocaleString("de-DE")} €</div>
+                <div className="shop-line">Erhältlich bei {r.product.shop}</div>
+                {r.product.alternativeOffers && r.product.alternativeOffers.length > 0 && (
+                  <div className="price-compare">
+                    ✓ Preisvergleich: bei {r.product.alternativeOffers[0].shop} aktuell{" "}
+                    {r.product.alternativeOffers[0].price.toLocaleString("de-DE")} € – hier sparst du{" "}
+                    {(r.product.alternativeOffers[0].price - r.product.price).toLocaleString("de-DE")} €.
+                  </div>
+                )}
                 <div className="match-score">
                   Gesamtwertung: {Math.round((r.totalScore / r.maxScore) * 100)}% Übereinstimmung
                 </div>
@@ -496,8 +504,10 @@ function ResultView({
         </button>
       </div>
       <p className="disclosure">
-        Für einige Links auf dieser Seite erhält Computerwissen mit Chris ggf. eine kleine
-        Provision, wenn du darüber einkaufst – für dich entstehen dadurch keine Mehrkosten.
+        Wir vergleichen automatisch mehrere Händler und zeigen dir das jeweils günstigste Angebot –
+        unabhängig davon, ob wir dort eine Provision bekommen. Für einige Links auf dieser Seite
+        erhält Computerwissen mit Chris ggf. eine kleine Provision, wenn du darüber einkaufst – für
+        dich entstehen dadurch keine Mehrkosten.
       </p>
 
       {glossaryOpen && <GlossaryModal onClose={() => setGlossaryOpen(false)} />}
