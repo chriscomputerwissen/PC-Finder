@@ -68,6 +68,17 @@ export const glossarySections: GlossarySection[] = [
     ]
   },
   {
+    key: "screen",
+    title: "Bildschirm (Größe & Auflösung)",
+    intro:
+      "Bei Laptops zählen neben der Leistung auch Bildschirmgröße und Auflösung: für Büroarbeit reicht ein kleineres, einfacheres Display, für Kreativarbeit, Programmieren oder Gaming lohnt sich ein größerer, schärferer Bildschirm – mehr Platz für Zeitleisten, Paletten oder mehrere Fenster, feinere Details bei Bild-/Videobearbeitung.",
+    reference: [
+      "13-14 Zoll, Full HD: guter Kompromiss für Büro, Schule, unterwegs",
+      "15,6 Zoll oder mehr, QHD/WQHD: komfortabler für Programmieren, spürbar besser für Kreativarbeit und Gaming",
+      "16 Zoll oder mehr, 4K/UHD: ideal für anspruchsvolle Bild-/Videobearbeitung, bei Gaming eher Geschmackssache (hohe Bildwiederholrate oft wichtiger als reine Auflösung)"
+    ]
+  },
+  {
     key: "os",
     title: "Betriebssystem",
     intro:
