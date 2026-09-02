@@ -1,4 +1,4 @@
-import { Product, CpuClass, UseCase, OS } from "./products";
+import { Product, CpuClass, UseCase, OS, ScreenResolution } from "./products";
 import {
   Answers,
   deviceTypeOptions,
@@ -41,6 +41,31 @@ const storageRecommendation: Record<UseCase, number> = {
   coding: 512,
   creative: 512,
   gaming: 512
+};
+
+// Richtwerte fürs Display je Einsatzzweck (Nutzerwunsch 02.09.2026): für
+// Kreativarbeit, Programmieren und Gaming sind ein größeres UND
+// höher auflösendes Display spürbar von Vorteil (mehr Platz für
+// Zeitleisten/Paletten/mehrere Fenster, feinere Details bei Bild-/
+// Videobearbeitung) – Büro/Schule kommen mit kleineren, einfacheren
+// Displays gut zurecht.
+const screenRecommendation: Record<
+  UseCase,
+  { minInches: number; comfortableInches: number; minResolution: ScreenResolution; comfortableResolution: ScreenResolution }
+> = {
+  office: { minInches: 13, comfortableInches: 14, minResolution: "fhd", comfortableResolution: "fhd" },
+  school: { minInches: 13, comfortableInches: 14, minResolution: "fhd", comfortableResolution: "fhd" },
+  coding: { minInches: 14, comfortableInches: 15.6, minResolution: "fhd", comfortableResolution: "qhd" },
+  creative: { minInches: 15.6, comfortableInches: 16, minResolution: "qhd", comfortableResolution: "uhd" },
+  gaming: { minInches: 15.6, comfortableInches: 16, minResolution: "qhd", comfortableResolution: "uhd" }
+};
+
+const screenResolutionRank: Record<ScreenResolution, number> = { hd: 1, fhd: 2, qhd: 3, uhd: 4 };
+const screenResolutionLabel: Record<ScreenResolution, string> = {
+  hd: "HD",
+  fhd: "Full HD",
+  qhd: "QHD/WQHD",
+  uhd: "4K/UHD"
 };
 
 function findLabel<T extends string>(options: { value: T; label: string }[], value: T | undefined): string {
@@ -462,6 +487,57 @@ export function matchProducts(products: Product[], answers: Answers): ScoredProd
         5,
         "Desktop-PC – passt genau, da dir Mobilität nicht wichtig war.",
         `Mobilität war dir mit ${answers.mobilityImportance} von 5 nicht wichtig, daher erfüllt ein Desktop-PC deine Anforderung vollständig.`
+      );
+    }
+
+    // Bildschirm (Größe + Auflösung)
+    // Nutzerwunsch 02.09.2026: eigenes Kriterium, aber NUR bei Laptops in die
+    // Bewertung aufgenommen (bei Desktop-PCs liefert der Feed keinen Monitor
+    // mit, das Kriterium ergäbe dort keinen Sinn – siehe auch
+    // scripts/mapping.mjs, wo screenSizeInches/screenResolution nur für
+    // Laptops überhaupt erkannt werden). Größe und Auflösung fehlen im Feed
+    // nicht selten – ein unbekannter Wert wird wie bei merchant_category
+    // bewusst NICHT als "verfehlt" gewertet, sondern als erfüllt behandelt,
+    // um echte Laptops nicht mangels Textangabe abzuwerten.
+    if (product.deviceType === "laptop") {
+      const rec = screenRecommendation[answers.useCase];
+      const sizeKnown = product.screenSizeInches !== undefined;
+      const resolutionKnown = product.screenResolution !== undefined;
+      const sizeOk = !sizeKnown || product.screenSizeInches! >= rec.minInches;
+      const resolutionOk =
+        !resolutionKnown || screenResolutionRank[product.screenResolution!] >= screenResolutionRank[rec.minResolution];
+      const sizeComfortable = sizeKnown && product.screenSizeInches! >= rec.comfortableInches;
+      const resolutionComfortable =
+        resolutionKnown && screenResolutionRank[product.screenResolution!] >= screenResolutionRank[rec.comfortableResolution];
+
+      const sizeLabel = sizeKnown ? `${product.screenSizeInches}"` : "unbekannter Größe";
+      const resolutionLabel = resolutionKnown
+        ? screenResolutionLabel[product.screenResolution!]
+        : "unbekannter Auflösung";
+
+      let score: number;
+      let short: string;
+      if (sizeOk && resolutionOk) {
+        score = 5;
+        const extra = sizeComfortable || resolutionComfortable;
+        short = extra
+          ? `Großzügiges Display (${sizeLabel}, ${resolutionLabel}) – mehr, als du für „${useCaseLabel}“ unbedingt brauchst.`
+          : `Display (${sizeLabel}, ${resolutionLabel}) passt genau zu deinem Bedarf für „${useCaseLabel}“.`;
+      } else if (sizeOk || resolutionOk) {
+        score = NEAR_MISS;
+        short = `Display (${sizeLabel}, ${resolutionLabel}) liegt bei Größe oder Auflösung etwas unter dem Richtwert für „${useCaseLabel}“.`;
+      } else {
+        score = CLEAR_MISS;
+        short = `Display (${sizeLabel}, ${resolutionLabel}) liegt bei Größe UND Auflösung unter dem Richtwert für „${useCaseLabel}“.`;
+      }
+
+      pushAssessment(
+        assessments,
+        "screen",
+        "Bildschirm",
+        score,
+        short,
+        `Für „${useCaseLabel}“ empfehlen wir als Richtwert mindestens ${rec.minInches}" Displaygröße und ${screenResolutionLabel[rec.minResolution]}-Auflösung. Dieses Gerät hat ${sizeLabel} bei ${resolutionLabel}.`
       );
     }
 
