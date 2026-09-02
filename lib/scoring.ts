@@ -660,4 +660,4 @@ export function matchProducts(products: Product[], answers: Answers): ScoredProd
     if (b.totalScore !== a.totalScore) return b.totalScore - a.totalScore;
     return a.product.price - b.product.price;
   });
-}
+} 
