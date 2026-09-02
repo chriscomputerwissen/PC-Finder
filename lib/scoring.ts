@@ -207,24 +207,68 @@ export function matchProducts(products: Product[], answers: Answers): ScoredProd
     const assessments: ComponentAssessment[] = [];
 
     // Einsatzzweck
-    if (product.useCases.includes(answers.useCase)) {
-      pushAssessment(
-        assessments,
-        "useCase",
-        "Einsatzzweck",
-        5,
-        `Passt zu deinem Einsatzzweck „${useCaseLabel}“.`,
-        `Du hast „${useCaseLabel}“ als Haupteinsatzzweck angegeben. Dieses Gerät ist genau für solche Anwendungsfälle ausgelegt.`
-      );
-    } else {
-      pushAssessment(
-        assessments,
-        "useCase",
-        "Einsatzzweck",
-        NEAR_MISS,
-        `Nicht speziell für „${useCaseLabel}“ ausgelegt.`,
-        `Du hast „${useCaseLabel}“ angegeben. Dieses Gerät ist eher für andere Einsatzzwecke gedacht, kann aber trotzdem brauchbar sein, wenn Preis und Ausstattung sonst passen.`
-      );
+    // Bis 02.09.2026 war dies eine reine Tag-Prüfung ("useCases enthält den
+    // gewählten Einsatzzweck?" → 5/5 oder 2/5). Nutzer-Feedback zeigte einen
+    // Widerspruch: das "creative"-Tag wird auch über Textstichwörter oder
+    // CPU-Klasse+RAM vergeben (siehe detectUseCases in scripts/mapping.mjs)
+    // und kann daher ein Gerät ohne dedizierte Grafikkarte trotzdem als
+    // "genau ausgelegt" (5/5) zeigen, obwohl das GPU-Kriterium direkt
+    // darunter das Gegenteil sagt (1/5). Deshalb jetzt ein Punktesystem aus
+    // vier Signalen, das direkt auf denselben Werten wie die anderen
+    // Kriterien aufbaut – damit sich "Einsatzzweck" und die Einzelkriterien
+    // nicht mehr widersprechen können, und auch 3/5 oder 4/5 möglich sind:
+    //   +2  Gerät ist laut Feed-Text/Heuristik als "<Einsatzzweck>" getaggt
+    //   +1  Grafikkarten-Anforderung erfüllt (eigene GPU vorhanden, FALLS für
+    //       diesen Einsatzzweck überhaupt nötig – sonst automatisch erfüllt,
+    //       analog zum GPU-Kriterium selbst weiter unten)
+    //   +1  RAM erreicht den Mindest-Richtwert für diesen Einsatzzweck
+    //   +1  Bildschirm erreicht den Mindest-Richtwert (nur bei Laptops
+    //       geprüft – bei Desktop-PCs automatisch erfüllt, da es dort gar
+    //       kein Bildschirm-Kriterium gibt, siehe vierzehnte Runde)
+    // Macht in Summe immer maximal 5 Punkte, unabhängig von Gerätetyp/
+    // Einsatzzweck. Untergrenze 1 (nie 0), damit es konsistent zur
+    // 1-5-Skala der übrigen Kriterien bleibt.
+    {
+      const isTagged = product.useCases.includes(answers.useCase);
+      const gpuOk = !requiresGPU || product.hasGPU;
+      const ramOk = product.ramGB >= ramRec.min;
+      let screenOk = true;
+      if (product.deviceType === "laptop") {
+        const useCaseScreenRec = screenRecommendation[answers.useCase];
+        const sizeOk =
+          product.screenSizeInches === undefined || product.screenSizeInches >= useCaseScreenRec.minInches;
+        const resolutionOk =
+          product.screenResolution === undefined ||
+          screenResolutionRank[product.screenResolution] >= screenResolutionRank[useCaseScreenRec.minResolution];
+        screenOk = sizeOk && resolutionOk;
+      }
+
+      const points = (isTagged ? 2 : 0) + (gpuOk ? 1 : 0) + (ramOk ? 1 : 0) + (screenOk ? 1 : 0);
+      const score = Math.max(1, Math.min(5, points));
+
+      const met: string[] = [];
+      const missed: string[] = [];
+      (isTagged ? met : missed).push(`als „${useCaseLabel}“-Gerät beschrieben`);
+      if (requiresGPU) (gpuOk ? met : missed).push("eigene Grafikkarte");
+      (ramOk ? met : missed).push("ausreichend Arbeitsspeicher");
+      if (product.deviceType === "laptop") (screenOk ? met : missed).push("passender Bildschirm");
+
+      const short =
+        score === 5
+          ? `Passt genau zu deinem Einsatzzweck „${useCaseLabel}“.`
+          : score >= 4
+          ? `Passt gut zu deinem Einsatzzweck „${useCaseLabel}“, mit einer kleinen Einschränkung.`
+          : score === 3
+          ? `Passt teilweise zu deinem Einsatzzweck „${useCaseLabel}“.`
+          : `Nicht speziell für „${useCaseLabel}“ ausgelegt.`;
+
+      const detail = `Für „${useCaseLabel}“ zählen unter anderem: Beschreibung/Ausrichtung des Geräts${
+        requiresGPU ? ", eine eigene Grafikkarte" : ""
+      }, ausreichend Arbeitsspeicher${
+        product.deviceType === "laptop" ? " und ein passender Bildschirm" : ""
+      }. Erfüllt: ${met.join(", ")}.${missed.length > 0 ? ` Nicht erfüllt: ${missed.join(", ")}.` : ""} Details dazu stehen in den jeweiligen Einzelkriterien unten.`;
+
+      pushAssessment(assessments, "useCase", "Einsatzzweck", score, short, detail);
     }
 
     // Betriebssystem
