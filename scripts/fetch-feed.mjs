@@ -41,6 +41,49 @@ async function main() {
   const objects = rowsToObjects(rows);
   console.log(`${objects.length} Zeilen im Feed gefunden.`);
 
+  // Diagnose: EAN/MPN-Füllgrad prüfen (Cross-Shop-Preisvergleich, Nutzerwunsch
+  // 01.09.2026). Der Namens-basierte Preisvergleich (dedupeByName) fand in
+  // einem ersten Testlauf 0 Treffer zwischen den Shops, weil notebooksbilliger.de
+  // und Cyberport dieselben Geräte unterschiedlich betiteln (z.B. unterschiedliche
+  // Kurz-/Langform, unterschiedliche Reihenfolge der Specs im Titel). EAN/MPN
+  // wären ein shop-unabhängiger Schlüssel, laut Projekt-Doku aber "nicht
+  // durchgängig befüllt" – hier einmalig verifizieren, WIE gut sie gefüllt sind,
+  // bevor Aufwand in einen EAN/MPN-basierten Abgleich gesteckt wird.
+  if (objects.length > 0) {
+    console.log("Verfügbare Spalten im Feed:", Object.keys(objects[0]).join(", "));
+    const withEan = objects.filter((o) => (o.ean || "").trim().length > 0).length;
+    const withMpn = objects.filter((o) => (o.mpn || "").trim().length > 0).length;
+    const withBrandName = objects.filter((o) => (o.brand_name || "").trim().length > 0).length;
+    const withModelNumber = objects.filter((o) => (o.model_number || "").trim().length > 0).length;
+    const withProductModel = objects.filter((o) => (o.product_model || "").trim().length > 0).length;
+    console.log(
+      `EAN gefüllt: ${withEan}/${objects.length} (${Math.round((withEan / objects.length) * 100)}%), ` +
+        `MPN gefüllt: ${withMpn}/${objects.length} (${Math.round((withMpn / objects.length) * 100)}%), ` +
+        `brand_name gefüllt: ${withBrandName}/${objects.length} (${Math.round((withBrandName / objects.length) * 100)}%), ` +
+        `model_number gefüllt: ${withModelNumber}/${objects.length} (${Math.round((withModelNumber / objects.length) * 100)}%), ` +
+        `product_model gefüllt: ${withProductModel}/${objects.length} (${Math.round((withProductModel / objects.length) * 100)}%)`
+    );
+
+    // Stichprobe: pro Shop je 5 Zeilen mit befülltem model_number/product_model
+    // zeigen, um zu sehen, ob dieselben Geräte bei beiden Shops überhaupt
+    // vergleichbare Werte tragen (z.B. exakt dieselbe Modellnummer) oder ob
+    // auch das je Shop unterschiedlich formatiert ist.
+    const byShopSample = new Map();
+    for (const o of objects) {
+      const key = o.merchant_name || "(unbekannt)";
+      const modelValue = (o.model_number || o.product_model || "").trim();
+      if (!modelValue) continue;
+      if (!byShopSample.has(key)) byShopSample.set(key, []);
+      const list = byShopSample.get(key);
+      if (list.length < 5) list.push({ name: (o.product_name || "").trim(), model: modelValue });
+    }
+    console.log("Stichprobe model_number/product_model pro Shop:");
+    for (const [shop, samples] of byShopSample.entries()) {
+      console.log(`  ${shop}:`);
+      samples.forEach((s) => console.log(`    "${s.model}" – ${s.name}`));
+    }
+  }
+
   // Diagnose: welche Kategorien liefert der Feed überhaupt (vor jedem
   // Mapping/Ausschluss)? Das reine Filtern über Namens-Stichwörter
   // (Zubehör, Tablets, ...) ist ein Fass ohne Boden – jede neue Serie/jeder
@@ -184,6 +227,29 @@ async function main() {
   cheapest.forEach((p) => {
     console.log(`  ${p.price.toFixed(2)}€ | ${p.shop} | ${p.name}`);
   });
+
+  // Diagnose: Cross-Shop-Preisvergleich (Nutzerwunsch 01.09.2026). Zeigt, bei
+  // wie vielen Produkten dedupeByName() ein günstigeres Angebot gegenüber
+  // mindestens einem anderen Händler gefunden hat (alternativeOffers ist dann
+  // gesetzt) – das ist die Datenbasis für die "Preisvergleich"-Anzeige im
+  // Frontend. Plus eine Stichprobe, um die konkreten Preisdifferenzen auf
+  // Plausibilität zu prüfen (z.B. keine absurd großen Differenzen, die auf
+  // ein zu generisches Namens-Match hindeuten würden).
+  const withAlternatives = products.filter(
+    (p) => Array.isArray(p.alternativeOffers) && p.alternativeOffers.length > 0
+  );
+  console.log(
+    `${withAlternatives.length} von ${products.length} Produkten sind bei mindestens einem weiteren Händler gelistet (Cross-Shop-Preisvergleich verfügbar).`
+  );
+  if (withAlternatives.length > 0) {
+    console.log("Stichprobe der ersten 20 Preisvergleiche:");
+    withAlternatives.slice(0, 20).forEach((p) => {
+      const altText = p.alternativeOffers
+        .map((a) => `${a.shop}: ${a.price.toFixed(2)}€`)
+        .join(", ");
+      console.log(`  "${p.name}" – hier ${p.shop}: ${p.price.toFixed(2)}€ | Alternativen: ${altText}`);
+    });
+  }
 
   const output = {
     generatedAt: new Date().toISOString(),
