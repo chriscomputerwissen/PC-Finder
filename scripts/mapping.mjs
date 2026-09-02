@@ -49,7 +49,11 @@ function detectOS(text, brand) {
   // wenn beim Betriebssystem "Egal" gewaehlt wurde, nicht bei "Windows").
   if (/chromebook|chrome ?os/.test(t)) return "chromeos";
   if (brand === "Apple" || /mac ?os|macbook|imac|mac mini|mac studio/.test(t)) return "macos";
-  if (/ohne betriebssystem|ohne os\b|no os\b|freedos|free ?dos/.test(t)) return "ohne";
+  // "DOS" allein (nicht nur "FreeDOS") wurde bisher nicht erkannt und fiel
+  // dadurch faelschlich auf den Windows-Standardwert zurueck (Nutzer-Feedback
+  // 02.09.2026, Lenovo V15 G5 IRL ... DOS). \bdos\b mit Wortgrenzen, damit es
+  // nicht versehentlich in anderen Woertern anschlaegt (z.B. "Adosia").
+  if (/ohne betriebssystem|ohne os\b|no os\b|freedos|free ?dos|\bdos\b/.test(t)) return "ohne";
   return "windows";
 }
 
