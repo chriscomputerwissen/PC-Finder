@@ -44,3 +44,15 @@ export const lifespanOptions = [
   { value: "kurz" as const, label: "2-3 Jahre reichen", hint: "Danach wird ohnehin neu geschaut" },
   { value: "lang" as const, label: "Möglichst lange", hint: "Soll auch in einigen Jahren noch gut mithalten" }
 ];
+
+// Wort-Label für die 1-5-Wichtigkeits-Skala der Mobilitäts-Frage. Zentral
+// definiert, damit Frage (PcFinder.tsx) und Ergebnis-Erklärung (scoring.ts)
+// exakt dasselbe Wording verwenden – reine Zahlen ("4 von 5") sind für
+// Nutzer:innen ohne Kontext schwer einzuordnen (Feedback 02.09.2026).
+export const mobilityImportanceLabels: Record<number, string> = {
+  1: "nicht wichtig",
+  2: "eher unwichtig",
+  3: "mittelwichtig",
+  4: "wichtig",
+  5: "sehr wichtig"
+};
