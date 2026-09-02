@@ -4,9 +4,22 @@ import {
   deviceTypeOptions,
   gamingLevelOptions,
   lifespanOptions,
+  mobilityImportanceLabels,
   osOptions,
   useCaseOptions
 } from "./questions";
+
+// Wort-Label für die Mobilität DES GERÄTS (1-5, aus scripts/mapping.mjs /
+// detectMobility). Eigene, leicht andere Formulierung als
+// mobilityImportanceLabels, weil hier eine Eigenschaft des Geräts beschrieben
+// wird ("wie mobil ist es"), nicht wie wichtig dir das war.
+const productMobilityLabels: Record<number, string> = {
+  1: "kaum mobil",
+  2: "wenig mobil",
+  3: "mittelmäßig mobil",
+  4: "mobil",
+  5: "sehr mobil"
+};
 
 const cpuRank: Record<CpuClass, number> = {
   einsteiger: 1,
@@ -436,22 +449,24 @@ export function matchProducts(products: Product[], answers: Answers): ScoredProd
     // Wichtigkeit, ist der Bedarf zu 100% gedeckt (5 Punkte). Liegt sie
     // knapp darunter, gilt das als leicht verfehlt, deutlich darunter als
     // klar verfehlt.
+    const importanceLabel = mobilityImportanceLabels[answers.mobilityImportance];
     if (product.deviceType === "laptop") {
       const diff = product.mobility - answers.mobilityImportance;
+      const productLabel = productMobilityLabels[product.mobility];
       let score: number;
       let short: string;
       if (diff >= 0) {
         score = 5;
         short =
           diff > 0
-            ? `Bietet mehr Mobilität/Akkulaufzeit (${product.mobility}/5), als dir wichtig war (${answers.mobilityImportance}/5).`
+            ? `Bietet mehr Mobilität/Akkulaufzeit (${productLabel}), als dir wichtig war (${importanceLabel}).`
             : "Mobilität passt genau zu dem, was dir wichtig war.";
       } else if (diff === -1) {
         score = NEAR_MISS;
-        short = `Etwas weniger mobil (${product.mobility}/5), als dir wichtig war (${answers.mobilityImportance}/5).`;
+        short = `Etwas weniger mobil (${productLabel}), als dir wichtig war (${importanceLabel}).`;
       } else {
         score = CLEAR_MISS;
-        short = `Deutlich weniger mobil (${product.mobility}/5), als dir wichtig war (${answers.mobilityImportance}/5).`;
+        short = `Deutlich weniger mobil (${productLabel}), als dir wichtig war (${importanceLabel}).`;
       }
       pushAssessment(
         assessments,
@@ -459,7 +474,7 @@ export function matchProducts(products: Product[], answers: Answers): ScoredProd
         "Mobilität / Akkulaufzeit",
         score,
         short,
-        `Du hast Mobilität mit ${answers.mobilityImportance} von 5 bewertet. Dieses Gerät liegt bei ${product.mobility} von 5 (Gewicht, Akkulaufzeit, Formfaktor).`
+        `Dir war Mobilität „${importanceLabel}" (${answers.mobilityImportance}/5). Dieses Gerät ist „${productLabel}" (${product.mobility}/5 – Gewicht, Akkulaufzeit, Formfaktor).`
       );
     } else if (answers.mobilityImportance >= 4) {
       pushAssessment(
@@ -468,7 +483,7 @@ export function matchProducts(products: Product[], answers: Answers): ScoredProd
         "Mobilität / Akkulaufzeit",
         CLEAR_MISS,
         "Als Desktop-PC nicht mobil nutzbar, obwohl dir das wichtig war.",
-        `Du hast Mobilität mit ${answers.mobilityImportance} von 5 als wichtig eingestuft. Ein Desktop-PC bleibt aber fest am Platz.`
+        `Dir war Mobilität „${importanceLabel}" (${answers.mobilityImportance}/5). Ein Desktop-PC bleibt aber fest am Platz.`
       );
     } else if (answers.mobilityImportance === 3) {
       pushAssessment(
@@ -477,7 +492,7 @@ export function matchProducts(products: Product[], answers: Answers): ScoredProd
         "Mobilität / Akkulaufzeit",
         3,
         "Desktop-PC – Mobilität war dir nur mittelwichtig, ein kleiner Kompromiss.",
-        `Mobilität war dir mit ${answers.mobilityImportance} von 5 nur mittelwichtig. Ein Desktop-PC deckt das nur teilweise ab.`
+        `Dir war Mobilität „${importanceLabel}" (${answers.mobilityImportance}/5). Ein Desktop-PC deckt das nur teilweise ab.`
       );
     } else {
       pushAssessment(
@@ -486,7 +501,7 @@ export function matchProducts(products: Product[], answers: Answers): ScoredProd
         "Mobilität / Akkulaufzeit",
         5,
         "Desktop-PC – passt genau, da dir Mobilität nicht wichtig war.",
-        `Mobilität war dir mit ${answers.mobilityImportance} von 5 nicht wichtig, daher erfüllt ein Desktop-PC deine Anforderung vollständig.`
+        `Dir war Mobilität „${importanceLabel}" (${answers.mobilityImportance}/5), daher erfüllt ein Desktop-PC deine Anforderung vollständig.`
       );
     }
 
@@ -660,4 +675,4 @@ export function matchProducts(products: Product[], answers: Answers): ScoredProd
     if (b.totalScore !== a.totalScore) return b.totalScore - a.totalScore;
     return a.product.price - b.product.price;
   });
-} 
+}
