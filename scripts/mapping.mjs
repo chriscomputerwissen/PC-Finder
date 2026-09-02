@@ -29,7 +29,13 @@ function detectDeviceType(text, categoryName) {
     "minipc", "micro-pc", "microtower", "micro tower", "sff", "nuc",
     "stick-pc", "stick pc", "barebone", "thinkcentre", "elitedesk",
     "prodesk", "optiplex", "mac mini", "mac studio", "all-in-one",
-    "pc-system", "gaming-pc", "workstation-pc"
+    "pc-system", "gaming-pc", "workstation-pc",
+    // "Under Desk PC" (z.B. ARCTIC Senza) ist ein kompakter, unter dem
+    // Schreibtisch montierbarer Desktop-PC – wurde bisher fälschlich als
+    // Laptop eingestuft, weil kein anderes Stichwort hier passte und die
+    // Funktion mangels Treffer auf "laptop" zurückfällt (Nutzer-Feedback
+    // 02.09.2026, ARCTIC Senza 5700G Pro).
+    "under desk pc", "under-desk-pc", "under desk", "underdesk"
   ];
   const haystack = `${text} ${categoryName || ""}`.toLowerCase();
   return desktopHints.some((h) => haystack.includes(h)) ? "desktop" : "laptop";
@@ -264,12 +270,18 @@ function isRefurbishedProduct(text) {
 // und nicht auf den Preis angewiesen ist.
 
 function detectRamAndStorage(text) {
-  const storageMatch = text.match(/(\d{2,4})\s?(gb|tb)\s*(ssd|nvme|hdd|festplatte)/i);
+  // Getrennte Ziffernbreiten je Einheit: TB-Angaben sind bei SSDs praktisch
+  // immer 1-2-stellig (1TB, 2TB, 4TB), GB-Angaben eher 2-4-stellig (128GB,
+  // 512GB, 1000GB). Vorher erlaubte die Regex nur 2-4 Ziffern VOR "gb/tb"
+  // gemeinsam – dadurch fiel eine einstellige TB-Angabe wie "1TB SSD" komplett
+  // durch und das Produkt bekam faelschlich den Default-Wert 512GB
+  // zugewiesen (Nutzer-Feedback 02.09.2026, ARCTIC Senza 5700G Pro).
+  const storageMatch = text.match(/(?:(\d{1,2})\s?tb|(\d{2,4})\s?gb)\s*(ssd|nvme|hdd|festplatte)/i);
   let storageGB = 512;
   let remaining = text;
   if (storageMatch) {
-    const value = parseInt(storageMatch[1], 10);
-    storageGB = /tb/i.test(storageMatch[2]) ? value * 1000 : value;
+    const [, tbValue, gbValue] = storageMatch;
+    storageGB = tbValue !== undefined ? parseInt(tbValue, 10) * 1000 : parseInt(gbValue, 10);
     remaining = text.replace(storageMatch[0], "");
   }
 
