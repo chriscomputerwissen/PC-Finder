@@ -279,6 +279,34 @@ function detectRamAndStorage(text) {
   return { ramGB, storageGB };
 }
 
+// Bildschirm-Kriterium (Nutzerwunsch 02.09.2026): Größe UND Auflösung sollen
+// als eigenes Bewertungs-Kriterium einfließen, weil für Kreativarbeit,
+// Programmieren und Gaming ein größeres, hochauflösenderes Display spürbar
+// von Vorteil ist. Bewusst eine EIGENE, dezimalgenaue Größen-Erkennung statt
+// die vorhandene (auf ganze Zoll gerundete) Logik in detectMobility()
+// wiederzuverwenden – ein Umbau von detectMobility() hätte sonst unbemerkt
+// bestehende Mobilitäts-Bewertungen für x,6-Zoll-Geräte verschoben (z.B.
+// "15.6 Zoll" fiele dann in eine andere Rundungs-Stufe), was hier nicht
+// verlangt wurde.
+function detectScreenSizeInches(text) {
+  const match = text.match(/(\d{2}(?:[.,]\d)?)\s?(zoll|")/i);
+  if (!match) return undefined;
+  return parseFloat(match[1].replace(",", "."));
+}
+
+// Reihenfolge wichtig: zuerst UHD/QHD prüfen, dann erst das generische "hd"
+// (steht sonst für das ältere, niedrig auflösende "HD ready"/1366x768 statt
+// "Full HD" – "FHD"/"UHD"/"QHD" enthalten zwar den Teilstring "HD", aber
+// \bhd\b matched dort NICHT, weil kein Wortübergang vor dem "h" liegt).
+function detectScreenResolution(text) {
+  const t = text.toLowerCase();
+  if (/\buhd\b|\b4k\b|3840\s?x\s?2160/.test(t)) return "uhd";
+  if (/\bqhd\b|\bwqhd\b|\b2k\b|2560\s?x\s?1440|2880\s?x\s?1800|2560\s?x\s?1600/.test(t)) return "qhd";
+  if (/\bfhd\b|full\s?hd|1920\s?x\s?1080|1920\s?x\s?1200/.test(t)) return "fhd";
+  if (/\bhd\b/.test(t)) return "hd";
+  return undefined;
+}
+
 function detectMobility(deviceType, text) {
   if (deviceType === "desktop") return 1;
   const sizeMatch = text.match(/(\d{2})[.,]?\d?\s?(zoll|")/i);
@@ -370,6 +398,12 @@ export function mapFeedRow(row) {
   const useCases = detectUseCases({ text: detectionText, hasGPU, cpuClass, ramGB, price });
   const os = detectOS(detectionText, brand);
 
+  // Nur bei Laptops erkennen/befüllen – bei Desktop-PCs liefert der Feed
+  // keinen Monitor mit, ein "Bildschirm"-Kriterium ergäbe dort keinen Sinn
+  // (siehe auch lib/scoring.ts, wo das Kriterium nur für Laptops gescort wird).
+  const screenSizeInches = deviceType === "laptop" ? detectScreenSizeInches(detectionText) : undefined;
+  const screenResolution = deviceType === "laptop" ? detectScreenResolution(detectionText) : undefined;
+
   const rawId = row.aw_product_id || row.merchant_product_id || row.data_feed_id;
   // Merchant-ID als Präfix: aw_product_id sollte pro Awin-Feed bereits
   // eindeutig sein, aber sobald mehrere Händler-Feeds kombiniert werden
@@ -396,6 +430,8 @@ export function mapFeedRow(row) {
     lifespanYears,
     useCases,
     os,
+    screenSizeInches,
+    screenResolution,
     imageUrl,
     affiliateUrl,
     shortPitch: shortPitch({ deviceType, cpuClass, hasGPU, useCases })
