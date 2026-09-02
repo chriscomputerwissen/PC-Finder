@@ -11,6 +11,10 @@ export type UseCase = "office" | "gaming" | "creative" | "coding" | "school";
 export type CpuClass = "einsteiger" | "mittel" | "leistung" | "premium";
 export type DeviceType = "laptop" | "desktop";
 export type OS = "windows" | "macos" | "ohne" | "chromeos";
+// Grobe Auflösungsklassen, aus dem Feed-Text erkannt (siehe
+// scripts/mapping.mjs, detectScreenResolution). "hd" meint das ältere
+// 1366x768 ("HD ready"), NICHT "Full HD".
+export type ScreenResolution = "hd" | "fhd" | "qhd" | "uhd";
 
 export interface Product {
   id: string;
@@ -30,6 +34,14 @@ export interface Product {
   lifespanYears: 2 | 3 | 4 | 5; // grobe Einschätzung, wie "zukunftssicher"
   useCases: UseCase[];
   os: OS;
+  // Bildschirm-Kriterium (seit 02.09.2026): nur bei Laptops erkannt/befüllt
+  // (siehe scripts/mapping.mjs) und nur bei Laptops in die Bewertung
+  // aufgenommen (siehe lib/scoring.ts) – bei Desktop-PCs ist ein "Bildschirm"
+  // kein sinnvolles Kriterium, weil im Feed kein Monitor mitgeliefert wird.
+  // Optional, weil aus dem Feed-Text nicht immer eine Größe/Auflösung
+  // erkennbar ist.
+  screenSizeInches?: number;
+  screenResolution?: ScreenResolution;
   imageUrl: string;
   // Sobald der Awin-Feed eingebunden ist, ersetzt affiliateUrl den Platzhalter
   // durch den echten Tracking-Link (Deeplink mit Publisher-ID).
