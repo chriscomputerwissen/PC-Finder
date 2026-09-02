@@ -6,6 +6,7 @@ import {
   deviceTypeOptions,
   gamingLevelOptions,
   lifespanOptions,
+  mobilityImportanceLabels,
   osOptions,
   useCaseOptions
 } from "@/lib/questions";
@@ -227,7 +228,9 @@ export default function PcFinder() {
             Also: möglichst leicht, lange Akkulaufzeit, überall einsatzbereit.
           </p>
           <div className="slider-wrap">
-            <div className="slider-value">{answers.mobilityImportance ?? 3} / 5</div>
+            <div className="slider-value">
+              {mobilityImportanceLabels[answers.mobilityImportance ?? 3]} ({answers.mobilityImportance ?? 3}/5)
+            </div>
             <input
               type="range"
               min={1}
