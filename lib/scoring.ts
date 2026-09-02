@@ -246,12 +246,19 @@ export function matchProducts(products: Product[], answers: Answers): ScoredProd
       const points = (isTagged ? 2 : 0) + (gpuOk ? 1 : 0) + (ramOk ? 1 : 0) + (screenOk ? 1 : 0);
       const score = Math.max(1, Math.min(5, points));
 
+      // Kurz halten (Nutzer-Feedback 02.09.2026): keine Vorab-Erklärung mehr,
+      // welche Kriterien grundsätzlich zählen (steht ohnehin implizit in den
+      // Einzelkriterien direkt darunter). Der erste Punkt ("isTagged") wird
+      // bewusst NICHT als "als Gerät beschrieben" formuliert – das wirkte auf
+      // Nutzer verwirrend/zirkulär ("ist das nicht einfach dieselbe Frage
+      // nochmal?"). Stattdessen als "allgemeine Eignung", um klarzumachen,
+      // dass es sich um ein zusätzliches, separates Signal handelt.
       const met: string[] = [];
       const missed: string[] = [];
-      (isTagged ? met : missed).push(`als „${useCaseLabel}“-Gerät beschrieben`);
-      if (requiresGPU) (gpuOk ? met : missed).push("eigene Grafikkarte");
-      (ramOk ? met : missed).push("ausreichend Arbeitsspeicher");
-      if (product.deviceType === "laptop") (screenOk ? met : missed).push("passender Bildschirm");
+      (isTagged ? met : missed).push(`allgemeine Eignung für „${useCaseLabel}“`);
+      if (requiresGPU) (gpuOk ? met : missed).push("Grafikkarte");
+      (ramOk ? met : missed).push("Arbeitsspeicher");
+      if (product.deviceType === "laptop") (screenOk ? met : missed).push("Bildschirm");
 
       const short =
         score === 5
@@ -262,11 +269,7 @@ export function matchProducts(products: Product[], answers: Answers): ScoredProd
           ? `Passt teilweise zu deinem Einsatzzweck „${useCaseLabel}“.`
           : `Nicht speziell für „${useCaseLabel}“ ausgelegt.`;
 
-      const detail = `Für „${useCaseLabel}“ zählen unter anderem: Beschreibung/Ausrichtung des Geräts${
-        requiresGPU ? ", eine eigene Grafikkarte" : ""
-      }, ausreichend Arbeitsspeicher${
-        product.deviceType === "laptop" ? " und ein passender Bildschirm" : ""
-      }. Erfüllt: ${met.join(", ")}.${missed.length > 0 ? ` Nicht erfüllt: ${missed.join(", ")}.` : ""} Details dazu stehen in den jeweiligen Einzelkriterien unten.`;
+      const detail = `Erfüllt: ${met.join(", ")}.${missed.length > 0 ? ` Nicht erfüllt: ${missed.join(", ")}.` : ""}`;
 
       pushAssessment(assessments, "useCase", "Einsatzzweck", score, short, detail);
     }
