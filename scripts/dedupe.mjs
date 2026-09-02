@@ -35,15 +35,33 @@ export function groupByNormalizedName(products) {
   return groups;
 }
 
+// Cross-Shop-Preisvergleich (Nutzerwunsch 01.09.2026): Bisher wurde das
+// teurere Duplikat beim Dedup einfach verworfen – der eigentliche
+// Preisvergleich zwischen den Händlern ("bei X ist dasselbe Gerät Y € teurer")
+// ging damit verloren, obwohl genau diese Information hier schon vorliegt.
+// Jetzt behält jedes Ergebnis zusätzlich `alternativeOffers`: die jeweils
+// güntigsten Angebote der ANDEREN Shops für dasselbe Gerät (aufsteigend nach
+// Preis), damit im Frontend "auch bei X für Y € verfügbar" angezeigt werden
+// kann. Bewusst nur EIN Eintrag pro Shop (nicht jedes einzelne Duplikat-
+// Listing desselben Händlers) und OHNE den Shop des behaltenen (günstigsten)
+// Angebots selbst.
 export function dedupeByName(products) {
   const groups = groupByNormalizedName(products);
   const result = [];
   for (const group of groups.values()) {
-    let cheapest = group[0];
-    for (const product of group) {
-      if (product.price < cheapest.price) cheapest = product;
+    const sorted = [...group].sort((a, b) => a.price - b.price);
+    const cheapest = sorted[0];
+
+    const seenShops = new Set([cheapest.shop]);
+    const alternativeOffers = [];
+    for (const product of sorted) {
+      if (product === cheapest) continue;
+      if (seenShops.has(product.shop)) continue;
+      seenShops.add(product.shop);
+      alternativeOffers.push({ shop: product.shop, price: product.price });
     }
-    result.push(cheapest);
+
+    result.push(alternativeOffers.length > 0 ? { ...cheapest, alternativeOffers } : cheapest);
   }
   return result;
 }
