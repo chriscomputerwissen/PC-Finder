@@ -70,6 +70,18 @@ const assertions = [
     "Ein Chromebook sollte als os='chromeos' erkannt werden, nicht faelschlich als 'windows'"
   ],
   [products[0].deviceType === "laptop", "Zeile 1 sollte ein Laptop sein"],
+  [
+    products[0].screenSizeInches === 15.6,
+    "Zeile 1 (15.6\" FHD) sollte screenSizeInches=15.6 ergeben (dezimalgenau, nicht auf 15 abgerundet)"
+  ],
+  [
+    products[0].screenResolution === "fhd",
+    "Zeile 1 (15.6\" FHD) sollte screenResolution='fhd' ergeben"
+  ],
+  [
+    products[2].screenSizeInches === undefined && products[2].screenResolution === undefined,
+    "Bei einem Desktop-PC (Zeile 3) sollten screenSizeInches/screenResolution NICHT gesetzt werden"
+  ],
   [products[0].cpuClass === "mittel", "i5 sollte als 'mittel' erkannt werden"],
   [products[0].ramGB === 16, "16GB RAM sollte erkannt werden"],
   [products[0].os === "windows", "Windows 11 im Text sollte os='windows' ergeben"],
