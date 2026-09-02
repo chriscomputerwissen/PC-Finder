@@ -22,12 +22,12 @@ console.log(JSON.stringify(products, null, 2));
 
 const assertions = [
   [
-    objects.length === 19,
-    "Es sollten 19 Testzeilen im CSV stehen (inkl. Tablet-, Zubehoer-, Monitor-, Chromebook-, Refurbished-, Under-Desk-PC- und Grenzfall-Zeilen)"
+    objects.length === 20,
+    "Es sollten 20 Testzeilen im CSV stehen (inkl. Tablet-, Zubehoer-, Monitor-, Chromebook-, Refurbished-, Under-Desk-PC-, DOS- und Grenzfall-Zeilen)"
   ],
   [
-    products.length === 10,
-    "Es sollten 10 Produkte gemappt werden (Tablets/Zubehoer/Monitore/Refurbished ausgeschlossen, guenstiger Celeron-PC, Chromebook und Under-Desk-PC bleiben drin)"
+    products.length === 11,
+    "Es sollten 11 Produkte gemappt werden (Tablets/Zubehoer/Monitore/Refurbished ausgeschlossen, guenstiger Celeron-PC, Chromebook, Under-Desk-PC und DOS-Notebook bleiben drin)"
   ],
   [
     products.every((p) => !/usb-c kabel/i.test(p.name)),
@@ -107,6 +107,10 @@ const assertions = [
   [
     (products.find((p) => /under desk pc/i.test(p.name)) || {}).storageGB === 1000,
     "Eine einstellige TB-Angabe wie '1TB SSD' (ARCTIC Senza) sollte storageGB=1000 ergeben, NICHT faelschlich den Default-Wert 512GB (Nutzer-Feedback 02.09.2026)"
+  ],
+  [
+    (products.find((p) => /v15 g5 irl/i.test(p.name)) || {}).os === "ohne",
+    "'DOS' allein (ohne 'Free' davor, z.B. Lenovo V15 G5 IRL) sollte os='ohne' ergeben, NICHT faelschlich als 'windows' erkannt werden (Nutzer-Feedback 02.09.2026)"
   ]
 ];
 
