@@ -18,6 +18,16 @@ const WINDOWS_INSTALL_URL = "https://cfc-digital.de/kapitel-2";
 const WINDOWS_BASICS_URL = "https://cfc-digital.de/kapitel-1";
 const BUDGET_STEP = 50;
 
+// Amazon-Partner-Tag (cfc-digital-21). Da kein Produktabgleich mit Amazon
+// stattfindet (keine PA-API-Anbindung, siehe Projekt-Doku), verlinken wir
+// bewusst nur auf eine Amazon-Suche mit dem exakten Produktnamen statt auf
+// eine konkrete Produktseite – wir kennen die ASIN des Geräts nicht.
+const AMAZON_ASSOCIATE_TAG = "cfc-digital-21";
+
+function buildAmazonSearchUrl(productName: string): string {
+  return `https://www.amazon.de/s?k=${encodeURIComponent(productName)}&tag=${AMAZON_ASSOCIATE_TAG}`;
+}
+
 type StepId = "useCase" | "gamingLevel" | "deviceType" | "os" | "mobility" | "budget" | "lifespan" | "result";
 
 const BASE_STEPS: StepId[] = ["useCase", "deviceType", "os", "mobility", "budget", "lifespan", "result"];
@@ -460,6 +470,14 @@ function ResultView({
                     rel="noopener noreferrer sponsored"
                   >
                     Zum Angebot
+                  </a>
+                  <a
+                    className="btn btn-ghost btn-small"
+                    href={buildAmazonSearchUrl(r.product.name)}
+                    target="_blank"
+                    rel="noopener noreferrer sponsored"
+                  >
+                    Bei Amazon vergleichen
                   </a>
                   <button
                     className="btn btn-ghost btn-small"
